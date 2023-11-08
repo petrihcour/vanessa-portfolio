@@ -2,10 +2,12 @@ import React from "react";
 import { Link } from "react-router-dom";
 import "./Nav.css";
 
+//need to work on spacing of icons 
+
 function Nav() {
   return (
     <nav className="navbar fixed-bottom bg-body-tertiary">
-      <div className="container-fluid d-flex justify-content-between">
+      <div className="container-fluid">
           <Link to="" className="navbar-brand">
             <div className="nav-item home-icon">
               <img
