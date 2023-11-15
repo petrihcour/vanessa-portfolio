@@ -12,7 +12,7 @@ function Layout() {
   return (
     <div className="Layout">
       <Header />
-      <MobileNav />
+      <div className="mt-5 pt-5">
       <Switch>
         <Route exact path="/">
           <Home />
@@ -30,6 +30,8 @@ function Layout() {
           <Sending />
         </Route>
       </Switch>
+      </div>
+      <MobileNav />
     </div>
   );
 }
