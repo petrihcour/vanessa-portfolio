@@ -1,14 +1,14 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import "./MobileNav.css";
+import "../styles/MobileNav.css";
 
 //need to work on spacing of icons 
 
 function MobileNav() {
   return (
-    <nav className="navbar fixed-bottom bg-body-tertiary">
+    <nav className="navbar fixed-bottom bg-body-tertiary d-block d-md-none">
       <div className="container-fluid">
-          <Link to="" className="navbar-brand ms-1">
+          <Link to="/" className="navbar-brand ms-1">
             <div className="nav-item home-icon">
               <img
                 src="https://cdn3.iconfinder.com/data/icons/materia-halloween-free/24/039_033_castle_horror_dracula_halloween-1024.png"
