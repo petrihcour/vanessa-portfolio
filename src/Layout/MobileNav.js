@@ -2,7 +2,8 @@ import React from "react";
 import { Link } from "react-router-dom";
 import "../styles/MobileNav.css";
 
-//need to work on spacing of icons 
+// add design a little bit later. possible gold trim. adjust font for slighlty more ancient feeling
+// small animations for buttons / links / menu
 
 function MobileNav() {
   return (
