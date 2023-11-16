@@ -1,6 +1,6 @@
 import React from "react";
 
-
+//  small photo, name, class, level, subclass (software developer), brief introduction
 
 function Home() {
     return (
