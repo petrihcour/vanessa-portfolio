@@ -19,7 +19,7 @@ function MobileNav() {
               <div className="small-word">Home</div>
             </div>
           </Link>
-          <Link to="" className="navbar-brand ">
+          <Link to="/skills" className="navbar-brand ">
             <div className="nav-item">
               <img
                 src="https://cdn1.iconfinder.com/data/icons/ionicons-sharp-vol-2/512/sparkles-sharp-1024.png"
@@ -29,7 +29,7 @@ function MobileNav() {
               <div className="small-word">Skills</div>
             </div>
           </Link>
-          <Link to="" className="navbar-brand">
+          <Link to="/features-traits" className="navbar-brand">
             <div className="nav-item">
               <img
                 src="https://cdn1.iconfinder.com/data/icons/literary-genres-1/64/humor-perform-acting-comedy-personality-1024.png"
@@ -39,7 +39,7 @@ function MobileNav() {
               <div className="small-word">Features & Traits</div>
             </div>
           </Link>
-          <Link to="" className="navbar-brand me-2">
+          <Link to="/quests" className="navbar-brand me-2">
             <div className="nav-item">
               <img
                 src="https://cdn2.iconfinder.com/data/icons/rpg-fantasy-game-basic-ui/512/game_ui_scroll_quest_paper_treasure_adventure-1024.png"
@@ -94,13 +94,12 @@ function MobileNav() {
                 </Link>
               </li>
               <li className="nav-item">
-                <Link to="" className="nav-link">
+                <Link to="/sending" className="nav-link">
                   Sending
                 </Link>
               </li>
               <li className="nav-item dropdown">
                 <Link
-                  to=""
                   className="nav-link dropdown-toggle"
                   role="button"
                   data-bs-toggle="dropdown"
@@ -110,17 +109,22 @@ function MobileNav() {
                 </Link>
                 <ul className="dropdown-menu">
                   <li>
-                    <Link to="" className="dropdown-item">
+                    <a href="https://www.linkedin.com/in/vanesssagarcia/" target="_blank" 
+                    rel="noreferrer"
+                    className="dropdown-item">
                       LinkedIn
-                    </Link>
+                    </a>
                   </li>
                   <li>
                     <hr className="dropdown-divider" />
                   </li>
                   <li>
-                    <Link to="" className="dropdown-item">
+                    <a href="https://github.com/petrihcour" 
+                    target="_blank" 
+                    rel="noreferrer"
+                    className="dropdown-item">
                       GitHub
-                    </Link>
+                    </a>
                   </li>
                 </ul>
               </li>
