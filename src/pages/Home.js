@@ -6,14 +6,15 @@ import vanessa from "../images/vanessa.jpeg"
 
 function Home() {
     return (
-        <div>
-            <img src={vanessa} alt="AI representation of Vanessa" className="w-75 p-4 rounded float-start" />
+        <div className="p-3">
+            <img src={vanessa} alt="AI representation of Vanessa" className="w-50 rounded-circle float-start border border-secondary-subtle p-2" />
+            <div className="">
             <h1>Character Info:</h1>
             <h3>Name: Vanessa</h3>
             <h3>Class: Frontend Developer</h3>
             <h3>Background: Digital Artisan</h3>
             <h3>Alignment: Chaotic Creative</h3>
-
+            </div>
         </div>
     )
 }
