@@ -7,10 +7,13 @@ import Home from "../pages/Home";
 import Quests from "../pages/Quests";
 import Sending from "../pages/Sending";
 import Skills from "../pages/Skills";
+import background from "../images/background.jpg";
 
 function Layout() {
   return (
-    <div className="Layout">
+    <div className="Layout" style={{backgroundImage: `url(${background})`,
+    backgroundSize: "cover", height: "100vh",
+    }}>
       <Header />
       <div className="mt-5 pt-5">
       <Switch>

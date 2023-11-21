@@ -4,7 +4,7 @@ import "../styles/Header.css";
 
 function Header() {
   return (
-    <nav className="fixed-top text-bg-dark">
+    <nav className="fixed-top bg-transparent text-body">
           <div className="d-flex align-items-center">
             <div className="p-3 ">
               <h5>Vanessa Garcia</h5>
