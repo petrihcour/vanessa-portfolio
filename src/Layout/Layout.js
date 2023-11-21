@@ -11,7 +11,7 @@ import Skills from "../pages/Skills";
 
 function Layout() {
   return (
-    <div className="Layout" >
+    <div className="Layout p-2" >
       <Header />
       <div>
       <Switch>
