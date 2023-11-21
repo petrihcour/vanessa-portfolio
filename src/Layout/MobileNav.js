@@ -99,7 +99,7 @@ function MobileNav() {
                 </Link>
               </li>
               <li className="nav-item dropdown">
-                <Link
+                <Link to=""
                   className="nav-link dropdown-toggle"
                   role="button"
                   data-bs-toggle="dropdown"

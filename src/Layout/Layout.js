@@ -13,7 +13,7 @@ function Layout() {
   return (
     <div className="Layout" >
       <Header />
-      <div className="mt-5 pt-5">
+      <div>
       <Switch>
         <Route exact path="/">
           <Home />
