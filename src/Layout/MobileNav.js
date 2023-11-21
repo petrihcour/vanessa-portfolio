@@ -7,7 +7,7 @@ import "../styles/MobileNav.css";
 
 function MobileNav() {
   return (
-    <nav className="navbar fixed-bottom bg-body-tertiary d-md-none d-lg-block">
+    <nav className="navbar fixed-bottom bg-transparent text-body p-2 d-md-none d-lg-none">
       <div className="container-fluid">
           <Link to="/" className="navbar-brand ms-1">
             <div className="nav-item home-icon">
