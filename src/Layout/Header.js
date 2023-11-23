@@ -15,7 +15,7 @@ function Header() {
             <div className="ms-auto p-3">
               <Link to="/">
                 <img
-                  src="https://cdn.iconfinder.com/icons/4683694/5155940/1024/raster.png?token=1700492748-5vrspDSNyFSanYC4BWN3HxA8XSXwsI1H7uYbemiaH7c%3D"
+                  src="https://cdn4.iconfinder.com/data/icons/video-game-items-concepts/128/swords-crossed-dice-512.png"
                   width="35"
                   alt="20 sided die with crossing swords"
                 />
