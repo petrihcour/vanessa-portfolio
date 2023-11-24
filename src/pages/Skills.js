@@ -1,10 +1,7 @@
 import React from "react";
-import { OverlayTrigger, Tooltip } from "react-bootstrap";
 
 function Skills() {
-  const tooltipStyle = {
-    opacity: 0.5, // Adjust the opacity value as needed
-  };
+ 
 
   return (
     <div className="p-3">
@@ -16,43 +13,17 @@ function Skills() {
             <thead>
               <tr>
                 <th scope="col">
-                  <OverlayTrigger
-                    placement="top"
-                    overlay={
-                      <Tooltip style={tooltipStyle}>
-                        PROFICIENCY IS MARKED BY THE FILLED IN RADIO BUTTON
-                      </Tooltip>
-                    }
-                  >
-                    <span
-                      data-toggle="tooltip"
-                      data-placement="top"
-                      title="Tooltip on top"
-                    >
-                      PROF
-                    </span>
-                  </OverlayTrigger>
+                  <abbr title="PROFICIENCY IS MARKED BY THE FILLED IN RADIO BUTTON">
+                    PROF
+                  </abbr>
                 </th>
-                <th scope="col">
-                  <OverlayTrigger
-                    placement="top"
-                    overlay={
-                      <Tooltip style={tooltipStyle}>
-                        PROFICIENCY IS MARKED BY THE FILLED IN RADIO BUTTON
-                      </Tooltip>
-                    }
-                  >
-                    <span
-                      data-toggle="tooltip"
-                      data-placement="top"
-                      title="Tooltip on top"
-                    >
-                      TYPE
-                    </span>
-                  </OverlayTrigger>
-                </th>
+                <th scope="col">TYPE</th>
                 <th scope="col">TECH SKILL</th>
-                <th scope="col">BONUS</th>
+                <th scope="col">
+                  <abbr title="PROFICIENCY BONUS IN D&D MEASURES SKILL PROFICIENCY. THE MAX IS 11 ON MY CHARACTER SHEET">
+                    BONUS
+                  </abbr>
+                </th>
               </tr>
             </thead>
             <tbody>

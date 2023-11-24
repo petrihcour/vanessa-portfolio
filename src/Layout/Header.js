@@ -9,7 +9,7 @@ function Header() {
             <div className="">
               <h5>Vanessa Garcia</h5>
             </div>
-            <div className="d-none d-sm-block">
+            <div className="d-none d-sm-block ps-4">
               <h5>Frontend Developer</h5>
             </div>
             <div className="ms-auto">
