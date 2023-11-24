@@ -1,26 +1,29 @@
 import React from "react";
 
 function Skills() {
- 
+    const dottedUnderlineStyle = {
+        textDecoration: "underline dotted",
+        textUnderlineOffset: "0.2em"
+      };
 
   return (
     <div className="p-3">
       <h2 className="text-center p-3">SKILLS</h2>
 
-      <div className="card" style={{ maxWidth: "540px" }}>
+      <div className="card mx-auto" style={{ maxWidth: "650px" }}>
         <div className="card-body">
           <table className="table">
             <thead>
               <tr>
                 <th scope="col">
-                  <abbr title="PROFICIENCY IS MARKED BY THE FILLED IN RADIO BUTTON">
+                  <abbr style={dottedUnderlineStyle} title="PROFICIENCY IS MARKED BY THE FILLED IN RADIO BUTTON">
                     PROF
                   </abbr>
                 </th>
                 <th scope="col">TYPE</th>
                 <th scope="col">TECH SKILL</th>
                 <th scope="col">
-                  <abbr title="PROFICIENCY BONUS IN D&D MEASURES SKILL PROFICIENCY. THE MAX IS 11 ON MY CHARACTER SHEET">
+                  <abbr style={dottedUnderlineStyle}title="PROFICIENCY BONUS IN D&D MEASURES SKILL PROFICIENCY. THE MAX IS 11 ON MY CHARACTER SHEET">
                     BONUS
                   </abbr>
                 </th>
