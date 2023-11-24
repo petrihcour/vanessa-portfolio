@@ -1,25 +1,48 @@
-import React from "react";
+import React from 'react';
+import { OverlayTrigger, Tooltip } from 'react-bootstrap';
 
 function Skills() {
+
+    const tooltipStyle = {
+        opacity: 0.5, // Adjust the opacity value as needed
+      };
+
   return (
-    <div className="card" style={{maxwidth: "540px"}}>
-  <div className="card-body">
-  <h2 className="card-title text-center">SKILLS</h2>
-      <ul className="list-group list-group-flush">
-        <li className="list-group-item">An item</li>
-        <li className="list-group-item">A second item</li>
-        <li className="list-group-item">A third item</li>
-        <li className="list-group-item">A fourth item</li>
-        <li className="list-group-item">And a fifth one</li>
-      </ul>
-    <h6 className="card-subtitle mb-2 text-body-secondary">Card subtitle</h6>
-    <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-    {/* <a href="#" class="card-link">Card link</a>
-    <a href="#" class="card-link">Another link</a> */}
-  </div>
-</div>
-      
-    
+    <div className="p-3">
+      <h2 className="text-center p-3">SKILLS</h2>
+
+      <div className="card" style={{ maxWidth: '540px' }}>
+        <div className="card-body">
+          <table className="table">
+            <thead>
+              <tr>
+                <th scope="col">
+                  <OverlayTrigger
+                    placement="top"
+                    overlay={<Tooltip style={tooltipStyle}>PROFICIENCY IS MARKED BY THE FILLED IN RADIO BUTTON</Tooltip>}
+                  >
+                    <span data-toggle="tooltip" data-placement="top" title="Tooltip on top">
+                      PROF
+                    </span>
+                  </OverlayTrigger>
+                </th>
+                <th scope="col">TYPE</th>
+                <th scope="col">TECH SKILL</th>
+                <th scope="col">BONUS</th>
+              </tr>
+            </thead>
+            <tbody>
+              {/* ... Your table content ... */}
+            </tbody>
+          </table>
+          <h6 className="card-subtitle mb-2 text-body-secondary">Card subtitle</h6>
+          <p className="card-text">
+            Some quick example text to build on the card title and make up the bulk of the
+            card's content.
+          </p>
+        </div>
+      </div>
+    </div>
   );
 }
 
