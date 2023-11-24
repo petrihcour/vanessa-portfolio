@@ -21,7 +21,7 @@ function Skills() {
                   </abbr>
                 </th>
                 <th scope="col">TYPE</th>
-                <th scope="col">TECH SKILL</th>
+                <th scope="col">SKILL</th>
                 <th scope="col">
                   <abbr style={dottedUnderlineStyle}title="PROFICIENCY BONUS IN D&D MEASURES SKILL PROFICIENCY. THE MAX IS 11 ON MY CHARACTER SHEET">
                     BONUS
@@ -31,21 +31,97 @@ function Skills() {
             </thead>
             <tbody>
               <tr>
+             
                 <th scope="row">1</th>
-                <td>Mark</td>
-                <td>Otto</td>
+                <td>Frontend</td>
+                <td>HTML5</td>
                 <td>@mdo</td>
               </tr>
               <tr>
                 <th scope="row">2</th>
-                <td>Jacob</td>
-                <td>Thornton</td>
+                <td>Frontend</td>
+                <td>JavaScript</td>
                 <td>@fat</td>
               </tr>
               <tr>
-                <th scope="row">3</th>
-                <td colSpan="2">Larry the Bird</td>
-                <td>@twitter</td>
+                <th scope="row">2</th>
+                <td>Frontend </td>
+                <td>React</td>
+                <td>@fat</td>
+              </tr> <tr>
+                <th scope="row">2</th>
+                <td>Frontend</td>
+                <td>CSS</td>
+                <td>@fat</td>
+              </tr> <tr>
+                <th scope="row">2</th>
+                <td>Frontend</td>
+                <td>Bootstrap</td>
+                <td>@fat</td>
+              </tr> <tr>
+                <th scope="row">2</th>
+                <td>Backend</td>
+                <td>Node Js</td>
+                <td>@fat</td>
+              </tr> <tr>
+                <th scope="row">2</th>
+                <td>Backend</td>
+                <td>Express Js</td>
+                <td>@fat</td>
+              </tr>
+              <tr>
+                <th scope="row">2</th>
+                <td>Backend</td>
+                <td>PostreSQL</td>
+                <td>@fat</td>
+              </tr>
+              <tr>
+                <th scope="row">2</th>
+                <td>Backend</td>
+                <td>Express Js</td>
+                <td>@fat</td>
+              </tr>
+              <tr>
+                <th scope="row">2</th>
+                <td>Backend</td>
+                <td>Project Management</td>
+                <td>@fat</td>
+              </tr>
+              <tr>
+                <th scope="row">2</th>
+                <td>Backend</td>
+                <td>Cross-Functional Collaborations</td>
+                <td>@fat</td>
+              </tr>
+              <tr>
+                <th scope="row">2</th>
+                <td>Backend</td>
+                <td>Root Cause Problem Solving</td>
+                <td>@fat</td>
+              </tr>
+              <tr>
+                <th scope="row">2</th>
+                <td>Backend</td>
+                <td>Express Js</td>
+                <td>@fat</td>
+              </tr>
+              <tr>
+                <th scope="row">2</th>
+                <td>Backend</td>
+                <td>Express Js</td>
+                <td>@fat</td>
+              </tr>
+              <tr>
+                <th scope="row">2</th>
+                <td>Backend</td>
+                <td>Express Js</td>
+                <td>@fat</td>
+              </tr>
+              <tr>
+                <th scope="row">2</th>
+                <td>Backend</td>
+                <td>Express Js</td>
+                <td>@fat</td>
               </tr>
             </tbody>
           </table>
