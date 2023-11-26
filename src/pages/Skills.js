@@ -72,7 +72,7 @@ function Skills() {
               <tr>
                 <th scope="row">2</th>
                 <td>Backend</td>
-                <td>PostreSQL</td>
+                <td>PostgreSQL</td>
                 <td>@fat</td>
               </tr>
               <tr>
@@ -83,44 +83,20 @@ function Skills() {
               </tr>
               <tr>
                 <th scope="row">2</th>
-                <td>Backend</td>
+                <td>Personal</td>
                 <td>Project Management</td>
                 <td>@fat</td>
               </tr>
               <tr>
                 <th scope="row">2</th>
-                <td>Backend</td>
+                <td>Personal</td>
                 <td>Cross-Functional Collaborations</td>
                 <td>@fat</td>
               </tr>
               <tr>
                 <th scope="row">2</th>
-                <td>Backend</td>
+                <td>Personal</td>
                 <td>Root Cause Problem Solving</td>
-                <td>@fat</td>
-              </tr>
-              <tr>
-                <th scope="row">2</th>
-                <td>Backend</td>
-                <td>Express Js</td>
-                <td>@fat</td>
-              </tr>
-              <tr>
-                <th scope="row">2</th>
-                <td>Backend</td>
-                <td>Express Js</td>
-                <td>@fat</td>
-              </tr>
-              <tr>
-                <th scope="row">2</th>
-                <td>Backend</td>
-                <td>Express Js</td>
-                <td>@fat</td>
-              </tr>
-              <tr>
-                <th scope="row">2</th>
-                <td>Backend</td>
-                <td>Express Js</td>
                 <td>@fat</td>
               </tr>
             </tbody>
