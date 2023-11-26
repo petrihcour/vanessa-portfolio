@@ -2,7 +2,9 @@ import React from "react";
 
 function FeaturesAndTraits() {
     return (
-        <h1>Features And Traits</h1>
+        <div className="p-3">
+            <h2 className="text-center">FEATURES & TRAITS</h2>
+        </div>
     )
 }
 
