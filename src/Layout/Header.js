@@ -21,7 +21,7 @@ function Header() {
   return (
     <nav className={`sticky-top bg-transparent text-body border-bottom ${scrolling ? "blur-on-scroll" : ""}`}>
           <div className="d-flex align-items-center p-3">
-            <div className="">
+            <div>
               <h5>Vanessa Garcia</h5>
             </div>
             <div className="d-none d-sm-block ps-4">
