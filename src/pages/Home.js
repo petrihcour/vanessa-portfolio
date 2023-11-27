@@ -1,5 +1,5 @@
 import React from "react";
-import vanessa from "../images/vanessa.jpeg"
+import home from "../images/home.jpeg"
 
 //  small photo, name, class, level, subclass (software developer), brief introduction
 // possible stats str, dex, wis, cha, int, con as buttons to click to read details below. (unsure about this part)
@@ -7,7 +7,7 @@ import vanessa from "../images/vanessa.jpeg"
 function Home() {
     return (
         <div className="p-3">
-            <img src={vanessa} alt="AI representation of Vanessa" className="w-50 rounded-circle float-start border border-secondary-subtle p-2" />
+            <img src={home} alt="AI representation of Vanessa" className="w-50 rounded-circle float-start border border-secondary-subtle p-2" />
             <div className="">
             <h1>Character Info:</h1>
             <p>Name: Vanessa</p>
