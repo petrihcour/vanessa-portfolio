@@ -6,13 +6,25 @@ function FeaturesAndTraits() {
     <div className="p-3">
       <h2 className="text-center p-3">FEATURES & TRAITS</h2>
       <div className="card mx-auto" style={{ maxWidth: "650px" }}>
-        <img src={featuresAndTraits} className="card-img-top w-50 rounded-circle float-start mx-auto p-3" alt="Whimsical AI generation of Vanessa" />
-        <div className="card-body">
-          <h5 className="card-title">
-            Greetings, Adventurer! I'm Vanessa, a Frontend Developer on a quest
-            for digital excellence and collaborative magic. 🧙‍♀️✨
-          </h5>
+        <div class="row g-0">
+          <div class="col-md-4">
+            <img
+              src={featuresAndTraits}
+              className="card-img-top w-100 rounded-circle float-start mx-auto p-3"
+              alt="Whimsical AI generation of Vanessa"
+            />
+          </div>
+          <div class="col-md-8">
+            <div class="card-body">
+              <h5 class="card-title">
+                Greetings, Adventurer! I'm Vanessa, a Frontend Developer on a
+                quest for digital excellence and collaborative magic. 🧙‍♀️✨
+              </h5>
+             
+            </div>
+          </div>
         </div>
+
         <ul className="list-group list-group-flush">
           <li className="list-group-item">
             <p>
@@ -27,6 +39,7 @@ function FeaturesAndTraits() {
           </li>
           <li className="list-group-item">
             <p>
+              Personal <br />
               In the realms beyond code, I'm Vanessa, a seeker of seamless
               experiences, a collaborator in the forge of innovation, and a
               traveler across the vast landscapes of the United States. My
@@ -35,18 +48,20 @@ function FeaturesAndTraits() {
               exploration.
             </p>
           </li>
-          <li className="list-group-item"> <p>
-        Join Me on this Quest! If you're on a quest for a developer with
-        technical prowess, a strong collaboration spirit, and a penchant for
-        delivering impactful results, let's embark on this digital journey
-        together. Connect with me on LinkedIn or explore my coding quests on
-        GitHub. Together, we'll weave the magic of technology and create
-        experiences that resonate across the digital realms! 🌐🔮✨
-      </p></li>
+          <li className="list-group-item">
+            <p>
+              Future <br />
+              Join Me on this Quest! If you're on a quest for a developer with
+              technical prowess, a strong collaboration spirit, and a penchant
+              for delivering impactful results, let's embark on this digital
+              journey together. Connect with me on LinkedIn or explore my coding
+              quests on GitHub. Together, we'll weave the magic of technology
+              and create experiences that resonate across the digital realms!
+              🌐🔮✨
+            </p>
+          </li>
         </ul>
       </div>
-
-     
     </div>
   );
 }
