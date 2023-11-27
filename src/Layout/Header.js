@@ -1,10 +1,25 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 import "../styles/Header.css";
 
 function Header() {
+  const [scrolling, setScrolling] = useState(false);
+
+  useEffect(() => {
+    const handleScroll = () => {
+      setScrolling(window.scrollY > 0)
+    };
+
+    window.addEventListener("scroll", handleScroll);
+
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+    }
+  }, [])
+
+
   return (
-    <nav id="backdrop" className="sticky-top bg-transparent text-body border-bottom" style={{}}>
+    <nav className={`sticky-top bg-transparent text-body border-bottom ${scrolling ? "blur-on-scroll" : ""}`}>
           <div className="d-flex align-items-center p-3">
             <div className="">
               <h5>Vanessa Garcia</h5>
