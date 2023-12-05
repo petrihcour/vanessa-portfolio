@@ -1,8 +1,11 @@
 import React from "react";
+import QuestTemplate from "../quest-template/QuestTemplate";
 
 function Quests() {
     return (
-        <h1>Quests</h1>
+        <div>
+            <h2 className="p-3 text-center">Quests</h2>
+        </div>
     )
 }
 
