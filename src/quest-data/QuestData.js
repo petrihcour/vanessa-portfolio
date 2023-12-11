@@ -3,7 +3,7 @@ import flashcardProject from "../images/flashcardProject.jpeg";
 const QuestData = [
     {
         name: "FlashCard-o-matic", 
-        description: "Description",
+        description: "jhjhjkhjkhjkhjkhjkhjkhjkhhjhkjhj",
         imageUrl: flashcardProject,
         webUrl: "https://github.com/petrihcour/flashcard-app.git",
     }
