@@ -1,8 +1,7 @@
-import React, { useState } from "react";
+import React from "react";
 import QuestTemplate from "../quest-data/QuestTemplate";
 
 function Quests() {
-    const [projects, setProjects] = useState([]);
 
     return (
         <div>
