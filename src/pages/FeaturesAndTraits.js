@@ -5,18 +5,18 @@ function FeaturesAndTraits() {
   return (
     <div className="p-3">
       <h2 className="text-center p-3">FEATURES & TRAITS</h2>
-      <div className="card mx-auto" style={{ maxWidth: "650px" }}>
-        <div class="row g-0">
-          <div class="col-md-4">
+      <div className="card mx-auto text-bg-dark" style={{ maxWidth: "650px" }}>
+        <div className="row g-0">
+          <div className="col-md-4">
             <img
               src={featuresAndTraits}
               className="card-img-top w-100 rounded-circle float-start mx-auto p-3"
               alt="Whimsical AI generation of Vanessa"
             />
           </div>
-          <div class="col-md-8">
-            <div class="card-body">
-              <h5 class="card-title">
+          <div className="col-md-8">
+            <div className="card-body">
+              <h5 className="card-title">
                 Greetings, Adventurer! I'm Vanessa, a Frontend Developer on a
                 quest for digital excellence and collaborative magic. 🧙‍♀️✨
               </h5>
@@ -25,8 +25,8 @@ function FeaturesAndTraits() {
           </div>
         </div>
 
-        <ul className="list-group list-group-flush">
-          <li className="list-group-item">
+        <ul className="list-group list-group-flush ">
+          <li className="list-group-item text-bg-dark">
             <p>
               Professional <br />
               In the enchanted landscape of technology, I've mastered the arcane
@@ -37,7 +37,7 @@ function FeaturesAndTraits() {
               the wisdom gained from over five years in leadership roles.
             </p>
           </li>
-          <li className="list-group-item">
+          <li className="list-group-item text-bg-dark">
             <p>
               Personal <br />
               In the realms beyond code, I'm Vanessa, a seeker of seamless
@@ -48,7 +48,7 @@ function FeaturesAndTraits() {
               exploration.
             </p>
           </li>
-          <li className="list-group-item">
+          <li className="list-group-item text-bg-dark">
             <p>
               Future <br />
               Join Me on this Quest! If you're on a quest for a developer with
