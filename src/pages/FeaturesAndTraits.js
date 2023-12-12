@@ -51,7 +51,7 @@ function FeaturesAndTraits() {
           <li className="list-group-item text-bg-dark">
             <p>
               Future <br />
-              Join Me on this Quest! If you're on a quest for a developer with
+              Join me on this quest! If you're on a quest for a developer with
               technical prowess, a strong collaboration spirit, and a penchant
               for delivering impactful results, let's embark on this digital
               journey together. Connect with me on LinkedIn or explore my coding
