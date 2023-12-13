@@ -5,7 +5,7 @@ function FeaturesAndTraits() {
   return (
     <div className="p-3">
       <h2 className="text-center p-3">FEATURES & TRAITS</h2>
-      <div className="card mx-auto text-bg-dark" style={{ maxWidth: "650px" }}>
+      <div className="card mx-auto text-bg-dark" style={{ maxWidth: "650px", backgroundImage: `url("https://wallpapers.com/images/hd/paper-with-water-stains-8oyuxjh4gpbc5iy7.jpg")`}}>
         <div className="row g-0">
           <div className="col-md-4">
             <img
@@ -26,7 +26,7 @@ function FeaturesAndTraits() {
         </div>
 
         <ul className="list-group list-group-flush ">
-          <li className="list-group-item text-bg-dark">
+          <li className="list-group-item text-bg-dark" style={{backgroundImage: `url("https://wallpapers.com/images/hd/paper-with-water-stains-8oyuxjh4gpbc5iy7.jpg")`}}>
             <p>
               Professional <br />
               In the enchanted landscape of technology, I've mastered the arcane
@@ -37,7 +37,7 @@ function FeaturesAndTraits() {
               the wisdom gained from over five years in leadership roles.
             </p>
           </li>
-          <li className="list-group-item text-bg-dark">
+          <li className="list-group-item text-bg-dark" style={{backgroundImage: `url("https://wallpapers.com/images/hd/paper-with-water-stains-8oyuxjh4gpbc5iy7.jpg")`}}>
             <p>
               Personal <br />
               In the realms beyond code, I'm Vanessa, a seeker of seamless
@@ -48,7 +48,7 @@ function FeaturesAndTraits() {
               exploration.
             </p>
           </li>
-          <li className="list-group-item text-bg-dark">
+          <li className="list-group-item text-bg-dark" style={{backgroundImage: `url("https://wallpapers.com/images/hd/paper-with-water-stains-8oyuxjh4gpbc5iy7.jpg")`}}>
             <p>
               Future <br />
               Join me on this quest! If you're on a quest for a developer with

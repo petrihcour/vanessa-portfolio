@@ -1,10 +1,10 @@
 import React from "react";
 
 function Skills() {
-    const dottedUnderlineStyle = {
-        textDecoration: "underline dotted",
-        textUnderlineOffset: "0.2em"
-      };
+  const dottedUnderlineStyle = {
+    textDecoration: "underline dotted",
+    textUnderlineOffset: "0.2em",
+  };
 
   return (
     <div className="p-3">
@@ -16,14 +16,20 @@ function Skills() {
             <thead>
               <tr>
                 <th scope="col">
-                  <abbr style={dottedUnderlineStyle} title="PROFICIENCY IS MARKED BY THE FILLED IN RADIO BUTTON">
+                  <abbr
+                    style={dottedUnderlineStyle}
+                    title="PROFICIENCY IS MARKED BY THE FILLED IN RADIO BUTTON"
+                  >
                     PROF
                   </abbr>
                 </th>
                 <th scope="col">TYPE</th>
                 <th scope="col">SKILL</th>
                 <th scope="col">
-                  <abbr style={dottedUnderlineStyle}title="PROFICIENCY BONUS IN D&D MEASURES SKILL PROFICIENCY. THE MAX IS 11 ON MY CHARACTER SHEET">
+                  <abbr
+                    style={dottedUnderlineStyle}
+                    title="PROFICIENCY BONUS IN D&D MEASURES SKILL PROFICIENCY. THE MAX IS 11 ON MY CHARACTER SHEET"
+                  >
                     BONUS
                   </abbr>
                 </th>
@@ -31,7 +37,6 @@ function Skills() {
             </thead>
             <tbody>
               <tr>
-             
                 <th scope="row">1</th>
                 <td>Frontend</td>
                 <td>HTML5</td>
@@ -48,22 +53,26 @@ function Skills() {
                 <td>Frontend </td>
                 <td>React</td>
                 <td>@fat</td>
-              </tr> <tr>
+              </tr>
+              <tr>
                 <th scope="row">2</th>
                 <td>Frontend</td>
                 <td>CSS</td>
                 <td>@fat</td>
-              </tr> <tr>
+              </tr>
+              <tr>
                 <th scope="row">2</th>
                 <td>Frontend</td>
                 <td>Bootstrap</td>
                 <td>@fat</td>
-              </tr> <tr>
+              </tr>
+              <tr>
                 <th scope="row">2</th>
                 <td>Backend</td>
                 <td>Node Js</td>
                 <td>@fat</td>
-              </tr> <tr>
+              </tr>
+              <tr>
                 <th scope="row">2</th>
                 <td>Backend</td>
                 <td>Express Js</td>
