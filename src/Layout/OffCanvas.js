@@ -12,8 +12,8 @@ function OffCanvas() {
         >
           <div className="offcanvas-header">
             <h5 className="offcanvas-title" id="offcanvasNavbarLabel">
-            Unleash your spells. <br />
-             I cast...
+            CAST A SPELL<br />
+             
             </h5>
             <button
               type="button"
