@@ -25,7 +25,7 @@ function Header() {
               <h5>Vanessa Garcia</h5>
             </div>
             <div className="d-none d-sm-block ps-4">
-              <h5>Frontend Developer</h5>
+              <h5>SOFTWARE DEVELOPER</h5>
             </div>
             <div className="ms-auto">
               <Link to="/">

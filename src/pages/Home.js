@@ -17,7 +17,7 @@ function Home() {
         <p>Name: Vanessa</p>
         <p>Race: Human </p>
         <p>Class: Sorcerer</p>
-        <p>Background: Frontend Developer</p>
+        <p>Background: Full-Stack Software Developer</p>
         <p>Alignment: Chaotic Creative</p>
         <p>
           Greetings, enchanting minds and seekers of mystical knowledge! I am

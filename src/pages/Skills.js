@@ -1,4 +1,5 @@
 import React from "react";
+import "../styles/Skills.css";
 
 function Skills() {
   const dottedUnderlineStyle = {
@@ -10,12 +11,12 @@ function Skills() {
     <div className="p-3">
       <h2 className="text-center p-3">SKILLS</h2>
 
-      <div className="card mx-auto" style={{ maxWidth: "650px" }}>
+      <div className="card mx-auto bg-transparent" style={{ maxWidth: "650px" }}>
         <div className="card-body">
-          <table className="table">
+          <table className="table table-hover">
             <thead>
               <tr>
-                <th scope="col">
+                <th scope="col" className="bg-transparent">
                   <abbr
                     style={dottedUnderlineStyle}
                     title="PROFICIENCY IS MARKED BY THE FILLED IN RADIO BUTTON"
@@ -23,9 +24,9 @@ function Skills() {
                     PROF
                   </abbr>
                 </th>
-                <th scope="col">TYPE</th>
-                <th scope="col">SKILL</th>
-                <th scope="col">
+                <th scope="col" className="bg-transparent">TYPE</th>
+                <th scope="col" className="bg-transparent">SKILL</th>
+                <th scope="col" className="bg-transparent">
                   <abbr
                     style={dottedUnderlineStyle}
                     title="PROFICIENCY BONUS IN D&D MEASURES SKILL PROFICIENCY. THE MAX IS 11 ON MY CHARACTER SHEET"
@@ -37,76 +38,76 @@ function Skills() {
             </thead>
             <tbody>
               <tr>
-                <th scope="row">1</th>
-                <td>Frontend</td>
-                <td>HTML5</td>
-                <td>@mdo</td>
+                <th scope="row" className="bg-transparent">1</th>
+                <td className="bg-transparent">Frontend</td>
+                <td className="bg-transparent">HTML5</td>
+                <td className="bg-transparent">@mdo</td>
               </tr>
               <tr>
-                <th scope="row">2</th>
-                <td>Frontend</td>
-                <td>JavaScript</td>
-                <td>@fat</td>
+                <th scope="row" className="bg-transparent">2</th>
+                <td className="bg-transparent">Frontend</td>
+                <td className="bg-transparent">JavaScript</td>
+                <td className="bg-transparent">@fat</td>
               </tr>
               <tr>
-                <th scope="row">2</th>
-                <td>Frontend </td>
-                <td>React</td>
-                <td>@fat</td>
+                <th scope="row" className="bg-transparent">2</th>
+                <td className="bg-transparent">Frontend </td>
+                <td className="bg-transparent">React</td>
+                <td className="bg-transparent">@fat</td>
               </tr>
               <tr>
-                <th scope="row">2</th>
-                <td>Frontend</td>
-                <td>CSS</td>
-                <td>@fat</td>
+                <th scope="row" className="bg-transparent">2</th>
+                <td className="bg-transparent">Frontend</td>
+                <td className="bg-transparent">CSS</td>
+                <td className="bg-transparent">@fat</td>
               </tr>
               <tr>
-                <th scope="row">2</th>
-                <td>Frontend</td>
-                <td>Bootstrap</td>
-                <td>@fat</td>
+                <th scope="row" className="bg-transparent">2</th>
+                <td className="bg-transparent">Frontend</td>
+                <td className="bg-transparent">Bootstrap</td>
+                <td className="bg-transparent">@fat</td>
               </tr>
               <tr>
-                <th scope="row">2</th>
-                <td>Backend</td>
-                <td>Node Js</td>
-                <td>@fat</td>
+                <th scope="row" className="bg-transparent">2</th>
+                <td className="bg-transparent">Backend</td>
+                <td className="bg-transparent">Node Js</td>
+                <td className="bg-transparent">@fat</td>
               </tr>
               <tr>
-                <th scope="row">2</th>
-                <td>Backend</td>
-                <td>Express Js</td>
-                <td>@fat</td>
+                <th scope="row" className="bg-transparent">2</th>
+                <td className="bg-transparent">Backend</td>
+                <td className="bg-transparent">Express Js</td>
+                <td className="bg-transparent">@fat</td>
               </tr>
               <tr>
-                <th scope="row">2</th>
-                <td>Backend</td>
-                <td>PostgreSQL</td>
-                <td>@fat</td>
+                <th scope="row" className="bg-transparent">2</th>
+                <td className="bg-transparent">Backend</td>
+                <td className="bg-transparent">PostgreSQL</td>
+                <td className="bg-transparent">@fat</td>
               </tr>
               <tr>
-                <th scope="row">2</th>
-                <td>Backend</td>
-                <td>Express Js</td>
-                <td>@fat</td>
+                <th scope="row" className="bg-transparent">2</th>
+                <td className="bg-transparent">Backend</td>
+                <td className="bg-transparent">Express Js</td>
+                <td className="bg-transparent">@fat</td>
               </tr>
               <tr>
-                <th scope="row">2</th>
-                <td>Personal</td>
-                <td>Project Management</td>
-                <td>@fat</td>
+                <th scope="row" className="bg-transparent">2</th>
+                <td className="bg-transparent">Personal</td>
+                <td className="bg-transparent">Project Management</td>
+                <td className="bg-transparent">@fat</td>
               </tr>
               <tr>
-                <th scope="row">2</th>
-                <td>Personal</td>
-                <td>Cross-Functional Collaborations</td>
-                <td>@fat</td>
+                <th scope="row" className="bg-transparent">2</th>
+                <td className="bg-transparent">Personal</td>
+                <td className="bg-transparent">Cross-Functional Collaborations</td>
+                <td className="bg-transparent">@fat</td>
               </tr>
               <tr>
-                <th scope="row">2</th>
-                <td>Personal</td>
-                <td>Root Cause Problem Solving</td>
-                <td>@fat</td>
+                <th scope="row" className="bg-transparent">2</th>
+                <td className="bg-transparent">Personal</td>
+                <td className="bg-transparent">Root Cause Problem Solving</td>
+                <td className="bg-transparent">@fat</td>
               </tr>
             </tbody>
           </table>
