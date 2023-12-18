@@ -7,6 +7,22 @@ function Skills() {
     textUnderlineOffset: "0.2em",
   };
 
+  const skillsData = [
+    { proficiency: "1", type: "Frontend", skill: "HTML5", bonus: "@mdo" },
+    { proficiency: "2", type: "Frontend", skill: "JavaScript", bonus: "@fat" },
+    { proficiency: "2", type: "Frontend", skill: "React", bonus: "@fat" },
+    { proficiency: "2", type: "Frontend", skill: "CSS", bonus: "@fat" },
+    { proficiency: "2", type: "Frontend", skill: "Bootstrap", bonus: "@fat" },
+    { proficiency: "2", type: "Backend", skill: "Node Js", bonus: "@fat" },
+    { proficiency: "2", type: "Backend", skill: "Express Js", bonus: "@fat" },
+    { proficiency: "2", type: "Backend", skill: "PostgreSQL", bonus: "@fat" },
+    { proficiency: "2", type: "Backend", skill: "Express Js", bonus: "@fat" },
+    { proficiency: "2", type: "Personal", skill: "Project Management", bonus: "@fat" },
+    { proficiency: "2", type: "Personal", skill: "Cross-Functional Collaborations", bonus: "@fat" },
+    { proficiency: "2", type: "Personal", skill: "Root Cause Problem Solving", bonus: "@fat" },
+  ];
+
+
   return (
     <div className="p-3">
       <h2 className="text-center p-3">SKILLS</h2>
@@ -37,78 +53,14 @@ function Skills() {
               </tr>
             </thead>
             <tbody>
-              <tr>
-                <th scope="row" className="bg-transparent">1</th>
-                <td className="bg-transparent">Frontend</td>
-                <td className="bg-transparent">HTML5</td>
-                <td className="bg-transparent">@mdo</td>
-              </tr>
-              <tr>
-                <th scope="row" className="bg-transparent">2</th>
-                <td className="bg-transparent">Frontend</td>
-                <td className="bg-transparent">JavaScript</td>
-                <td className="bg-transparent">@fat</td>
-              </tr>
-              <tr>
-                <th scope="row" className="bg-transparent">2</th>
-                <td className="bg-transparent">Frontend </td>
-                <td className="bg-transparent">React</td>
-                <td className="bg-transparent">@fat</td>
-              </tr>
-              <tr>
-                <th scope="row" className="bg-transparent">2</th>
-                <td className="bg-transparent">Frontend</td>
-                <td className="bg-transparent">CSS</td>
-                <td className="bg-transparent">@fat</td>
-              </tr>
-              <tr>
-                <th scope="row" className="bg-transparent">2</th>
-                <td className="bg-transparent">Frontend</td>
-                <td className="bg-transparent">Bootstrap</td>
-                <td className="bg-transparent">@fat</td>
-              </tr>
-              <tr>
-                <th scope="row" className="bg-transparent">2</th>
-                <td className="bg-transparent">Backend</td>
-                <td className="bg-transparent">Node Js</td>
-                <td className="bg-transparent">@fat</td>
-              </tr>
-              <tr>
-                <th scope="row" className="bg-transparent">2</th>
-                <td className="bg-transparent">Backend</td>
-                <td className="bg-transparent">Express Js</td>
-                <td className="bg-transparent">@fat</td>
-              </tr>
-              <tr>
-                <th scope="row" className="bg-transparent">2</th>
-                <td className="bg-transparent">Backend</td>
-                <td className="bg-transparent">PostgreSQL</td>
-                <td className="bg-transparent">@fat</td>
-              </tr>
-              <tr>
-                <th scope="row" className="bg-transparent">2</th>
-                <td className="bg-transparent">Backend</td>
-                <td className="bg-transparent">Express Js</td>
-                <td className="bg-transparent">@fat</td>
-              </tr>
-              <tr>
-                <th scope="row" className="bg-transparent">2</th>
-                <td className="bg-transparent">Personal</td>
-                <td className="bg-transparent">Project Management</td>
-                <td className="bg-transparent">@fat</td>
-              </tr>
-              <tr>
-                <th scope="row" className="bg-transparent">2</th>
-                <td className="bg-transparent">Personal</td>
-                <td className="bg-transparent">Cross-Functional Collaborations</td>
-                <td className="bg-transparent">@fat</td>
-              </tr>
-              <tr>
-                <th scope="row" className="bg-transparent">2</th>
-                <td className="bg-transparent">Personal</td>
-                <td className="bg-transparent">Root Cause Problem Solving</td>
-                <td className="bg-transparent">@fat</td>
-              </tr>
+              {skillsData.map((skill, index) => (
+                <tr key={index}>
+                  <th scope="row" className="bg-transparent">{skill.proficiency}</th>
+                  <td className="bg-transparent">{skill.type}</td>
+                  <td className="bg-transparent">{skill.skill}</td>
+                  <td className="bg-transparent">{skill.bonus}</td>
+                </tr>
+              ))}
             </tbody>
           </table>
           <h6 className="card-subtitle mb-2 text-body-secondary">
