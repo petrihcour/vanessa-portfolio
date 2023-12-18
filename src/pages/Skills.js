@@ -8,18 +8,17 @@ function Skills() {
   };
 
   const skillsData = [
-    { proficiency: "1", type: "Frontend", skill: "HTML5", bonus: "@mdo" },
-    { proficiency: "2", type: "Frontend", skill: "JavaScript", bonus: "@fat" },
-    { proficiency: "2", type: "Frontend", skill: "React", bonus: "@fat" },
-    { proficiency: "2", type: "Frontend", skill: "CSS", bonus: "@fat" },
-    { proficiency: "2", type: "Frontend", skill: "Bootstrap", bonus: "@fat" },
-    { proficiency: "2", type: "Backend", skill: "Node Js", bonus: "@fat" },
-    { proficiency: "2", type: "Backend", skill: "Express Js", bonus: "@fat" },
-    { proficiency: "2", type: "Backend", skill: "PostgreSQL", bonus: "@fat" },
-    { proficiency: "2", type: "Backend", skill: "Express Js", bonus: "@fat" },
-    { proficiency: "2", type: "Personal", skill: "Project Management", bonus: "@fat" },
-    { proficiency: "2", type: "Personal", skill: "Cross-Functional Collaborations", bonus: "@fat" },
-    { proficiency: "2", type: "Personal", skill: "Root Cause Problem Solving", bonus: "@fat" },
+    { proficiency: "proficient", type: "Frontend", skill: "HTML5", bonus: "@mdo" },
+    { proficiency: "proficient", type: "Frontend", skill: "JavaScript", bonus: "@fat" },
+    { proficiency: "proficient", type: "Frontend", skill: "React", bonus: "@fat" },
+    { proficiency: "proficient", type: "Frontend", skill: "CSS", bonus: "@fat" },
+    { proficiency: "expertise", type: "Frontend", skill: "Bootstrap", bonus: "@fat" },
+    { proficiency: "proficient", type: "Backend", skill: "Node Js", bonus: "@fat" },
+    { proficiency: "proficient", type: "Backend", skill: "Express Js", bonus: "@fat" },
+    { proficiency: "proficient", type: "Backend", skill: "PostgreSQL", bonus: "@fat" },
+    { proficiency: "expertise", type: "Personal", skill: "Project Management", bonus: "@fat" },
+    { proficiency: "proficient", type: "Personal", skill: "Cross-Functional Collaborations", bonus: "@fat" },
+    { proficiency: "expertise", type: "Personal", skill: "Root Cause Problem Solving", bonus: "@fat" },
   ];
 
 
@@ -29,7 +28,7 @@ function Skills() {
 
       <div className="card mx-auto bg-transparent" style={{ maxWidth: "650px" }}>
         <div className="card-body">
-          <table className="table table-hover">
+          <table className="table table-hover table-bordered">
             <thead>
               <tr>
                 <th scope="col" className="bg-transparent">
@@ -55,7 +54,11 @@ function Skills() {
             <tbody>
               {skillsData.map((skill, index) => (
                 <tr key={index}>
-                  <th scope="row" className="bg-transparent">{skill.proficiency}</th>
+                  <th scope="row" className="bg-transparent">
+                  <i className="bi bi-circle-fill"></i>
+                  <i className="bi bi-circle"></i>
+
+                  </th>
                   <td className="bg-transparent">{skill.type}</td>
                   <td className="bg-transparent">{skill.skill}</td>
                   <td className="bg-transparent">{skill.bonus}</td>
