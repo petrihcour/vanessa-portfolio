@@ -8,25 +8,82 @@ function Skills() {
   };
 
   const skillsData = [
-    { proficiency: "proficient", type: "Frontend", skill: "HTML5", bonus: "@mdo" },
-    { proficiency: "proficient", type: "Frontend", skill: "JavaScript", bonus: "@fat" },
-    { proficiency: "proficient", type: "Frontend", skill: "React", bonus: "@fat" },
-    { proficiency: "proficient", type: "Frontend", skill: "CSS", bonus: "@fat" },
-    { proficiency: "expertise", type: "Frontend", skill: "Bootstrap", bonus: "@fat" },
-    { proficiency: "proficient", type: "Backend", skill: "Node Js", bonus: "@fat" },
-    { proficiency: "proficient", type: "Backend", skill: "Express Js", bonus: "@fat" },
-    { proficiency: "proficient", type: "Backend", skill: "PostgreSQL", bonus: "@fat" },
-    { proficiency: "expertise", type: "Personal", skill: "Project Management", bonus: "@fat" },
-    { proficiency: "proficient", type: "Personal", skill: "Cross-Functional Collaborations", bonus: "@fat" },
-    { proficiency: "expertise", type: "Personal", skill: "Root Cause Problem Solving", bonus: "@fat" },
+    {
+      proficiency: "expertise",
+      type: "Frontend",
+      skill: "Bootstrap",
+      bonus: "@fat",
+    },
+    {
+      proficiency: "proficient",
+      type: "Personal",
+      skill: "Cross-Functional Collaborations",
+      bonus: "@fat",
+    },
+    {
+      proficiency: "proficient",
+      type: "Frontend",
+      skill: "CSS",
+      bonus: "@fat",
+    },
+    {
+      proficiency: "proficient",
+      type: "Backend",
+      skill: "Express Js",
+      bonus: "@fat",
+    },
+    {
+      proficiency: "proficient",
+      type: "Frontend",
+      skill: "HTML5",
+      bonus: "@mdo",
+    },
+    {
+      proficiency: "proficient",
+      type: "Frontend",
+      skill: "JavaScript",
+      bonus: "@fat",
+    },
+    {
+      proficiency: "proficient",
+      type: "Backend",
+      skill: "Node Js",
+      bonus: "@fat",
+    },
+    {
+      proficiency: "proficient",
+      type: "Backend",
+      skill: "PostgreSQL",
+      bonus: "@fat",
+    },
+    {
+      proficiency: "expertise",
+      type: "Personal",
+      skill: "Project Management",
+      bonus: "@fat",
+    },
+    {
+      proficiency: "proficient",
+      type: "Frontend",
+      skill: "React",
+      bonus: "@fat",
+    },
+    {
+      proficiency: "expertise",
+      type: "Personal",
+      skill: "Root Cause Problem Solving",
+      bonus: "@fat",
+    },
   ];
-
 
   return (
     <div className="p-3">
       <h2 className="text-center p-3">SKILLS</h2>
 
-      <div className="card mx-auto bg-transparent" style={{ maxWidth: "650px" }}>
+      <div
+        className="card mx-auto bg-transparent"
+        style={{ maxWidth: "650px" }}
+      >
         <div className="card-body">
           <table className="table table-hover table-bordered">
             <thead>
@@ -39,8 +96,12 @@ function Skills() {
                     PROF
                   </abbr>
                 </th>
-                <th scope="col" className="bg-transparent">TYPE</th>
-                <th scope="col" className="bg-transparent">SKILL</th>
+                <th scope="col" className="bg-transparent">
+                  TYPE
+                </th>
+                <th scope="col" className="bg-transparent">
+                  SKILL
+                </th>
                 <th scope="col" className="bg-transparent">
                   <abbr
                     style={dottedUnderlineStyle}
@@ -55,9 +116,13 @@ function Skills() {
               {skillsData.map((skill, index) => (
                 <tr key={index}>
                   <th scope="row" className="bg-transparent">
-                  <i className="bi bi-circle-fill"></i>
-                  <i className="bi bi-circle"></i>
-
+                    {skill.proficiency === "expertise" ? (
+                      <i className="bi bi-circle-fill"></i>
+                    ) : skill.proficiency === "proficient" ? (
+                      <i class="bi bi-circle-half"></i>
+                    ) : (
+                      <i className="bi bi-circle"></i>
+                    )}
                   </th>
                   <td className="bg-transparent">{skill.type}</td>
                   <td className="bg-transparent">{skill.skill}</td>
