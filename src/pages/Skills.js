@@ -88,7 +88,7 @@ function Skills() {
           <table className="table table-hover table-bordered">
             <thead>
               <tr>
-                <th scope="col" className="bg-transparent text-bg-dark">
+                <th scope="col" className="bg-transparent">
                   <abbr
                     style={dottedUnderlineStyle}
                     title="PROFICIENCY IS MARKED BY THE FILLED IN RADIO BUTTON"
@@ -96,13 +96,13 @@ function Skills() {
                     PROF
                   </abbr>
                 </th>
-                <th scope="col" className="bg-transparent text-bg-dark">
+                <th scope="col" className="bg-transparent">
                   TYPE
                 </th>
-                <th scope="col" className="bg-transparent text-bg-dark">
+                <th scope="col" className="bg-transparent">
                   SKILL
                 </th>
-                <th scope="col" className="bg-transparent text-bg-dark">
+                <th scope="col" className="bg-transparent">
                   <abbr
                     style={dottedUnderlineStyle}
                     title="PROFICIENCY BONUS IN D&D MEASURES SKILL PROFICIENCY. THE MAX IS 11 ON MY CHARACTER SHEET"
