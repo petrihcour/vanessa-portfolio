@@ -85,7 +85,7 @@ function Skills() {
         style={{ maxWidth: "650px" }}
       >
         <div className="card-body">
-          <table className="table table-hover table-bordered">
+          <table className="table table-hover table-bordered border-dark">
             <thead>
               <tr>
                 <th scope="col" className="bg-transparent">
@@ -124,9 +124,9 @@ function Skills() {
                       <i className="bi bi-circle"></i>
                     )}
                   </th>
-                  <td className="bg-transparent text-bg-dark">{skill.type}</td>
-                  <td className="bg-transparent text-bg-dark">{skill.skill}</td>
-                  <td className="bg-transparent text-bg-dark">{skill.bonus}</td>
+                  <td className="bg-transparent">{skill.type}</td>
+                  <td className="bg-transparent">{skill.skill}</td>
+                  <td className="bg-transparent">{skill.bonus}</td>
                 </tr>
               ))}
             </tbody>
