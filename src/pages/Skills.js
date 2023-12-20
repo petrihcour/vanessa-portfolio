@@ -5,6 +5,9 @@ import "bootstrap/dist/js/bootstrap.bundle.min.js";
 import skillsData from "../skills-data/SkillsData";
 import "../styles/Skills.css";
 
+// maybe frame the card for added design 
+// add dice rolling for bonuses for fun 
+
 function Skills() {
   useEffect(() => {
     // Initialize tooltips after the component has mounted
@@ -61,7 +64,7 @@ function Skills() {
             <tbody>
               {skillsData.map((skill, index) => (
                 <tr key={index}>
-                  <th scope="row" className="bg-transparent">
+                  <th scope="row" className="bg-transparent text-center">
                     {skill.proficiency === "expertise" ? (
                       <i
                         className="bi bi-circle-fill"
@@ -84,7 +87,7 @@ function Skills() {
                   </th>
                   <td className="bg-transparent">{skill.type}</td>
                   <td className="bg-transparent">{skill.skill}</td>
-                  <td className="bg-transparent">{skill.bonus}</td>
+                  <td className="bg-transparent text-center">{skill.bonus}</td>
                 </tr>
               ))}
             </tbody>
