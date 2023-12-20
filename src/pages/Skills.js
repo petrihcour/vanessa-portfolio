@@ -30,7 +30,7 @@ function Skills() {
 
       <div
         className="card mx-auto bg-transparent border-dark"
-        style={{ maxWidth: "650px" }}
+        style={{ maxWidth: "650px", backgroundImage: `url("https://wallpapers.com/images/hd/paper-with-water-stains-8oyuxjh4gpbc5iy7.jpg")`, backgroundSize: "cover" }}
       >
         <div className="card-body">
           <table className="table table-hover table-bordered border-dark">
