@@ -3,9 +3,11 @@ import { Link } from "react-router-dom";
 import OffCanvas from "./OffCanvas";
 import "../styles/MobileNav.css";
 
+// need to adjust background for nav. maybe same background or a blur or it hides until hovered over?
 
 // add design a little bit later. possible gold trim. adjust font for slighlty more ancient feeling
 // small animations for buttons / links / menu
+
 
 function MobileNav() {
   return (
