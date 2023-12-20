@@ -5,7 +5,13 @@ function FeaturesAndTraits() {
   return (
     <div className="p-3">
       <h2 className="text-center p-3">FEATURES & TRAITS</h2>
-      <div className="card" style={{ maxWidth: "650px", backgroundImage: `url("https://wallpapers.com/images/hd/paper-with-water-stains-8oyuxjh4gpbc5iy7.jpg")`}}>
+      <div
+        className="card"
+        style={{
+          maxWidth: "650px",
+          backgroundImage: `url("https://wallpapers.com/images/hd/paper-with-water-stains-8oyuxjh4gpbc5iy7.jpg")`,
+        }}
+      >
         <div className="row g-0">
           <div className="col-md-4">
             <img
@@ -20,7 +26,6 @@ function FeaturesAndTraits() {
                 Greetings, Adventurer! I'm Vanessa, a Frontend Developer on a
                 quest for digital excellence and collaborative magic. 🧙‍♀️✨
               </h5>
-             
             </div>
           </div>
         </div>
@@ -28,7 +33,7 @@ function FeaturesAndTraits() {
         <ul className="list-group list-group-flush ">
           <li className="list-group-item bg-transparent">
             <p>
-              Professional <br />
+              <div className="text-center">Professional </div>
               In the enchanted landscape of technology, I've mastered the arcane
               languages of JavaScript, React, HTML, and CSS, crafting immersive
               virtual experiences that transcend the ordinary. My journey isn't
@@ -39,7 +44,7 @@ function FeaturesAndTraits() {
           </li>
           <li className="list-group-item bg-transparent">
             <p>
-              Personal <br />
+            <div className="text-center">Personal </div> 
               In the realms beyond code, I'm Vanessa, a seeker of seamless
               experiences, a collaborator in the forge of innovation, and a
               traveler across the vast landscapes of the United States. My
@@ -50,7 +55,7 @@ function FeaturesAndTraits() {
           </li>
           <li className="list-group-item bg-transparent">
             <p>
-              Future <br />
+            <div className="text-center">Future </div>
               Join me on this quest! If you're on a quest for a developer with
               technical prowess, a strong collaboration spirit, and a penchant
               for delivering impactful results, let's embark on this digital
