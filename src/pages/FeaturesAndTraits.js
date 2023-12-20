@@ -6,7 +6,7 @@ function FeaturesAndTraits() {
     <div className="p-3">
       <h2 className="text-center p-3">FEATURES & TRAITS</h2>
       <div
-        className="card"
+        className="card bg-transparent"
         style={{
           maxWidth: "650px",
           backgroundImage: `url("https://wallpapers.com/images/hd/paper-with-water-stains-8oyuxjh4gpbc5iy7.jpg")`,
@@ -22,7 +22,7 @@ function FeaturesAndTraits() {
           </div>
           <div className="col-md-8">
             <div className="card-body">
-              <h5 className="card-title text-center">
+              <h5 className="card-title text-center ">
                 Greetings, Adventurer! I'm Vanessa, a Frontend Developer on a
                 quest for digital excellence and collaborative magic. 🧙‍♀️✨
               </h5>

@@ -30,7 +30,7 @@ function Skills() {
 
       <div
         className="card mx-auto bg-transparent border-dark"
-        style={{ maxWidth: "650px", backgroundImage: `url("https://wallpapers.com/images/hd/paper-with-water-stains-8oyuxjh4gpbc5iy7.jpg")`, backgroundSize: "cover" }}
+        style={{ maxWidth: "650px"}}
       >
         <div className="card-body">
           <table className="table table-hover table-bordered border-dark">
@@ -38,7 +38,7 @@ function Skills() {
               <tr>
                 <th
                   scope="col"
-                  className="bg-transparent"
+                  className="bg-transparent pe-0"
                   style={dottedUnderlineStyle}
                   data-bs-toggle="tooltip"
                   title="PROFICIENCY IS MARKED BY THE FILLED IN RADIO BUTTON"
@@ -53,7 +53,7 @@ function Skills() {
                 </th>
                 <th
                   scope="col"
-                  className="bg-transparent"
+                  className="bg-transparent pe-0"
                   style={dottedUnderlineStyle}
                   title="PROFICIENCY BONUS IN D&D MEASURES SKILL PROFICIENCY. THE MAX IS 11 ON MY CHARACTER SHEET"
                 >
