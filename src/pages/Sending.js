@@ -5,7 +5,7 @@ import React from "react";
 
 function Sending() {
     return (
-        <h1>Sending</h1>
+        <h1 id="sending">Sending</h1>
     )
 }
 

@@ -7,7 +7,7 @@ import QuestTemplate from "../quest-data/QuestTemplate";
 function Quests() {
 
     return (
-        <div>
+        <div id="quests">
             <h2 className="p-3 text-center">Quests</h2>
             <QuestTemplate />
         </div>

@@ -6,7 +6,7 @@ import home from "../images/home.jpeg";
 
 function Home() {
   return (
-    <div className="p-3">
+    <div id="home" className="p-3">
       <img
         src={home}
         alt="AI representation of Vanessa"

@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import { Link } from "react-router-dom";
+import { Link } from "react-scroll";
 import "../styles/Header.css";
 
 function Header() {
@@ -28,7 +28,7 @@ function Header() {
               <h5>Full-Stack Developer</h5>
             </div>
             <div className="ms-auto">
-              <Link to="/">
+              <Link to="home">
                 <img
                   src="https://cdn4.iconfinder.com/data/icons/video-game-items-concepts/128/swords-crossed-dice-512.png"
                   width="35"

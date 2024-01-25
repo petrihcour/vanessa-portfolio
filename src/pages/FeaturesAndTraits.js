@@ -4,7 +4,7 @@ import featuresAndTraits from "../images/featuresAndTraits.jpeg";
 
 function FeaturesAndTraits() {
   return (
-    <div className="p-3">
+    <div className="p-3" id="features-traits">
       <h2 className="text-center p-3">FEATURES & TRAITS</h2>
       <div
         className="card bg-transparent border-secondary"

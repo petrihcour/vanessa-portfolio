@@ -25,7 +25,7 @@ function Skills() {
   };
 
   return (
-    <div className="p-3">
+    <div className="p-3" id="skills">
       <h2 className="text-center p-3">SKILLS</h2>
 
       <div

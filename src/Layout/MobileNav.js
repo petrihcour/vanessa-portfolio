@@ -1,6 +1,6 @@
 import React from "react";
-import { Link } from "react-router-dom";
-import OffCanvas from "./OffCanvas";
+import { Link } from "react-scroll";
+// import OffCanvas from "./OffCanvas";
 import "../styles/MobileNav.css";
 
 // need to adjust background for nav. maybe same background or a blur or it hides until hovered over?
@@ -11,9 +11,9 @@ import "../styles/MobileNav.css";
 
 function MobileNav() {
   return (
-    <nav className="navbar fixed-bottom bg-transparent text-body p-2 d-md-none d-lg-none">
+    <nav className="navbar bg-transparent text-body p-2">
       <div className="container-fluid ">
-          <Link to="/" className="navbar-brand ms-1">
+          <Link to="home" smooth duration={500} className="navbar-brand ms-1">
             <div className="nav-item home-icon">
               <img
                 src="https://cdn3.iconfinder.com/data/icons/materia-halloween-free/24/039_033_castle_horror_dracula_halloween-1024.png"
@@ -23,7 +23,7 @@ function MobileNav() {
               <div className="small-word">Home</div>
             </div>
           </Link>
-          <Link to="/skills" className="navbar-brand ">
+          <Link to="skills" smooth duration={500} className="navbar-brand ">
             <div className="nav-item">
               <img
                 src="https://cdn1.iconfinder.com/data/icons/ionicons-sharp-vol-2/512/sparkles-sharp-1024.png"
@@ -33,7 +33,7 @@ function MobileNav() {
               <div className="small-word">Skills</div>
             </div>
           </Link>
-          <Link to="/features-traits" className="navbar-brand">
+          <Link to="features-traits" smooth duration={500} className="navbar-brand">
             <div className="nav-item">
               <img
                 src="https://cdn1.iconfinder.com/data/icons/literary-genres-1/64/humor-perform-acting-comedy-personality-1024.png"
@@ -43,7 +43,7 @@ function MobileNav() {
               <div className="small-word">Features & Traits</div>
             </div>
           </Link>
-          <Link to="/quests" className="navbar-brand me-2">
+          <Link to="quests" smooth duration={500} className="navbar-brand me-2">
             <div className="nav-item">
               <img
                 src="https://cdn2.iconfinder.com/data/icons/rpg-fantasy-game-basic-ui/512/game_ui_scroll_quest_paper_treasure_adventure-1024.png"
@@ -53,7 +53,7 @@ function MobileNav() {
               <div className="small-word">Quests</div>
             </div>
           </Link>
-          <button
+          {/* <button
             className="navbar-toggler menu-button"
             type="button"
             data-bs-toggle="offcanvas"
@@ -70,8 +70,8 @@ function MobileNav() {
               />
               <div className="small-word menu-text">Menu</div>
          
-          </button>
-          <OffCanvas />
+          </button> */}
+          {/* <OffCanvas /> */}
       </div>
     </nav>
   );

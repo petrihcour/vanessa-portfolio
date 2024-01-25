@@ -1,5 +1,4 @@
 import React from "react";
-import { Switch, Route } from "react-router-dom";
 import Header from "./Header";
 import MobileNav from "./MobileNav";
 import FeaturesAndTraits from "../pages/FeaturesAndTraits";
@@ -13,26 +12,15 @@ function Layout() {
   return (
     <div className="Layout p-2" >
       <Header />
-      <div>
-      <Switch>
-        <Route exact path="/">
-          <Home />
-        </Route>
-        <Route path="/features-traits">
-          <FeaturesAndTraits />
-        </Route>
-        <Route path="/skills">
-          <Skills />
-        </Route>
-        <Route path="/quests">
-          <Quests />
-        </Route>
-        <Route path="/sending">
-          <Sending />
-        </Route>
-      </Switch>
-      </div>
+
       <MobileNav />
+      <div>
+          <Home id="home" />
+          <FeaturesAndTraits id="features-traits" />
+          <Skills id="skills" />
+          <Quests id="quests" />
+          <Sending id="sending" />
+      </div>
     </div>
   );
 }
