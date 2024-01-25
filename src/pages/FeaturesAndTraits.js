@@ -1,6 +1,5 @@
 import React from "react";
 import "../styles/FeaturesAndTraits.css";
-import featuresAndTraits from "../images/featuresAndTraits.jpeg";
 
 function FeaturesAndTraits() {
   return (
@@ -10,19 +9,10 @@ function FeaturesAndTraits() {
         className="card bg-transparent border-secondary"
         style={{
           maxWidth: "650px",
-          backgroundImage: `url("https://wallpapers.com/images/hd/paper-with-water-stains-8oyuxjh4gpbc5iy7.jpg")`,
+          background: `transparent`,
         }}
       >
-        <div className="row g-0">
-          <div className="col-md-4">
-            <img
-              src={featuresAndTraits}
-              className="card-img-top w-100 rounded-circle float-start mx-auto p-3"
-              alt="Whimsical AI generation of Vanessa"
-            />
-          </div>
-        </div>
-        <ul className="list-group list-group-flush">
+        <ul className="list-group list-group-flush mx auto">
           <li className="list-group-item bg-transparent border-secondary">
           <h5 className="text-center ">
                 Greetings, Adventurer! I'm Vanessa, a Frontend Developer on a

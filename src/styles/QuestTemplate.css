@@ -1,0 +1,27 @@
+/* QuestTemplate.css */
+
+.quest-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 10px;
+  }
+  
+  .quest-card {
+    width: 200px; /* Adjust the width as needed */
+    height: 300px; /* Adjust the height as needed */
+    cursor: pointer;
+    opacity: 0.7;
+    transition: opacity 0.3s ease-in-out, transform 0.3s ease-in-out;
+  }
+  
+  .quest-card:hover {
+    opacity: 1;
+  }
+  
+  .expanded {
+    /* Add any styles you want for expanded state */
+    transform: scale(1.1);
+    opacity: 1;
+  }
+  
