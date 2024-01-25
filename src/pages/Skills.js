@@ -1,7 +1,4 @@
-import React, { useEffect } from "react";
-import { createPopper } from "@popperjs/core";
-import "bootstrap/dist/css/bootstrap.min.css"; // Import Bootstrap styles
-import "bootstrap/dist/js/bootstrap.bundle.min.js";
+import React from "react";
 import skillsData from "../skills-data/SkillsData";
 import "../styles/Skills.css";
 
@@ -9,16 +6,6 @@ import "../styles/Skills.css";
 // add dice rolling for bonuses for fun 
 
 function Skills() {
-  useEffect(() => {
-    // Initialize tooltips after the component has mounted
-    const tooltips = document.querySelectorAll('[data-bs-toggle="tooltip"]');
-    tooltips.forEach((tooltip) => {
-      createPopper(tooltip, null, {
-        placement: "right",
-      });
-    });
-  }, []);
-
   const dottedUnderlineStyle = {
     textDecoration: "underline dotted",
     textUnderlineOffset: "0.2em",
@@ -30,7 +17,7 @@ function Skills() {
 
       <div
         className="card mx-auto bg-transparent border-dark"
-        style={{ maxWidth: "650px"}}
+        style={{ maxWidth: "650px" }}
       >
         <div className="card-body">
           <table className="table table-hover table-bordered border-dark">
@@ -68,25 +55,21 @@ function Skills() {
                     {skill.proficiency === "expertise" ? (
                       <i
                         className="bi bi-circle-fill"
-                        data-bs-toggle="tooltip"
                         title="Expertise"
                       ></i>
                     ) : skill.proficiency === "proficient" ? (
                       <i
                         className="bi bi-circle-half mx-auto"
-                        data-bs-toggle="tooltip"
                         title="Proficient"
                       ></i>
                     ) : (
-                      <i
-                        className="bi bi-circle"
-                        data-bs-toggle="tooltip"
-                        title="Not Proficient"
-                      ></i>
+                      <i className="bi bi-circle" title="Not Proficient"></i>
                     )}
                   </th>
                   <td className="bg-transparent">{skill.type}</td>
-                  <td className="bg-transparent">{skill.skill}</td>
+                  <td className="bg-transparent" title={skill.skill}>
+                    {skill.skill}
+                  </td>
                   <td className="bg-transparent text-center">{skill.bonus}</td>
                 </tr>
               ))}
