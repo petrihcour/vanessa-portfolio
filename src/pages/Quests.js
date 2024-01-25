@@ -8,7 +8,7 @@ function Quests() {
 
     return (
         <div id="quests">
-            <h2 className="p-3 text-center">Quests</h2>
+            <h2 className="p-3 text-center">QUESTS</h2>
             <QuestTemplate />
         </div>
     )

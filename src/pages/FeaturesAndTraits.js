@@ -6,7 +6,7 @@ function FeaturesAndTraits() {
     <div className="p-3" id="features-traits">
       <h2 className="text-center p-3">FEATURES & TRAITS</h2>
       <div
-        className="card bg-transparent border-secondary"
+        className="card mx-auto bg-transparent border-secondary"
         style={{
           maxWidth: "650px",
           background: `transparent`,
