@@ -24,7 +24,7 @@ function Header() {
         scrolling ? "blur-on-scroll" : ""
       }`}
     >
-      <div className="d-flex align-items-center p-2">
+      <div className="d-flex align-items-center p-3">
         <div className="d-flex align-items-center justify-content-start">
           <div className="d-flex flex-column flex-sm-row">
             <Link to="home">
