@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { Link } from "react-scroll";
+import MobileNav from "./Nav";
 import "../styles/Header.css";
 
 function Header() {
@@ -7,40 +8,37 @@ function Header() {
 
   useEffect(() => {
     const handleScroll = () => {
-      setScrolling(window.scrollY > 0)
+      setScrolling(window.scrollY > 0);
     };
 
     window.addEventListener("scroll", handleScroll);
 
     return () => {
       window.removeEventListener("scroll", handleScroll);
-    }
-  }, [])
-
+    };
+  }, []);
 
   return (
-    <nav className={`sticky-top bg-transparent text-body border-bottom ${scrolling ? "blur-on-scroll" : ""}`}>
-          <div className="d-flex align-items-center p-3">
-            <div>
-              <h5>Vanessa Garcia</h5>
-            </div>
-            <div className="d-none d-sm-block ps-4">
-              <h5>Full-Stack Developer</h5>
-            </div>
-            <div className="ms-auto">
-              <Link to="home">
-                <img
-                  src="https://cdn4.iconfinder.com/data/icons/video-game-items-concepts/128/swords-crossed-dice-512.png"
-                  width="35"
-                  alt="20 sided die with crossing swords"
-                />
-              </Link>
-              
-            </div>
-         
+    <nav
+      className={`sticky-top bg-transparent border-bottom border-dark ${
+        scrolling ? "blur-on-scroll" : ""
+      }`}
+    >
+      <div className="d-flex align-items-center p-2">
+        <div className="d-flex align-items-center justify-content-start">
+          <div className="d-flex flex-column flex-sm-row">
+            <Link to="home">
+              <h6 className="mb-0">Vanessa Garcia</h6>
+            </Link>
+            <h6 className="mb-0 ms-sm-4">SOFTWARE ENGINEER</h6>
+          </div>
+        </div>
+
+        <div className="ms-auto">
+          <MobileNav />
+        </div>
       </div>
     </nav>
-    
   );
 }
 

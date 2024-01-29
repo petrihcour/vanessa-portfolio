@@ -1,6 +1,5 @@
 import React from "react";
 import Header from "./Header";
-import MobileNav from "./MobileNav";
 import FeaturesAndTraits from "../pages/FeaturesAndTraits";
 import Home from "../pages/Home";
 import Quests from "../pages/Quests";
@@ -10,10 +9,8 @@ import Skills from "../pages/Skills";
 
 function Layout() {
   return (
-    <div className="Layout p-2" >
+    <div className="Layout" >
       <Header />
-
-      <MobileNav />
       <div>
           <Home id="home" />
           <FeaturesAndTraits id="features-traits" />

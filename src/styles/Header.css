@@ -1,4 +1,4 @@
 .blur-on-scroll {
-    backdrop-filter: blur(10px);
+    backdrop-filter: blur(4px);
     transition: backdrop-filter 0.9s ease-out;
 }
