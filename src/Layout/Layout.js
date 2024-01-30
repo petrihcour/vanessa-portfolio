@@ -9,9 +9,9 @@ import Skills from "../pages/Skills";
 
 function Layout() {
   return (
-    <div className="Layout" >
+    <div className="Layout">
       <Header />
-      <div>
+      <div className="p-5">
           <Home id="home" />
           <FeaturesAndTraits id="features-traits" />
           <Skills id="skills" />
