@@ -16,7 +16,7 @@ function QuestTemplate() {
       {QuestData.map((quest, index) => (
         <div
           key={index}
-          className={`quest-card ${expandedIndex === index ? "expanded" : ""} pe-1`}
+          className={`quest-card ${expandedIndex === index ? "expanded" : ""} pe-3`}
           onClick={() => handleCardClick(index)}
         >
           <Card style={{ height: "300px" /* Set a fixed height for each card */ }}>
