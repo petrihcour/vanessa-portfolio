@@ -5,7 +5,9 @@ import React from "react";
 
 function Sending() {
     return (
-        <h2 className="text-center" id="sending">Sending</h2>
+        <div id="sending">
+        <h2 className="text-center">Sending</h2>
+        </div>
     )
 }
 
