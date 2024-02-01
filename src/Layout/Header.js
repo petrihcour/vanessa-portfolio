@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { Link } from "react-scroll";
-import MobileNav from "./Nav";
+import Nav from "./Nav";
 import "../styles/Header.css";
 
 function Header() {
@@ -35,7 +35,7 @@ function Header() {
         </div>
 
         <div className="ms-auto">
-          <MobileNav />
+          <Nav />
         </div>
       </div>
     </nav>

@@ -7,12 +7,12 @@ import "../styles/Nav.css";
 // add design a little bit later. possible gold trim. adjust font for slighlty more ancient feeling
 // small animations for buttons / links / menu
 
-function MobileNav() {
+function Nav() {
   return (
     <div className="d-flex justify-content-end">
       <Link to="features-traits" smooth duration={500} className="navbar-brand">
         <div className="nav-item">
-          <div className="pe-1">about,</div>
+          <div className="pe-1">features & traits,</div>
         </div>
       </Link>
       <Link to="skills" smooth duration={500} className="navbar-brand ">
@@ -34,4 +34,4 @@ function MobileNav() {
   );
 }
 
-export default MobileNav;
+export default Nav;
