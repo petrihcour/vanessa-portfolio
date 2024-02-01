@@ -4,6 +4,7 @@ import emailjs from "@emailjs/browser";
 export const Sending = () => {
   const formRef = useRef();
   const [form, setForm] = useState({ name: "", email: "", message: "" });
+  const [loading, setLoading] = useState(false);
 
   const handleChange = (event) => {
     const { name, value } = event.target;
@@ -13,28 +14,33 @@ export const Sending = () => {
     });
   };
 
-  const sendEmail = (e) => {
-    e.preventDefault();
+  const handleSubmit = (event) => {
+    event.preventDefault();
+    setLoading(true);
 
     emailjs
       .sendForm(
         "service_2l8691d",
         "template_xxnpv2p",
-        {
-          from_name: form.name,
-          to_name: "Vanessa",
-          from_email: form.email,
-          to_email: "letitbe24@yahoo.com",
-          message: form.message,
-        },
+        formRef.current,
         "TCLTbBBqLyWifVTbK"
       )
       .then(
-        (result) => {
-          console.log(result.text);
+        () => {
+          setLoading(false);
+          alert(
+            "Thank you for your message. I will get back to you as soon as possible."
+          );
+          setForm({
+            name: "",
+            email: "",
+            message: "",
+          });
         },
         (error) => {
-          console.log(error.text);
+          setLoading(false);
+          console.log(error);
+          alert("Something went wrong. Please try again.");
         }
       );
   };
@@ -42,7 +48,7 @@ export const Sending = () => {
   return (
     <div id="sending" className="mt-5">
       <h2 className="text-center">Sending</h2>
-      <form ref={formRef} className="card" onSubmit={sendEmail}>
+      <form ref={formRef} className="card" onSubmit={handleSubmit}>
         <div className="card-body">
           <div className="mb-3">
             <label htmlFor="formGroupExampleInput" className="form-label">
@@ -87,7 +93,7 @@ export const Sending = () => {
             ></textarea>
           </div>
           <button type="submit" className="btn btn-primary">
-            send
+          {loading ? "sending" : "send"}
           </button>
         </div>
       </form>
