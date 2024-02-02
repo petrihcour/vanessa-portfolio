@@ -17,22 +17,19 @@ function Home() {
             />
           </div>
           <div className="col-md-6">
-            <h1 className="mb-4 display-1">Character Sheet</h1>
+            <h1 className="mb-4 display-1">I'm Vanessa.</h1>
             <ul className="list-unstyled">
               <li>
-                <strong>Name:</strong> Vanessa
+               Human.
               </li>
               <li>
-                <strong>Race:</strong> Human
+                Sorcerer.
               </li>
               <li>
-                <strong>Class:</strong> Sorcerer
+               Software Developer.
               </li>
               <li>
-                <strong>Background:</strong> Software Developer
-              </li>
-              <li>
-                <strong>Alignment:</strong> Chaotic Creative
+                Chaotic Creative.
               </li>
             </ul>
           </div>
