@@ -1,0 +1,9 @@
+.nav-item {
+    font-size: 12px;
+}
+
+@media (min-width: 768px) {
+    .nav-item {
+      font-size: 14px;
+    }
+  }

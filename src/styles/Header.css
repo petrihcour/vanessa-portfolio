@@ -4,13 +4,16 @@
 }
 
 .logo {
-    width: 100%;
+    width: 90%;
 }
 
-/* Custom CSS */
+.header {
+    font-size: 15px;
+    margin-top: 11px;
+}
+
 @media (min-width: 768px) {
     .logo {
-      width: 25%;
-      max-width: none; /* Reset max-width if needed */
+      width: 100px;
     }
   }
