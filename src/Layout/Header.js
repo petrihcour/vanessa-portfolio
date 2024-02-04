@@ -23,22 +23,18 @@ function Header() {
     <nav
       className={`sticky-top bg-transparent border-bottom border-dark ${
         scrolling ? "blur-on-scroll" : ""
-      }`}
+      }`} 
     >
-      <div className="container-fluid">
-        <div className="d-flex align-items-center">
-          <Link to="home" className="d-flex align-items-center link-dark link-underline link-underline-opacity-0">
-            <img
-              src={vanessaLogo}
-              alt="logo"
-              className="w-25"
-            />
-            <h6 className="mt-3 ms-2">SOFTWARE ENGINEER</h6>
-          </Link>
-          
-          <div className="ms-auto">
-            <Nav />
-          </div>
+      <div className="d-flex align-items-center" style={{height: "55px"}}>
+          <div className="d-flex flex-column flex-sm-row">
+            <Link to="home" className="d-flex align-items-center link-dark link-underline link-underline-opacity-0">
+              <img src={vanessaLogo} alt="logo" className="ms-1 logo"  />
+              <h6 className="my-auto d-none d-md-block">SOFTWARE ENGINEER</h6>
+            </Link>
+        </div>
+
+        <div className="ms-auto pe-3">
+          <Nav />
         </div>
       </div>
     </nav>

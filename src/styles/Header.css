@@ -2,3 +2,15 @@
     backdrop-filter: blur(4px);
     transition: backdrop-filter 0.9s ease-out;
 }
+
+.logo {
+    width: 100%;
+}
+
+/* Custom CSS */
+@media (min-width: 768px) {
+    .logo {
+      width: 25%;
+      max-width: none; /* Reset max-width if needed */
+    }
+  }
