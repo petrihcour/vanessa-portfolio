@@ -2,6 +2,7 @@ import React, { useEffect, useState } from "react";
 import { Link } from "react-scroll";
 import Nav from "./Nav";
 import "../styles/Header.css";
+import vanessaLogo from "../images/logo/vanessa-logo.png";
 
 function Header() {
   const [scrolling, setScrolling] = useState(false);
@@ -24,18 +25,20 @@ function Header() {
         scrolling ? "blur-on-scroll" : ""
       }`}
     >
-      <div className="d-flex align-items-center p-3">
-        <div className="d-flex align-items-center justify-content-start">
-          <div className="d-flex flex-column flex-sm-row">
-            <Link to="home">
-              <h6 className="mb-0">Vanessa Garcia</h6>
-            </Link>
-            <h6 className="mb-0 ms-sm-4">SOFTWARE ENGINEER</h6>
+      <div className="container-fluid">
+        <div className="d-flex align-items-center">
+          <Link to="home" className="d-flex align-items-center link-dark link-underline link-underline-opacity-0">
+            <img
+              src={vanessaLogo}
+              alt="logo"
+              className="w-25"
+            />
+            <h6 className="mt-3 ms-2">SOFTWARE ENGINEER</h6>
+          </Link>
+          
+          <div className="ms-auto">
+            <Nav />
           </div>
-        </div>
-
-        <div className="ms-auto">
-          <Nav />
         </div>
       </div>
     </nav>

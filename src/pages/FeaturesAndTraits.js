@@ -27,32 +27,30 @@ function FeaturesAndTraits() {
           <div id="adventuring" className="dnd-section">
             <h3>Adventuring 🗡️</h3>
             <p>
-              In the enchanted matrix of technology, I've mastered the arcane
-              languages of JavaScript, React, HTML, CSS, Node.js, and Express. I
-              use these languages to help me create things that transcend the
-              physical world. My journey isn't only about writing code; it's a
-              tale of leadership, complex problem-solving, and blending the art
-              of software development with wisdom gained from over five years in
-              leadership roles.
+              I've found a home in the world of technology, where JavaScript,
+              React, HTML, CSS, Bootstrap, Node.js, and Express are my comfort.
+              I use these languages to create things that transcend the physical
+              world, with equal focus on beauty and functionality. In my
+              journey, there's a tale of perfect harmonies, blending my
+              background in leadership, project management, and intricate
+              problem solving with software development, resulting in a unique
+              mixture of skills and perspective.
             </p>
           </div>
           <div id="downtime" className="dnd-section">
             <h3>Downtime 🌄</h3>
             <p>
-              Beyond the realms of code, I'm a traveler looking to adventure far
-              and wide throughout the lands of our Earth. I love experiencing live music, eating delicious vegan food, and (if you can't tell) healthily obsessing over my favorite past time, Dungeons & Dragons.
+              Beyond coding, I'm a traveler seeking adventure far
+              and wide across the Earth. I love experiencing
+              live music, eating delicious vegan food, and (if you can't tell)
+              healthily obsessing over my favorite pastime—Dungeons &
+              Dragons.
             </p>
           </div>
           <div id="future" className="dnd-section">
             <h3>Future 🔮</h3>
             <p>
-              Join me on this quest! If you're looking for an adventurer with a
-              love for technolody, strong collaboration spirit, and a penchant
-              for delivering impactful results, let's embark on an adventure
-              together. Connect with me on LinkedIn, explore my coding quests on
-              GitHub, or simply send me a message below. Together, we'll weave
-              the magic of technology and create experiences that resonate
-              across the digital realms!
+              If you're looking for an adventurer with an admiration for technology, an excitement for building meaningful connections and collaboration, and a history of delivering impactful results, let's go on an adventure together! You can connect with me on LinkedIn, explore my coding quests on GitHub, or simply send me a message below. We'll weave the magic of technology together and create experiences that reverberate across the internet.
             </p>
           </div>
         </div>

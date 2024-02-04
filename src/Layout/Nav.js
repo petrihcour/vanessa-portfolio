@@ -9,7 +9,7 @@ import "../styles/Nav.css";
 
 function Nav() {
   return (
-    <div className="d-flex justify-content-end">
+    <div className="d-flex">
       <Link to="features-traits" smooth duration={500} className="navbar-brand">
         <div className="nav-item">
           <div className="pe-1">features & traits,</div>

@@ -26,7 +26,7 @@ function Home() {
                 Sorcerer.
               </li>
               <li>
-               Software Developer.
+               Software Engineer.
               </li>
               <li>
                 Chaotic Creative.
