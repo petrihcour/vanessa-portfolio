@@ -1,24 +1,23 @@
 import React from "react";
 import featuresAndTraits from "../images/featuresAndTraits.jpeg";
 
-//  small photo, name, class, level, subclass (software developer), brief introduction
-// possible stats str, dex, wis, cha, int, con as buttons to click to read details below. (unsure about this part)
+// add animation for the unstyled list. shift one word at a time
 
 function Home() {
   return (
     <div id="home">
       <div className="container">
         <div className="row align-items-center">
-          <div className="col-md-6">
+          <div className="col-md-6 mt-5">
             <img
               src={featuresAndTraits}
               alt="AI representation of Vanessa"
-              className="w-100 rounded-circle border border-secondary-subtle p-2"
+              className="img-fluid rounded-circle border border-secondary-subtle"
             />
           </div>
           <div className="col-md-6">
-            <h1 className="mb-4 display-1">I'm Vanessa.</h1>
-            <ul className="list-unstyled">
+            <h1 className="display-1 text-center">I'm Vanessa.</h1>
+            <ul className="list-unstyled text-center">
               <li>
                Human.
               </li>

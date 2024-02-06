@@ -11,7 +11,7 @@ function Layout() {
   return (
     <div className="Layout">
       <Header />
-        <div className="bg-home pt-5 pb-5">
+        <div className="bg-home">
           <Home id="home" />
         </div>
         <div className="bg-featuresAndTraits">

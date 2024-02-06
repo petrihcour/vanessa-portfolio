@@ -1,1 +1,6 @@
-
+.bg-home {
+    border: red 1px solid;
+    height: 100vh;
+    background-image: url("https://wallpapercave.com/wp/61oU8Bu.jpg");
+    background-size: cover;
+}
