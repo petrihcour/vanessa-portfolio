@@ -11,23 +11,21 @@ function Layout() {
   return (
     <div className="Layout">
       <Header />
-      <div className="page-container">
-        <div className="section-container">
+        <div className="bg-home pt-5 pb-5">
           <Home id="home" />
         </div>
-        <div className="section-container">
+        <div className="bg-featuresAndTraits">
           <FeaturesAndTraits id="features-traits" />
         </div>
-        <div className="section-container">
+        <div className="bg-skills">
           <Skills id="skills" />
         </div>
-        <div className="section-container">
+        <div className="bg-quests">
           <Quests id="quests" />
         </div>
-        <div className="section-container">
+        <div className="bg-sending">
           <Sending id="sending" />
         </div>
-      </div>
     </div>
   );
 }

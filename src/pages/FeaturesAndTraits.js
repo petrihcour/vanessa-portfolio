@@ -3,7 +3,7 @@ import "../styles/FeaturesAndTraits.css";
 
 function FeaturesAndTraits() {
   return (
-    <div id="features-traits">
+    <div id="features-traits" className="pt-5">
       <div className="dnd-header">
         <h2 className="text-center">🌟 FEATURES & TRAITS 🌟</h2>
       </div>

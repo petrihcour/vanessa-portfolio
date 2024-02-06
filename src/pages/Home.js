@@ -6,7 +6,7 @@ import featuresAndTraits from "../images/featuresAndTraits.jpeg";
 
 function Home() {
   return (
-    <div id="home" className="p-5">
+    <div id="home">
       <div className="container">
         <div className="row align-items-center">
           <div className="col-md-6">
