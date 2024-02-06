@@ -1,36 +1,37 @@
 import React from "react";
-import featuresAndTraits from "../images/featuresAndTraits.jpeg";
+import vanessa from "../images/vanessa.jpeg";
+import "../styles/Home.css";
 
 // add animation for the unstyled list. shift one word at a time
 
 function Home() {
   return (
     <div id="home">
-      <div className="container">
+      <div className="container home">
         <div className="row align-items-center">
-          <div className="col-md-6 mt-5">
-            <img
-              src={featuresAndTraits}
-              alt="AI representation of Vanessa"
-              className="img-fluid rounded-circle border border-secondary-subtle"
-            />
-          </div>
-          <div className="col-md-6">
-            <h1 className="display-1 text-center">I'm Vanessa.</h1>
+          <div className="col-lg-6">
+            <h1 className="display-1 text-center">I AM VANESSA</h1>
             <ul className="list-unstyled text-center">
               <li>
-               Human.
+               HUMAN
               </li>
               <li>
-                Sorcerer.
+                SORCERER
               </li>
               <li>
-               Software Engineer.
+               SOFTWARE ENGINEER
               </li>
               <li>
-                Chaotic Creative.
+                CHAOTIC CREATIVE
               </li>
             </ul>
+          </div>
+          <div className="col-lg-6 text-center">
+            <img
+              src={vanessa}
+              alt="AI representation of Vanessa"
+              className="w-75 border border-5 rounded-circle rounded-bottom-0 mt-3"
+            />
           </div>
         </div>
       </div>
