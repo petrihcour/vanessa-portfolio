@@ -10,11 +10,11 @@
 .header {
     font-size: 15px;
     margin-top: 11px;
-    color: #A7ADC6;
+    color: #E9F2FF;
 }
 
 .header-border {
-    color: #A7ADC6;
+    color: #E9F2FF;
 }
 
 @media (min-width: 768px) {

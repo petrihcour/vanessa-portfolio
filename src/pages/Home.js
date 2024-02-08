@@ -10,21 +10,11 @@ function Home() {
       <div className="container home">
         <div className="row align-items-center">
           <div className="col-lg-6">
-            <h1 className="display-1 text-center">I AM VANESSA</h1>
-            <ul className="list-unstyled text-center">
-              <li>
-               HUMAN
-              </li>
-              <li>
-                SORCERER
-              </li>
-              <li>
-               SOFTWARE ENGINEER
-              </li>
-              <li>
-                CHAOTIC CREATIVE
-              </li>
-            </ul>
+            <h5 className="text-center">GREETINGS, TRAVELERS</h5>
+            <h1 className="text-center">I AM VANESSA</h1>
+            <p className="list-unstyled text-center">
+              human, sorcerer, software engineer, chaotic creative
+            </p>
           </div>
           <div className="col-lg-6 text-center">
             <img

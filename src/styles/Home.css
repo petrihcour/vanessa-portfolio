@@ -1,21 +1,39 @@
 .home {
-    margin-top: 50%;
+  margin-top: 30%;
 }
 
 .vanessa-image {
   max-width: 75%;
+  max-height: 70vh;
 }
 
-ul, .display-1 {
-    color: #A7ADC6;
+h1 {
+  font-family: "Bigelow Rules", serif;
+  font-weight: 600;
+  font-size: 80px;
+  font-style: normal;
+  color: #878da5;
+}
+
+h5, p {
+  color: #e9f2ff;
 }
 
 @media (min-width: 768px) {
-    .home {
-      margin-top: 10%;
-    }
-
-    .vanessa-image {
-      max-width: 100%;
-    }
+  .home {
+    margin-top: 12%;
   }
+
+  h1 {
+    font-family: "Bigelow Rules", serif;
+    font-weight: 600;
+    font-size: 100px;
+    font-style: normal;
+    color: #878da5;
+  }
+
+  .vanessa-image {
+    max-width: 100%;
+    max-height: 65vh;
+  }
+}
