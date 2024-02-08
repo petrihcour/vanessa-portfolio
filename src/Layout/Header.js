@@ -21,7 +21,7 @@ function Header() {
 
   return (
     <nav
-      className={`fixed-top bg-transparent border-bottom border-light text-light ${
+      className={`fixed-top bg-transparent border-bottom border-light header-border ${
         scrolling ? "blur-on-scroll" : ""
       }`} 
     >
@@ -29,7 +29,7 @@ function Header() {
           <div className="d-flex flex-column flex-sm-row">
             <Link to="home" className="d-flex align-items-center link-dark link-underline link-underline-opacity-0">
               <img src={vanessaLogo} alt="logo" className="ms-1 logo"  />
-              <h6 className="fw-light d-none d-md-block header text-light">SOFTWARE ENGINEER</h6>
+              <h6 className="fw-light d-none d-md-block header">SOFTWARE ENGINEER</h6>
             </Link>
         </div>
 

@@ -6,7 +6,7 @@ import "../styles/Home.css";
 
 function Home() {
   return (
-    <div id="home">
+    <div id="home" className="">
       <div className="container home">
         <div className="row align-items-center">
           <div className="col-lg-6">
@@ -30,7 +30,7 @@ function Home() {
             <img
               src={vanessa}
               alt="AI representation of Vanessa"
-              className="w-75 border border-5 rounded-circle rounded-bottom-0 mt-3"
+              className="vanessa-image border border-5 rounded-circle rounded-bottom-0"
             />
           </div>
         </div>

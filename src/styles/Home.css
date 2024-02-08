@@ -1,13 +1,21 @@
 .home {
-    margin-top: 25%;
+    margin-top: 50%;
+}
+
+.vanessa-image {
+  max-width: 75%;
 }
 
 ul, .display-1 {
-    color: #ECE5F0;
+    color: #A7ADC6;
 }
 
 @media (min-width: 768px) {
     .home {
       margin-top: 10%;
+    }
+
+    .vanessa-image {
+      max-width: 100%;
     }
   }
