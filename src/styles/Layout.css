@@ -1,7 +1,11 @@
 .bg-home {
-    border: solid;
     height: 100vh;
     background-image: url("../images/background/home-background.jpg");
     background-size: cover;
+    display: flex;
+}
+
+.bg-featuresAndTraits {
+    height: 100vh;
     display: flex;
 }
