@@ -1,11 +1,12 @@
-.bg-home {
+.bg-home, .bg-quests, .bg-sending {
     height: 100vh;
     background-image: url("../images/background/home-background.jpg");
     background-size: cover;
+    background-attachment: fixed;
     display: flex;
 }
 
-.bg-featuresAndTraits {
+.bg-featuresAndTraits, .bg-skills {
     height: 100vh;
     display: flex;
 }
