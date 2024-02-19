@@ -3,8 +3,8 @@ import skillsData from "../skills-data/SkillsData";
 import SkillsTemplate from "../skills-data/SkillsTemplate";
 import "../styles/Skills.css";
 
-// maybe frame the card for added design 
-// add dice rolling for bonuses for fun 
+
+// add dice rolling for bonuses for fun after hitting button
 
 function Skills() {
   const dottedUnderlineStyle = {
