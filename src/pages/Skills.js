@@ -1,5 +1,6 @@
 import React from "react";
 import skillsData from "../skills-data/SkillsData";
+import SkillsTemplate from "../skills-data/SkillsTemplate";
 import "../styles/Skills.css";
 
 // maybe frame the card for added design 
@@ -12,11 +13,12 @@ function Skills() {
   };
 
   return (
-    <div className="p-3" id="skills">
-      <h2 className="text-center p-3">SKILLS</h2>
-
+    <div id="skills" className="d-flex align-items-center mx-auto">
+      <div className="row">
+      <h2 className="text-center">SKILLS</h2>
+      <SkillsTemplate />
       <div
-        className="card mx-auto"
+        className="card"
         style={{ maxWidth: "650px" }}
       >
         <div className="card-body">
@@ -76,6 +78,7 @@ function Skills() {
             </tbody>
           </table>
         </div>
+      </div>
       </div>
     </div>
   );
