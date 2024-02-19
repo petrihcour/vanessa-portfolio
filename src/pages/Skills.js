@@ -16,7 +16,7 @@ function Skills() {
       <h2 className="text-center p-3">SKILLS</h2>
 
       <div
-        className="card mx-auto bg-transparent border-dark"
+        className="card mx-auto"
         style={{ maxWidth: "650px" }}
       >
         <div className="card-body">
