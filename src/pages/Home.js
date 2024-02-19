@@ -7,10 +7,10 @@ function Home() {
     <div id="home" className="container d-flex align-items-center justify-content-center">
       <div className="row d-flex align-items-center mt-5">
         <div className="col-md-6 pt-3">
-          <h5 className="text-center">GREETINGS, TRAVELERS</h5>
+          <h3 className="text-center">GREETINGS, TRAVELERS</h3>
           <h1 className="text-center">I AM VANESSA</h1>
           <p className="list-unstyled text-center">
-            a human, sorcerer, software engineer, chaotic creative
+            a human, sorcerer, software engineer, chaotic creative, cat mom
           </p>
         </div>
         <div className="col-md-6 text-center">
