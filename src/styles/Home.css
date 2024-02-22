@@ -3,17 +3,17 @@
 } */
 
 .vanessa-image {
-  max-width: 75%;
-  max-height: 60vh;
+  max-width: 65%;
+  max-height: 40vh;
 }
 
 .title {
   font-family: "Antonio", sans-serif;
   font-optical-sizing: auto;
   font-weight: 300;
-  font-size: 200px;
-  letter-spacing: -8px;
-  word-spacing: -20px;
+  font-size: 80px;
+  letter-spacing: -4px;
+  word-spacing: -5px;
   color: #e9f2ff;
 }
 
@@ -21,7 +21,7 @@
   font-family: "Cormorant Unicase", serif;
   font-weight: 600;
   font-style: normal;
-  font-size: 26px;
+  font-size: 20px;
   color: #878da5;
 }
 
@@ -30,11 +30,7 @@ p {
 }
 
 @media (min-width: 768px) {
-  /* .home {
-    margin-top: 12%;
-  } */
-
-/* .title {
+.title {
   font-family: "Antonio", sans-serif;
   font-optical-sizing: auto;
   font-weight: 300;
@@ -42,7 +38,15 @@ p {
   letter-spacing: -8px;
   word-spacing: -20px;
   color: #e9f2ff;
-  } */
+  }
+
+  .accent {
+    font-family: "Cormorant Unicase", serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 26px;
+    color: #878da5;
+  }
 
   .vanessa-image {
     max-width: 100%;

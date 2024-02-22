@@ -12,7 +12,7 @@ function QuestTemplate() {
   };
 
   return (
-    <div className="quest-container m-3">
+    <div className="m-3">
       {QuestData.map((quest, index) => (
         <div
           key={index}

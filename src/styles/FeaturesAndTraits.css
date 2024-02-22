@@ -1,5 +1,24 @@
-.body-text {
-  font-family: "Almarai", sans-serif;
+.features-traits-title {
+  font-family: "Antonio", sans-serif;
+  font-optical-sizing: auto;
   font-weight: 300;
-  font-style: normal;
+  font-size: 60px;
+  letter-spacing: -5px;
+  color: #e9f2ff;
+}
+
+
+@media (min-width: 768px) {
+
+  .features-traits-title {
+    font-size: 120px;
+  }
+
+  .body-text {
+    font-family: "Almarai", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 18px;
+    width: 75%;
+  }
 }

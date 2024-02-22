@@ -8,7 +8,7 @@ function Home() {
       id="home"
       className="container d-flex align-items-center justify-content-center"
     >
-      <div className="row d-flex align-items-cnter mt-5">
+      <div className="row mt-5 d-flex align-items-center">
         <div className="col-md-6 pt-3">
           <p className="accent">
             a human, sorcerer, software engineer, chaotic creative, cat mom

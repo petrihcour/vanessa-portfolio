@@ -1,11 +1,5 @@
 /* QuestTemplate.css */
 
-.quest-container {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    margin: 12px;
-  }
   
   .quest-card {
     width: 200px; /* Adjust the width as needed */

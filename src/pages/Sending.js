@@ -46,7 +46,7 @@ export const Sending = () => {
   };
 
   return (
-    <div id="sending" className="mt-5">
+    <div id="sending" className="mt-5 container">
       <h2 className="text-center">Sending</h2>
       <form ref={formRef} className="card" onSubmit={handleSubmit}>
         <div className="card-body">

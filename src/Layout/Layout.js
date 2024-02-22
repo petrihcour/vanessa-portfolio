@@ -17,7 +17,7 @@ function Layout() {
         <div className="bg-featuresAndTraits">
           <FeaturesAndTraits id="features-traits" />
         </div>
-        <div className="bg-skills bg-dark text-light">
+        <div className="bg-skills">
           <Skills id="skills" />
         </div>
         <div className="bg-quests">
