@@ -2,7 +2,6 @@ import React, { useEffect, useState } from "react";
 import { Link } from "react-scroll";
 import Nav from "./Nav";
 import "../styles/Header.css";
-import vanessaLogo from "../images/logo/vanessa-logo.png";
 
 function Header() {
   const [scrolling, setScrolling] = useState(false);
@@ -30,11 +29,11 @@ function Header() {
             <Link to="home" className="d-flex align-items-center link-dark link-underline link-underline-opacity-0">
               {/* <img src={vanessaLogo} alt="logo" className="ms-1 logo"  /> */} 
               <h6 className="text-light ms-3 me-3 header-name">vanessa garcia</h6>
-              <h6 className="fw-light d-none d-sm-block header">SOFTWARE ENGINEER</h6>
+              <h6 className="d-none d-sm-block header">SOFTWARE ENGINEER</h6>
             </Link>
         </div>
 
-        <div className="ms-auto pe-3 fw-light">
+        <div className="ms-auto pe-3 header">
           <Nav />
         </div>
       </div>
