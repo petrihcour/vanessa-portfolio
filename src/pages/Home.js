@@ -5,11 +5,11 @@ import "../styles/Home.css";
 function Home() {
   return (
     <div id="home" className="container d-flex align-items-center justify-content-center">
-      <div className="row d-flex align-items-center mt-5">
+      <div className="row d-flex align-items-cnter mt-5">
         <div className="col-md-6 pt-3 text-center">
-          <h3 className="">GREETINGS, TRAVELERS</h3>
+          <p className="accent">greetings, travelers</p>
           <h1 className="">I AM VANESSA</h1>
-          <p>
+          <p className="accent">
             a human, sorcerer, software engineer, chaotic creative, cat mom
           </p>
         </div>
