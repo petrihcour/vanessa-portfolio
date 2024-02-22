@@ -1,17 +1,20 @@
 import React from "react";
 import vanessa from "../images/vanessa.jpeg";
-import "../styles/Home.css"; 
+import "../styles/Home.css";
 
 function Home() {
   return (
-    <div id="home" className="container d-flex align-items-center justify-content-center">
+    <div
+      id="home"
+      className="container d-flex align-items-center justify-content-center"
+    >
       <div className="row d-flex align-items-cnter mt-5">
         <div className="col-md-6 pt-3">
-          <p className="accent">greetings, travelers</p>
-          <h1 className="title">I AM VANESSA</h1>
           <p className="accent">
             a human, sorcerer, software engineer, chaotic creative, cat mom
           </p>
+          <h1 className="title">I AM</h1>
+          <h1 className="title"> VANESSA</h1>
         </div>
         <div className="col-md-6 text-center">
           <img

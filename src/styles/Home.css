@@ -34,13 +34,15 @@ p {
     margin-top: 12%;
   } */
 
-  h1 {
-    font-family: "Bigelow Rules", serif;
-    font-weight: 600;
-    font-size: 100px;
-    font-style: normal;
-    color: #878da5;
-  }
+/* .title {
+  font-family: "Antonio", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-size: 200px;
+  letter-spacing: -8px;
+  word-spacing: -20px;
+  color: #e9f2ff;
+  } */
 
   .vanessa-image {
     max-width: 100%;

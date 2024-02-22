@@ -10,6 +10,7 @@ function FeaturesAndTraits() {
       <div className="w-75">
         <h2 className="text-center">FEATURES & TRAITS</h2>
         <h5 className="text-center accent">my adventures</h5>
+        <p className="accent">greetings, travelers</p>
         <div className="text-uppercase body-text">
         <p>
           I've found a home in the world of technology, where JavaScript, React,
