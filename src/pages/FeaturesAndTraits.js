@@ -5,7 +5,7 @@ function FeaturesAndTraits() {
   return (
     <div
       id="features-traits"
-      className="container bg-dark text-light"
+      className="container"
     >
       <div className="md-w-75">
         <h2 className="features-traits-title">FEATURES & TRAITS</h2>

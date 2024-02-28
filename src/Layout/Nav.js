@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-scroll";
-import "../styles/Nav.css";
+import "../styles/Header.css";
 
 function Nav() {
   const navItems = [
@@ -11,7 +11,7 @@ function Nav() {
   ];
 
   return (
-    <div className="d-flex ">
+    <div className="d-flex">
       {navItems.map((item, index) => (
         <Link
           key={index}

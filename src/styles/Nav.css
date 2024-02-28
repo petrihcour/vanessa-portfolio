@@ -1,9 +1,0 @@
-.nav-link {
-    font-size: 12px;
-}
-
-@media (min-width: 768px) {
-    .nav-link {
-      font-size: 14px;
-    }
-  }
