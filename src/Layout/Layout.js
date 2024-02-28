@@ -14,10 +14,10 @@ function Layout() {
         <div className="bg-home">
           <Home id="home" />
         </div>
-        <div className="bg-featuresAndTraits">
+        <div className="bg-featuresAndTraits bg-dark">
           <FeaturesAndTraits id="features-traits" />
         </div>
-        <div className="bg-skills">
+        <div className="bg-skills bg-dark">
           <Skills id="skills" />
         </div>
         <div className="bg-quests">
