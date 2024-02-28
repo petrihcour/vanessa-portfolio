@@ -3,27 +3,31 @@
 .bg-sending,
 .bg-featuresAndTraits,
 .bg-skills {
-    height: 100vh;
-    background-image: url("../images/background/home-background.jpg");
-    background-size: cover;
-    background-attachment: fixed;
-    display: flex;
-    flex-direction: column; /* Stack children vertically */
-    justify-content: center; /* Center children vertically */
+  background-image: url("../images/background/home-background.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+  display: flex;
+  flex-direction: column; /* Stack children vertically */
+  justify-content: center; /* Center children vertically */
 }
 
-
 .body-text {
-    font-family: "Almarai", sans-serif;
-    font-weight: 300;
-    font-size: 16px;
-    font-style: normal;
-  }
-
+  font-family: "Almarai", sans-serif;
+  font-weight: 300;
+  font-size: 16px;
+  font-style: normal;
+}
 
 @media (min-width: 768px) {
-    .bg-skills {
+  /* .bg-skills {
         display: flex;
         align-items: flex-start;
-    }
+    } */
+  .bg-home,
+  .bg-quests,
+  .bg-sending,
+  .bg-featuresAndTraits,
+  .bg-skills {
+    height: 100vh;
+  }
 }

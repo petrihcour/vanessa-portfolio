@@ -6,9 +6,9 @@ function Home() {
   return (
     <div
       id="home"
-      className="container d-flex align-items-center justify-content-center"
+      className="container"
     >
-      <div className="row mt-5 d-flex align-items-center">
+      <div className="row mt-5">
         <div className="col-md-6 pt-3">
           <p className="accent">
             a human, sorcerer, software engineer, chaotic creative, cat mom
