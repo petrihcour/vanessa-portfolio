@@ -32,7 +32,7 @@ function Header() {
           >
             vanessa garcia
           </Link>
-          <span className="d-none d-sm-block header">SOFTWARE ENGINEER</span>
+          <span className="ps-3 d-none d-sm-block header">SOFTWARE ENGINEER</span>
         </div>
 
         <div className="header">
