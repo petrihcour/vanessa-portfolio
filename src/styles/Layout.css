@@ -3,9 +3,6 @@
 .bg-sending,
 .bg-featuresAndTraits,
 .bg-skills {
-  background-image: url("../images/background/home-background.jpg");
-  background-size: cover;
-  background-attachment: fixed;
   display: flex;
   flex-direction: column; /* Stack children vertically */
   justify-content: center; /* Center children vertically */
