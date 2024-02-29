@@ -3,7 +3,7 @@
 } */
 
 .vanessa-image {
-  max-width: 65%;
+  max-width: 100%;
   max-height: 40vh;
 }
 
@@ -11,7 +11,7 @@
   font-family: "Antonio", sans-serif;
   font-optical-sizing: auto;
   font-weight: 300;
-  font-size: 80px;
+  font-size: 90px;
   letter-spacing: -4px;
   word-spacing: -5px;
   color: #e9f2ff;
@@ -21,7 +21,7 @@
   font-family: "Cormorant Unicase", serif;
   font-weight: 600;
   font-style: normal;
-  font-size: 20px;
+  font-size: 22px;
   color: #878da5;
 }
 
@@ -49,7 +49,6 @@ p {
   }
 
   .vanessa-image {
-    max-width: 100%;
     max-height: 65vh;
   }
 }

@@ -11,12 +11,12 @@ function Home() {
       <div className="row mt-5">
         <div className="col-md-6 pt-3">
           <p className="accent">
-            a human, sorcerer, software engineer, chaotic creative, cat mom
+            human, sorcerer, software engineer, chaotic creative, cat mom
           </p>
           <h1 className="title">I AM</h1>
           <h1 className="title"> VANESSA</h1>
         </div>
-        <div className="col-md-6 text-center">
+        <div className="col-md-6 d-flex justify-content-end">
           <img
             src={vanessa}
             alt="AI representation of Vanessa"

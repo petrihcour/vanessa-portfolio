@@ -5,7 +5,6 @@
 .bg-skills {
   display: flex;
   flex-direction: column; /* Stack children vertically */
-  justify-content: center; /* Center children vertically */
 }
 
 .body-text {
@@ -20,11 +19,11 @@
         display: flex;
         align-items: flex-start;
     } */
-  .bg-home,
+  /* .bg-home,
   .bg-quests,
   .bg-sending,
   .bg-featuresAndTraits,
   .bg-skills {
     height: 100vh;
-  }
+  } */
 }

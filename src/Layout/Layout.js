@@ -11,19 +11,19 @@ function Layout() {
   return (
     <div className="Layout">
       <Header />
-        <div className="bg-home">
+        <div className="bg-home min-vh-100">
           <Home id="home" />
         </div>
-        <div className="bg-featuresAndTraits bg-dark">
+        <div className="bg-featuresAndTraits bg-dark min-vh-100">
           <FeaturesAndTraits id="features-traits" />
         </div>
-        <div className="bg-skills bg-dark">
+        <div className="bg-skills bg-dark min-vh-100">
           <Skills id="skills" />
         </div>
-        <div className="bg-quests">
+        <div className="bg-quests min-vh-100">
           <Quests id="quests" />
         </div>
-        <div className="bg-sending">
+        <div className="bg-sending min-vh-100">
           <Sending id="sending" />
         </div>
     </div>
