@@ -32,7 +32,7 @@ function Header() {
       }`}
     >
       <div className="container-fluid m-2 ps-sm-5 pe-sm-5">
-        <div className="d-flex flex-sm-row align-items-center">
+        <div className="d-flex flex-sm-row align-items-baseline">
           <Link
             to="home"
             className="header-name link-underline link-underline-opacity-0"

@@ -4,7 +4,8 @@
 .bg-featuresAndTraits,
 .bg-skills {
   display: flex;
-  flex-direction: column; /* Stack children vertically */
+  flex-direction: column;
+  justify-content: center;
 }
 
 .body-text {
