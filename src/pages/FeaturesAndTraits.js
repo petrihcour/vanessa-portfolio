@@ -1,4 +1,5 @@
 import React from "react";
+import vanessa from "../images/vanessa.jpeg";
 import "../styles/FeaturesAndTraits.css";
 
 function FeaturesAndTraits() {
@@ -7,10 +8,12 @@ function FeaturesAndTraits() {
       id="features-traits"
       className="container"
     >
-      <div className="md-w-75">
+      <div className="d-flex row md-w-75">
+        <div className="d-flex row">
         <h2 className="features-traits-title">FEATURES & TRAITS</h2>
-        <p className=" text-center accent">greetings, travelers</p>
-        <div className="text-uppercase body-text">
+        <p className="accent d-flex">greetings, travelers</p>
+        </div>
+        <div className="text-uppercase body-text col-md-6 w-50">
         <p>
           I've found a home in the world of technology, where JavaScript, React,
           HTML, CSS, Bootstrap, Node.js, and Express are my comfort. I use these
@@ -35,6 +38,13 @@ function FeaturesAndTraits() {
           weave the magic of technology together and create experiences that
           reverberate across the internet.
         </p>
+        </div>
+        <div className="col-md-6 d-flex justify-content-center">
+          <img
+            src={vanessa}
+            alt="AI representation of Vanessa"
+            className="vanessa-image border border-5 rounded-circle rounded-bottom-0 h-75"
+          />
         </div>
       </div>
     </div>
