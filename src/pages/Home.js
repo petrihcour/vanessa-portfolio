@@ -1,5 +1,4 @@
 import React from "react";
-import vanessa from "../images/vanessa.jpeg";
 import "../styles/Home.css";
 
 function Home() {
