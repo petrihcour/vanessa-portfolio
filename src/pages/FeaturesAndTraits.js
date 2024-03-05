@@ -15,9 +15,7 @@ function FeaturesAndTraits() {
         </div>
         <div className="text-uppercase body-text col-md-6 w-50">
         <p>
-          I've found a home in the world of technology, where JavaScript, React,
-          HTML, CSS, Bootstrap, Node.js, and Express are my comfort. I use these
-          languages to create things that transcend the physical world, with
+        I create things that transcend the physical world, with
           equal focus on beauty and functionality. In my journey, there's a tale
           of perfect harmonies, blending my background in leadership, project
           management, and intricate problem solving with software development,

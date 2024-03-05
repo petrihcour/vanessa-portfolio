@@ -21,8 +21,9 @@
   color: #878da5;
 }
 
-p {
+.home-text {
   color: #e9f2ff;
+  font-size: 14px;
 }
 
 @media (min-width: 768px) {
