@@ -7,7 +7,7 @@ function Home() {
       <div className="d-flex flex-column flex-sm-row">
         <div className="col-sm-6">
         <p className="accent home-accent">
-          human, sorcerer, software engineer, chaotic creative, cat mom
+          sorcerer, software engineer, chaotic creative, cat mom, developer
         </p>
         <h1 className="home-title text-uppercase col-sm-6">
           <div className="home-i-am">I am</div>
