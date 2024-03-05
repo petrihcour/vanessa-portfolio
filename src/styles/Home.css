@@ -24,17 +24,19 @@
 .home-text {
   color: #e9f2ff;
   font-size: 14px;
+  font-family: "Almarai", sans-serif;
+  font-weight: 400;
 }
 
 @media (min-width: 768px) {
-.home-title {
-  font-family: "Antonio", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: 300;
-  font-size: 200px;
-  letter-spacing: -8px;
-  word-spacing: -20px;
-  color: #e9f2ff;
+  .home-title {
+    font-family: "Antonio", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-size: 200px;
+    letter-spacing: -8px;
+    word-spacing: -20px;
+    color: #e9f2ff;
   }
 
   .accent {
