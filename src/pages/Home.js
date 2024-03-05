@@ -9,8 +9,8 @@ function Home() {
           human, sorcerer, software engineer, chaotic creative, cat mom
         </p>
         <h1 className="home-title text-uppercase">
-          <div>I am</div>
-          <div className="home-title-vanessa d-flex flex-column">
+          <div className="home-i-am">I am</div>
+          <div className="home-title-vanessa">
             Vanessa
           </div>
         </h1>

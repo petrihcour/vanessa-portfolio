@@ -27,20 +27,9 @@
 @media (min-width: 768px) {
   .accent {
     font-family: "Cormorant Unicase", serif;
-    font-weight: 600;
+    font-weight: 700;
     font-style: normal;
-    font-size: 26px;
+    font-size: 35px;
     color: #878da5;
   }
-  /* .bg-skills {
-        display: flex;
-        align-items: flex-start;
-    } */
-  /* .bg-home,
-  .bg-quests,
-  .bg-sending,
-  .bg-featuresAndTraits,
-  .bg-skills {
-    height: 100vh;
-  } */
 }

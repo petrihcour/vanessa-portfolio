@@ -10,6 +10,11 @@
   letter-spacing: -4px;
   word-spacing: -5px;
   color: #e9f2ff;
+  border: 1px red solid;
+}
+
+.home-i-am {
+  margin-left: -4px;
 }
 
 .home-title-vanessa {
@@ -24,6 +29,11 @@
 }
 
 @media (min-width: 768px) {
+
+  .home-accent {
+    margin-bottom: -50px;
+  }
+
   .home-title {
     font-family: "Antonio", sans-serif;
     font-optical-sizing: auto;
@@ -34,7 +44,16 @@
     color: #e9f2ff;
   }
 
-  .vanessa-image {
-    max-height: 65vh;
+  .home-i-am {
+    margin-left: -8px;
+  }
+
+  .home-title-vanessa {
+    margin-top: -50px;
+  }
+
+  .home-text {
+    font-size: 25px;
+    font-weight: 500;
   }
 }
