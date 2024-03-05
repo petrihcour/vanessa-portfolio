@@ -31,7 +31,7 @@ function Header() {
         scrolling ? "blur-on-scroll" : ""
       }`}
     >
-      <div className="container-fluid m-2 ps-sm-5 pe-sm-5">
+      <div className="container-fluid mt-2 mb-2 ps-sm-5 pe-sm-5">
         <div className="d-flex flex-sm-row align-items-baseline">
           <Link
             to="home"
