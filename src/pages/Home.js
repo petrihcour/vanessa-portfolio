@@ -5,12 +5,12 @@ function Home() {
   return (
     <div id="home" className="container">
       <div className="d-flex align-items-start flex-column">
-        <p className="accent mb-0">
+        <p className="accent home-accent">
           human, sorcerer, software engineer, chaotic creative, cat mom
         </p>
         <h1 className="home-title text-uppercase">
           <div>I am</div>
-          <div className="home-title-vanessa d-flex align-items-start flex-column">
+          <div className="home-title-vanessa d-flex flex-column">
             Vanessa
           </div>
         </h1>

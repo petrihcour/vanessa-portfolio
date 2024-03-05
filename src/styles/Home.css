@@ -1,3 +1,7 @@
+.home-accent {
+  margin-bottom: -25px;
+}
+
 .home-title {
   font-family: "Antonio", sans-serif;
   font-optical-sizing: auto;
@@ -10,15 +14,6 @@
 
 .home-title-vanessa {
   margin-top: -25px;
-  padding-left: 5px;
-}
-
-.accent {
-  font-family: "Cormorant Unicase", serif;
-  font-weight: 600;
-  font-style: normal;
-  font-size: 22px;
-  color: #878da5;
 }
 
 .home-text {
@@ -37,14 +32,6 @@
     letter-spacing: -8px;
     word-spacing: -20px;
     color: #e9f2ff;
-  }
-
-  .accent {
-    font-family: "Cormorant Unicase", serif;
-    font-weight: 600;
-    font-style: normal;
-    font-size: 26px;
-    color: #878da5;
   }
 
   .vanessa-image {

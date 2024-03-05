@@ -8,6 +8,14 @@
   justify-content: center;
 }
 
+.accent {
+  font-family: "Cormorant Unicase", serif;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 22px;
+  color: #878da5;
+}
+
 .body-text {
   color: #e9f2ff;
   font-family: "Almarai", sans-serif;
@@ -17,6 +25,13 @@
 }
 
 @media (min-width: 768px) {
+  .accent {
+    font-family: "Cormorant Unicase", serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 26px;
+    color: #878da5;
+  }
   /* .bg-skills {
         display: flex;
         align-items: flex-start;
