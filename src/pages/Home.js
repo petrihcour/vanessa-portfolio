@@ -6,15 +6,15 @@ function Home() {
     <div id="home" className="container">
       <div className="d-flex flex-column flex-sm-row">
         <div className="col-sm-6">
-        <p className="accent home-accent">
-          sorcerer, software engineer, chaotic creative, cat mom, developer
-        </p>
-        <h1 className="home-title text-uppercase col-sm-6">
-          <div className="home-i-am">I am</div>
-          <div className="home-title-vanessa">Vanessa</div>
-        </h1>
+          <p className="accent home-accent">
+            sorcerer, software engineer, chaotic creative, cat mom, developer
+          </p>
+          <h1 className="home-title text-uppercase">
+            <div className="home-i-am">I am</div>
+            <div className="home-title-vanessa">Vanessa</div>
+          </h1>
         </div>
-        <div className="home-text d-flex align-items-end text-uppercase col-sm-6">
+        <div className="home-text d-flex align-items-end text-uppercase row  align-content-end mb-sm-4">
           <p className="mt-3">
             <div className="text-end">I've found a home in technology,</div>
             where JavaScript, Node.js, React, HTML, CSS, and Bootstrap are my
@@ -22,7 +22,16 @@ function Home() {
             & Dragons, unbearably spicy food, and my cats - Salmon, Sharky, and
             Fishy.
           </p>
+          <div className="d-flex justify-content-end">
+        <button
+            type="button"
+            className="btn btn-transparent text-light border rounded-pill text-uppercase fs-4"
+          >
+            Cast Sending
+          </button>
         </div>
+        </div>
+        
       </div>
     </div>
   );
