@@ -3,7 +3,7 @@ import "../styles/Home.css";
 
 function Home() {
   return (
-    <div id="home" className="container">
+    <div id="home" className="d-flex m-sm-4">
       <div className="d-flex flex-column flex-sm-row">
         <div className="col-sm-6">
           <p className="accent home-accent">
@@ -14,7 +14,7 @@ function Home() {
             <div className="home-title-vanessa">Vanessa</div>
           </h1>
         </div>
-        <div className="home-text d-flex align-items-end text-uppercase row  align-content-end mb-sm-4">
+        <div className="home-text d-flex text-uppercase row align-content-end mb-sm-4">
           <p className="mt-3">
             <div className="text-end">I've found a home in technology,</div>
             where JavaScript, Node.js, React, HTML, CSS, and Bootstrap are my

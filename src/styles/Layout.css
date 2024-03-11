@@ -1,4 +1,9 @@
-.bg-home,
+.bg-home {
+  display: flex;
+  align-items: center;
+}
+
+
 .bg-quests,
 .bg-sending,
 .bg-featuresAndTraits,
