@@ -4,7 +4,7 @@ import "../styles/Home.css";
 function Home() {
   return (
     <div id="home" className="d-flex m-sm-4">
-      <div className="d-flex flex-column flex-sm-row">
+      <div className="d-flex flex-column flex-sm-row justify-content-between">
         <div className="col-sm-6">
           <p className="accent home-accent">
             sorcerer, software engineer, chaotic creative, cat mom, developer

@@ -1,14 +1,14 @@
 .home-accent {
-  margin-bottom: -25px;
+  margin-bottom: -30px;
 }
 
 .home-title {
   font-family: "Antonio", sans-serif;
   font-optical-sizing: auto;
   font-weight: 300;
-  font-size: 105px;
-  letter-spacing: -4px;
-  word-spacing: -5px;
+  font-size: 125px;
+  letter-spacing: -7px;
+  word-spacing: -10px;
   color: #e9f2ff;
 }
 
@@ -17,7 +17,7 @@
 }
 
 .home-title-vanessa {
-  margin-top: -25px;
+  margin-top: -30px;
 }
 
 .home-text {
@@ -30,29 +30,31 @@
 @media (min-width: 768px) {
 
   .home-accent {
-    margin-bottom: -50px;
+    margin-bottom: -80px;
+    margin-left: 6px;
   }
 
   .home-title {
     font-family: "Antonio", sans-serif;
     font-optical-sizing: auto;
     font-weight: 300;
-    font-size: 200px;
-    letter-spacing: -8px;
-    word-spacing: -20px;
+    font-size: 340px;
+    letter-spacing: -24px;
+    word-spacing: -15px;
     color: #e9f2ff;
   }
 
   .home-i-am {
-    margin-left: -10px;
+    margin-left: -18.5px;
   }
 
   .home-title-vanessa {
-    margin-top: -50px;
+    margin-top: -80px;
   }
 
   .home-text {
-    font-size: 25px;
-    font-weight: 500;
+    font-size: 39px;
+    font-weight: 400;
+    width: 45%;
   }
 }
