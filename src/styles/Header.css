@@ -42,7 +42,7 @@
     font-family: "Cormorant Unicase", serif;
     font-weight: 600;
     font-style: normal;
-    font-size: 22px;
+    font-size: 27px;
   }
 
   .header-title,
@@ -50,7 +50,12 @@
     font-family: "Almarai", sans-serif;
     font-weight: 400;
     font-style: normal;
-    font-size: 16px;
+    font-size: 18px;
     color: #e9f2ff;
+  }
+
+  .progress {
+    left: 2%;
+    width: 96%;
   }
 }
