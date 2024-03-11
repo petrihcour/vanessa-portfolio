@@ -27,7 +27,7 @@ function Header() {
 
   return (
     <nav
-      className={`navbar fixed-top bg-transparent ${
+      className={`navbar sticky-top bg-transparent ${
         scrolling ? "blur-on-scroll" : ""
       }`}
     >
