@@ -7,17 +7,14 @@ import Typewriter from "../animations/Typewriter";
 
 
 function Home() {
-  let accentTexts = ["software engineer", "sorcerer", "frontend developer", "chaotic creative", "full-stack developer", "cat mom", "web developer"];
-  let homeAccentDescription = accentTexts.map((accentText) => {
-    return accentText;
-  })
+  const accentTexts = ["software engineer", "sorcerer", "frontend developer", "chaotic creative", "full-stack developer", "cat mom", "web developer"];
 
   return (
     <div id="home" className="d-flex m-sm-4">
       <div className="d-flex flex-column flex-sm-row justify-content-between">
         <div className="col-sm-6">
-          <div>
-            <Typewriter text={homeAccentDescription} />
+          <div className="home-accent accent">
+           {accentTexts}
           </div>
           <h1 className="home-title text-uppercase">
             <div className="home-i-am">I am</div>
