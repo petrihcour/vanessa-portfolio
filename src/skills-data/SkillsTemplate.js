@@ -5,7 +5,7 @@ function SkillsTemplate() {
     return (
         <div>
                 {skillsData.map((skill, index) => (
-                    <button key={index} type="button" className="btn btn-transparent text-light border rounded-pill text-uppercase fs-4">
+                    <button key={index} type="button" className="btn btn-transparent text-light border rounded-pill text-uppercase">
                        {skill.skill} </button>
                 ))}
             

@@ -1,3 +1,5 @@
+/* home page title layout and design */
+
 .home-accent {
   margin-bottom: -30px;
 }
@@ -20,11 +22,23 @@
   margin-top: -30px;
 }
 
+/* home body layout and design */
+
 .home-text {
   color: #e9f2ff;
   font-size: 14px;
   font-family: "Almarai", sans-serif;
   font-weight: 400;
+}
+
+.btn {
+  font-family: "Almarai", sans-serif;
+  font-size: 22px;
+  padding-top: 2px;
+  padding-bottom: 2px;
+  padding-left: 7px;
+  padding-right: 7px;
+  color: #e9f2ff;
 }
 
 @media (min-width: 768px) {
@@ -38,14 +52,14 @@
     font-family: "Antonio", sans-serif;
     font-optical-sizing: auto;
     font-weight: 300;
-    font-size: 340px;
+    font-size: 280px;
     letter-spacing: -24px;
     word-spacing: -15px;
     color: #e9f2ff;
   }
 
   .home-i-am {
-    margin-left: -18.5px;
+    margin-left: -15px;
   }
 
   .home-title-vanessa {
@@ -53,7 +67,7 @@
   }
 
   .home-text {
-    font-size: 39px;
+    font-size: 30px;
     font-weight: 400;
     width: 45%;
   }

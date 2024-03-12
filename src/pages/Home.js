@@ -25,9 +25,9 @@ function Home() {
           <div className="d-flex justify-content-end">
         <button
             type="button"
-            className="btn btn-transparent border rounded-pill text-uppercase fs-4"
+            className="btn btn-transparent border rounded-pill text-uppercase"
           >
-            Cast Sending
+            Contact Me
           </button>
         </div>
         </div>
