@@ -8,9 +8,9 @@
   font-family: "Antonio", sans-serif;
   font-optical-sizing: auto;
   font-weight: 300;
-  font-size: 125px;
-  letter-spacing: -7px;
-  word-spacing: -10px;
+  font-size: 120px;
+  letter-spacing: -10px;
+  word-spacing: -3px;
   color: #e9f2ff;
 }
 
@@ -55,7 +55,7 @@
     font-optical-sizing: auto;
     font-weight: 300;
     font-size: 280px;
-    letter-spacing: -24px;
+    letter-spacing: -25px;
     word-spacing: -15px;
     color: #e9f2ff;
   }
