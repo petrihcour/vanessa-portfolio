@@ -1,14 +1,24 @@
 import React from "react";
 import "../styles/Home.css";
+import Typewriter from "../animations/Typewriter";
+// different animation styles for accent:
+// typewriter effect, transition is deleting the word and retyping the new word. 
+// 
+
 
 function Home() {
+  let accentTexts = ["software engineer", "sorcerer", "frontend developer", "chaotic creative", "full-stack developer", "cat mom", "web developer"];
+  let homeAccentDescription = accentTexts.map((accentText) => {
+    return accentText;
+  })
+
   return (
     <div id="home" className="d-flex m-sm-4">
       <div className="d-flex flex-column flex-sm-row justify-content-between">
         <div className="col-sm-6">
-          <p className="accent home-accent">
-            sorcerer, software engineer, chaotic creative, cat mom, developer
-          </p>
+          <div>
+            <Typewriter text={homeAccentDescription} />
+          </div>
           <h1 className="home-title text-uppercase">
             <div className="home-i-am">I am</div>
             <div className="home-title-vanessa">Vanessa</div>
@@ -16,7 +26,7 @@ function Home() {
         </div>
         <div className="home-text d-flex text-uppercase row align-content-end mb-sm-4">
           <p className="mt-2">
-            <div className="text-end">I've found a home in technology,</div>
+            <span className="text-end">I've found a home in technology,</span>
             where JavaScript, Node.js, React, HTML, CSS, and Bootstrap are my
             comfort. I love all things beautiful and functional. I love Dungeons
             & Dragons, unbearably spicy food, and my cats - Salmon, Sharky, and
