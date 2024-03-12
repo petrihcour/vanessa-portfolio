@@ -3,7 +3,7 @@ import "../styles/Home.css";
 import Typewriter from "../animations/Typewriter";
 // different animation styles for accent:
 // typewriter effect, transition is deleting the word and retyping the new word. 
-// 
+// slide effect? 
 
 
 function Home() {
