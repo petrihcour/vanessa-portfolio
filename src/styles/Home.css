@@ -45,47 +45,28 @@
 
 .marquee {
   height: 75px;
+  width: 430px;
   overflow: hidden;
   position: relative;
 }
 
-.marquee p {
-  position: absolute;
-  -moz-transform: translateX(100%);
-  -webkit-transform: translateX(100%);
-  transform: translateX(100%);
-  -moz-animation: scroll-left 2s linear infinite;
-  -webkit-animation: scroll-left 2s linear infinite;
-  animation: scroll-left 40s linear infinite;
+.marquee .marquee-inner {
+  display: inline-block;
+  white-space: nowrap;
+  animation: marquee 15s linear infinite;
+  animation-delay: -5s;
 }
 
-@-moz-keyframes scroll-left {
-  0% {
-    -moz-transform: translateX(100%);
-  }
-  100% {
-    -moz-transform: translateX(-100%);
-  }
+.marquee span {
+  display: inline-block;
+  padding-right: 30px;
 }
 
-@-webkit-keyframes scroll-left {
+@keyframes marquee {
   0% {
-    -webkit-transform: translateX(100%);
-  }
-  100% {
-    -webkit-transform: translateX(-100%);
-  }
-}
-
-@keyframes scroll-left {
-  0% {
-    -moz-transform: translateX(100%);
-    -webkit-transform: translateX(100%);
     transform: translateX(100%);
   }
   100% {
-    -moz-transform: translateX(-100%);
-    -webkit-transform: translateX(-100%);
     transform: translateX(-100%);
   }
 }

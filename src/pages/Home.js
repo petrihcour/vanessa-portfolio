@@ -5,7 +5,6 @@ import "../styles/Home.css";
 // slide effect?
 
 function Home() {
-
   // const accentTexts = [
   //   "software engineer",
   //   "sorcerer",
@@ -21,10 +20,15 @@ function Home() {
       <div className="d-flex flex-column flex-sm-row justify-content-between">
         <div className="col-sm-6">
           <div className="marquee home-accent accent text-lowercase">
-            <p className="text-nowrap">
-              Software Engineer, Sorcerer, Frontend Developer, Chaotic Creative,
-              Full-Stack Developer, Cat Mom, Web Developer
-            </p>
+            <div className="marquee-inner">
+              <span>Software Engineer</span>
+              <span>Sorcerer</span>
+              <span>Frontend Developer</span>
+              <span>Chaotic Creative</span>
+              <span>Full-Stack Developer</span>
+              <span>Cat Mom</span>
+              <span>Web Developer</span>
+            </div>
           </div>
           <h1 className="home-title text-uppercase">
             <div className="home-i-am">I am</div>
