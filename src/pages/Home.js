@@ -26,7 +26,7 @@ function Home() {
       <div className="marquee home-accent accent text-lowercase">
         <div className="marquee-inner">
           {repeatedWords.map((word, index) => (
-            <div key={index} className="ms-5 me-5 ps-5 pe-5">
+            <div key={index} className="ms-sm-4 me-sm-4 ps-sm-4 pe-sm-4 ms-2 me-2 ps-2 pe-2">
               {word}
             </div>
           ))}
