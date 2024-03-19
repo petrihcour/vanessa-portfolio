@@ -16,6 +16,20 @@ function Home() {
           <div className="ps-5 pe-5">Full-Stack Developer</div>
           <div className="ps-5 pe-5">Cat Mom</div>
           <div className="ps-5 pe-5">Web Developer</div>
+          <div className="ps-5 pe-5">Software Engineer</div>
+          <div className="ps-5 pe-5">Sorcerer</div>
+          <div className="ps-5 pe-5">Frontend Developer</div>
+          <div className="ps-5 pe-5">Chaotic Creative</div>
+          <div className="ps-5 pe-5">Full-Stack Developer</div>
+          <div className="ps-5 pe-5">Cat Mom</div>
+          <div className="ps-5 pe-5">Web Developer</div>
+          <div className="ps-5 pe-5">Software Engineer</div>
+          <div className="ps-5 pe-5">Sorcerer</div>
+          <div className="ps-5 pe-5">Frontend Developer</div>
+          <div className="ps-5 pe-5">Chaotic Creative</div>
+          <div className="ps-5 pe-5">Full-Stack Developer</div>
+          <div className="ps-5 pe-5">Cat Mom</div>
+          <div className="ps-5 pe-5">Web Developer</div>
         </div>
       </div>
       <div className="d-flex flex-column flex-sm-row justify-content-between">
