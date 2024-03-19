@@ -59,7 +59,7 @@
 }
 
 .marquee .marquee-inner {
-  animation-duration: 90s;
+  animation-duration: 250s;
   animation-iteration-count: infinite;
   animation-name: marquee-content;
   animation-timing-function: linear;

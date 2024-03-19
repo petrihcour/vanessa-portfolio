@@ -5,31 +5,31 @@ import "../styles/Home.css";
 // slide effect?
 
 function Home() {
+  const words = [
+    "Software Engineer",
+    "Sorcerer",
+    "Frontend Developer",
+    "Chaotic Creative",
+    "Full-Stack Developer",
+    "Cat Mom",
+    "Web Developer",
+  ];
+
+  const marqueeLoopCount = 5;
+  const repeatedWords = Array.from(
+    { length: marqueeLoopCount },
+    () => words
+  ).flat();
+
   return (
     <div id="home" className="ms-sm-4 me-sm-4 home-container">
       <div className="marquee home-accent accent text-lowercase">
         <div className="marquee-inner">
-          <div className="ps-5 pe-5">Software Engineer</div>
-          <div className="ps-5 pe-5">Sorcerer</div>
-          <div className="ps-5 pe-5">Frontend Developer</div>
-          <div className="ps-5 pe-5">Chaotic Creative</div>
-          <div className="ps-5 pe-5">Full-Stack Developer</div>
-          <div className="ps-5 pe-5">Cat Mom</div>
-          <div className="ps-5 pe-5">Web Developer</div>
-          <div className="ps-5 pe-5">Software Engineer</div>
-          <div className="ps-5 pe-5">Sorcerer</div>
-          <div className="ps-5 pe-5">Frontend Developer</div>
-          <div className="ps-5 pe-5">Chaotic Creative</div>
-          <div className="ps-5 pe-5">Full-Stack Developer</div>
-          <div className="ps-5 pe-5">Cat Mom</div>
-          <div className="ps-5 pe-5">Web Developer</div>
-          <div className="ps-5 pe-5">Software Engineer</div>
-          <div className="ps-5 pe-5">Sorcerer</div>
-          <div className="ps-5 pe-5">Frontend Developer</div>
-          <div className="ps-5 pe-5">Chaotic Creative</div>
-          <div className="ps-5 pe-5">Full-Stack Developer</div>
-          <div className="ps-5 pe-5">Cat Mom</div>
-          <div className="ps-5 pe-5">Web Developer</div>
+          {repeatedWords.map((word, index) => (
+            <div key={index} className="ms-5 me-5 ps-5 pe-5">
+              {word}
+            </div>
+          ))}
         </div>
       </div>
       <div className="d-flex flex-column flex-sm-row justify-content-between">
