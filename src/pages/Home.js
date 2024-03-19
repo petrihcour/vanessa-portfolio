@@ -20,15 +20,21 @@ function Home() {
       <div className="d-flex flex-column flex-sm-row justify-content-between">
         <div className="col-sm-6">
           <div className="marquee home-accent accent text-lowercase">
-            <div className="marquee-inner">
-              <span>Software Engineer</span>
-              <span>Sorcerer</span>
-              <span>Frontend Developer</span>
-              <span>Chaotic Creative</span>
-              <span>Full-Stack Developer</span>
-              <span>Cat Mom</span>
-              <span>Web Developer</span>
-            </div>
+          <div className="marquee-inner">
+            <div className="ms-5 me-5">Software Engineer</div>
+            <div className="ms-5 me-5">Sorcerer</div>
+            <div className="ms-5 me-5">Frontend Developer</div>
+            <div className="ms-5 me-5">Chaotic Creative</div>
+            <div className="ms-5 me-5">Full-Stack Developer</div>
+            <div className="ms-5 me-5">Cat Mom</div>
+            <div className="ms-5 me-5">Web Developer</div>
+          </div>
+            {/* <div className="marquee-inner">Sorcerer</div>
+            <div className="marquee-inner">Frontend Developer</div>
+            <div className="marquee-inner">Chaotic Creative</div>
+            <div className="marquee-inner">Full-Stack Developer</div>
+            <div className="marquee-inner">Cat Mom</div>
+            <div className="marquee-inner">Web Developer</div> */}
           </div>
           <h1 className="home-title text-uppercase">
             <div className="home-i-am">I am</div>

@@ -1,7 +1,8 @@
 /* home page title layout and design */
 
 .home-accent {
-  margin-bottom: -65px;
+  margin-bottom: -32px;
+  margin-left: 8px;
 }
 
 .home-title {
@@ -43,30 +44,35 @@
   color: #e9f2ff;
 }
 
+/* marquee animation */
+
 .marquee {
-  height: 75px;
-  width: 430px;
+  display: flex;
   overflow: hidden;
-  position: relative;
+  white-space: nowrap;
+  width: 250px;
 }
 
 .marquee .marquee-inner {
-  display: inline-block;
-  white-space: nowrap;
-  animation: marquee 15s linear infinite;
-  animation-delay: -5s;
+  animation-duration: 30s;
+  animation-iteration-count: infinite;
+  animation-name: marquee-content;
+  animation-timing-function: linear;
 }
 
-.marquee span {
+.marquee .marquee-inner > div {
   display: inline-block;
-  padding-right: 30px;
 }
 
-@keyframes marquee {
-  0% {
-    transform: translateX(100%);
+.marquee:hover .marquee-inner {
+  animation-play-state: paused;
+}
+
+@keyframes marquee-content {
+  from {
+    transform: translateX(0%);
   }
-  100% {
+  to {
     transform: translateX(-100%);
   }
 }
@@ -75,7 +81,6 @@
 
   .home-accent {
     margin-bottom: -80px;
-    margin-left: 6px;
   }
 
   .home-title {
@@ -108,5 +113,10 @@
     padding-bottom: 2px;
     padding-left: 15px;
     padding-right: 15px;
+  }
+
+  /* marquee animation */
+  .marquee {
+    width: 480px;
   }
 }
