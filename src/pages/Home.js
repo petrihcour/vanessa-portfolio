@@ -6,20 +6,20 @@ import "../styles/Home.css";
 
 function Home() {
   return (
-    <div id="home" className="d-flex m-sm-4">
+    <div id="home" className="ms-sm-4 me-sm-4 home-container">
+      <div className="marquee home-accent accent text-lowercase">
+        <div className="marquee-inner">
+          <div className="ps-5 pe-5">Software Engineer</div>
+          <div className="ps-5 pe-5">Sorcerer</div>
+          <div className="ps-5 pe-5">Frontend Developer</div>
+          <div className="ps-5 pe-5">Chaotic Creative</div>
+          <div className="ps-5 pe-5">Full-Stack Developer</div>
+          <div className="ps-5 pe-5">Cat Mom</div>
+          <div className="ps-5 pe-5">Web Developer</div>
+        </div>
+      </div>
       <div className="d-flex flex-column flex-sm-row justify-content-between">
         <div className="col-sm-6">
-          <div className="marquee home-accent accent text-lowercase">
-            <div className="marquee-inner">
-              <div>Software Engineer</div>
-              <div>Sorcerer</div>
-              <div>Frontend Developer</div>
-              <div>Chaotic Creative</div>
-              <div>Full-Stack Developer</div>
-              <div>Cat Mom</div>
-              <div>Web Developer</div>
-            </div>
-          </div>
           <h1 className="home-title text-uppercase">
             <div className="home-i-am">I am</div>
             <div className="home-title-vanessa">Vanessa</div>
