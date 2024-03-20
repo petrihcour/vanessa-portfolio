@@ -26,7 +26,10 @@ function Home() {
       <div className="marquee home-accent accent text-lowercase">
         <div className="marquee-inner">
           {repeatedWords.map((word, index) => (
-            <div key={index} className="ms-sm-4 me-sm-4 ps-sm-4 pe-sm-4 ms-2 me-2 ps-2 pe-2">
+            <div
+              key={index}
+              className="ms-sm-4 me-sm-4 ps-sm-4 pe-sm-4 ms-2 me-2 ps-2 pe-2"
+            >
               {word}
             </div>
           ))}
@@ -48,12 +51,13 @@ function Home() {
             Fishy.
           </p>
           <div className="d-flex justify-content-end">
-            <button
+            <a
+              href="#sending"
               type="button"
               className="btn btn-transparent border rounded-pill text-uppercase"
             >
               Contact Me
-            </button>
+            </a>
           </div>
         </div>
       </div>
