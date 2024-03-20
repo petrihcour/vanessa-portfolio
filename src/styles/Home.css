@@ -1,9 +1,11 @@
-/* home page title layout and design */
+/* home page layout */
 
 .home-container {
   position: relative;
   overflow: hidden;
 }
+
+/* home fonts and sizing */
 
 .home-accent {
   margin-left: 8px;
@@ -28,16 +30,12 @@
   margin-top: -30px;
 }
 
-/* home body layout and design */
-
 .home-text {
   color: #e9f2ff;
   font-size: 14px;
   font-family: "Almarai", sans-serif;
   font-weight: 400;
 }
-
-
 
 /* marquee animation for home accent text */
 
@@ -73,6 +71,7 @@
 }
 
 @media (min-width: 768px) {
+  /* home fonts and sizing */
 
   .home-title {
     font-family: "Antonio", sans-serif;
@@ -98,5 +97,4 @@
     font-weight: 400;
     width: 45%;
   }
-
 }

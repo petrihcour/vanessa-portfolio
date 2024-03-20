@@ -44,8 +44,8 @@
 /* md to xl screens */
 
 @media (min-width: 768px) {
-  
   /* site layout */
+
   .bg-home {
     align-items: center;
   }
