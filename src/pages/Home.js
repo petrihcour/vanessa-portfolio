@@ -51,13 +51,23 @@ function Home() {
             Fishy.
           </p>
           <div className="d-flex justify-content-end">
-            <a
-              href="#sending"
-              type="button"
-              className="btn btn-transparent border rounded-pill text-uppercase"
-            >
-              Cast Sending
-            </a>
+          <a
+            href="#sending"
+            type="button"
+            className="btn btn-transparent border rounded-pill text-uppercase marquee-btn"
+            aria-hidden="true"
+          >
+            <span className="default-text">Cast Sending</span>
+              <div className="marquee-btn-inner">
+              
+                <span>Cast Sending</span>
+                <span>Cast Sending</span>
+                <span>Cast Sending</span>
+                <span>Cast Sending</span>
+                <span>Cast Sending</span>
+                <span>Cast Sending</span>
+              </div>
+          </a>
           </div>
         </div>
       </div>

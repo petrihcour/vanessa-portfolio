@@ -35,6 +35,9 @@
 /* all buttons */
 
 .btn {
+  position: relative;
+  white-space: nowrap;
+  overflow: hidden;
   font-family: "Almarai", sans-serif;
   font-size: 22px;
   padding: 2px 8px 2px 8px;
@@ -42,6 +45,33 @@
 }
 
 /* button marquee */
+
+.marquee-btn .marquee-btn-inner {
+  display: none;
+}
+
+.default-text {
+  display: inline-block;
+}
+
+.marquee-btn:hover .marquee-btn-inner {
+  display: inline-block;
+}
+
+.marquee-btn:hover .default-text {
+  display: none;
+}
+
+/* animate the marquee */
+.marquee-btn:hover .marquee-btn-inner {
+  animation: marquee-btn-content 15s linear infinite;
+}
+
+@keyframes marquee-btn-content {
+  to {
+    transform: translateX(-100%);
+  }
+}
 
 /* md to xl screens */
 
