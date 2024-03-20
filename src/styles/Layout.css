@@ -36,7 +36,6 @@
 
 .btn {
   position: relative;
-  white-space: nowrap;
   overflow: hidden;
   font-family: "Almarai", sans-serif;
   font-size: 22px;
@@ -47,7 +46,7 @@
 /* button marquee */
 
 .marquee-btn .marquee-btn-inner {
-  display: none;
+display: none;
 }
 
 .default-text {
@@ -64,6 +63,7 @@
 
 /* animate the marquee */
 .marquee-btn:hover .marquee-btn-inner {
+  white-space: nowrap;
   animation: marquee-btn-content 15s linear infinite;
 }
 
