@@ -1,8 +1,9 @@
+/* site layout */
+
 .bg-home {
   display: flex;
   align-items: center;
 }
-
 
 .bg-quests,
 .bg-sending,
@@ -12,6 +13,8 @@
   flex-direction: column;
   justify-content: center;
 }
+
+/* fonts */
 
 .accent {
   font-family: "Cormorant Unicase", serif;
@@ -29,10 +32,26 @@
   font-style: normal;
 }
 
+/* all buttons */
+
+.btn {
+  font-family: "Almarai", sans-serif;
+  font-size: 22px;
+  padding: 2px 8px 2px 8px;
+  color: #e9f2ff;
+}
+
+/* md to xl screens */
+
 @media (min-width: 768px) {
+  
+  /* site layout */
   .bg-home {
     align-items: center;
   }
+
+  /* fonts */
+
   .accent {
     font-family: "Cormorant Unicase", serif;
     font-weight: 700;
@@ -43,5 +62,12 @@
 
   .body-text {
     font-size: 25px;
+  }
+
+  /* all buttons */
+
+  .btn {
+    font-size: 30px;
+    padding: 2px 15px 2px 15px;
   }
 }

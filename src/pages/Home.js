@@ -56,7 +56,7 @@ function Home() {
               type="button"
               className="btn btn-transparent border rounded-pill text-uppercase"
             >
-              Contact Me
+              Cast Sending
             </a>
           </div>
         </div>

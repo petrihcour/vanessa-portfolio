@@ -37,17 +37,7 @@
   font-weight: 400;
 }
 
-/* all buttons */
 
-.btn {
-  font-family: "Almarai", sans-serif;
-  font-size: 22px;
-  padding-top: 2px;
-  padding-bottom: 2px;
-  padding-left: 8px;
-  padding-right: 8px;
-  color: #e9f2ff;
-}
 
 /* marquee animation for home accent text */
 
@@ -109,11 +99,4 @@
     width: 45%;
   }
 
-  .btn {
-    font-size: 30px;
-    padding-top: 2px;
-    padding-bottom: 2px;
-    padding-left: 15px;
-    padding-right: 15px;
-  }
 }
