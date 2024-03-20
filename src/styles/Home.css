@@ -47,10 +47,7 @@
 }
 
 .marquee .marquee-inner {
-  animation-duration: 250s;
-  animation-iteration-count: infinite;
-  animation-name: marquee-content;
-  animation-timing-function: linear;
+  animation: marquee-content 250s linear infinite;
 }
 
 .marquee .marquee-inner > div {
