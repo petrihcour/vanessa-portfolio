@@ -39,26 +39,26 @@
 
 /* marquee animation for home accent text */
 
-.marquee {
+.marquee-accent {
   display: flex;
   overflow: hidden;
   white-space: nowrap;
   width: 100%;
 }
 
-.marquee .marquee-inner {
-  animation: marquee-content 250s linear infinite;
+.marquee-accent .marquee-accent-inner {
+  animation: marquee-accent-content 250s linear infinite;
 }
 
-.marquee .marquee-inner > div {
+.marquee-accent .marquee-accent-inner > div {
   display: inline-block;
 }
 
-.marquee:hover .marquee-inner {
+.marquee-accent:hover .marquee-accent-inner {
   animation-play-state: paused;
 }
 
-@keyframes marquee-content {
+@keyframes marquee-accent-content {
   from {
     transform: translateX(0%);
   }
