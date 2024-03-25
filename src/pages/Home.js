@@ -54,17 +54,18 @@ function Home() {
             <a
               href="#sending"
               type="button"
-              className="btn btn-transparent border rounded-pill text-uppercase marquee-btn"
-              aria-hidden="true"
+              className="btn btn-transparent border rounded-pill text-uppercase"
             >
               <span className="default-text">Cast Sending</span>
-              <div className="marquee-btn-inner">
+              <div className="marquee-btn" aria-hidden="true">
+                <div className="marquee-btn-inner">
                 <span>Cast Sending</span>
                 <span>Cast Sending</span>
                 <span>Cast Sending</span>
                 <span>Cast Sending</span>
                 <span>Cast Sending</span>
                 <span>Cast Sending</span>
+              </div>
               </div>
             </a>
           </div>
