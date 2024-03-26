@@ -43,13 +43,13 @@ function Home() {
           </h1>
         </div>
         <div className="home-text d-flex text-uppercase row align-content-end mb-sm-4">
-          <p className="mt-2">
-            <span className="text-end">I've found a home in technology,</span>
+          <div className="mt-2">
+            <div className="text-end">I've found a home in technology,</div>
             where JavaScript, Node.js, React, HTML, CSS, and Bootstrap are my
             comfort. I love all things beautiful and functional. I love Dungeons
             & Dragons, unbearably spicy food, and my cats - Salmon, Sharky, and
             Fishy.
-          </p>
+          </div>
           <div className="d-flex justify-content-end">
             <a
               href="#sending"
