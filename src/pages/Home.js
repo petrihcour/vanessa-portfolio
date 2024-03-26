@@ -24,7 +24,7 @@ function Home() {
   return (
     <div id="home" className="ms-sm-4 me-sm-4 home-container">
       <div className="marquee-accent home-accent accent text-lowercase">
-        <div className="marquee-accent-inner">
+        <div className="marquee-accent-inner" aria-hidden="true">
           {repeatedWords.map((word, index) => (
             <div
               key={index}
@@ -35,8 +35,8 @@ function Home() {
           ))}
         </div>
       </div>
-      <div className="d-flex flex-column flex-sm-row justify-content-between">
-        <div className="col-sm-6">
+      <div className="d-flex flex-column flex-lg-row justify-content-between">
+        <div className="col-lg-6">
           <h1 className="home-title text-uppercase">
             <div className="home-i-am">I am</div>
             <div className="home-title-vanessa">Vanessa</div>
