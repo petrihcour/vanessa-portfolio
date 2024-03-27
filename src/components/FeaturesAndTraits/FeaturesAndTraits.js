@@ -1,6 +1,6 @@
 import React from "react";
-import vanessa from "../images/vanessa.jpeg";
-import "../styles/FeaturesAndTraits.css";
+import vanessa from "../../images/vanessa.jpeg";
+import "./FeaturesAndTraits.css";
 
 function FeaturesAndTraits() {
   return (

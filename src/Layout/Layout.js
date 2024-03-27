@@ -1,6 +1,6 @@
 import React from "react";
 import Header from "./Header";
-import FeaturesAndTraits from "../components/FeaturesAndTraits";
+import FeaturesAndTraits from "../components/FeaturesAndTraits/FeaturesAndTraits";
 import Home from "../components/Home";
 import Quests from "../components/Quests";
 import { Sending } from "../components/Sending";
