@@ -1,8 +1,8 @@
 import React from "react";
 import Header from "./Header";
 import FeaturesAndTraits from "../components/FeaturesAndTraits/FeaturesAndTraits";
-import Home from "../components/Home";
-import Quests from "../components/Quests";
+import Home from "../components/Home/Home";
+import Quests from "../components/Quests/Quests";
 import { Sending } from "../components/Sending";
 import Skills from "../components/Skills";
 import "../styles/Layout.css";

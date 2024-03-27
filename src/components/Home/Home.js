@@ -1,5 +1,5 @@
 import React from "react";
-import "../styles/Home.css";
+import "./Home.css";
 // different animation styles for accent:
 // typewriter effect, transition is deleting the word and retyping the new word.
 // slide effect?

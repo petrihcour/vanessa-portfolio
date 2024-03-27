@@ -1,5 +1,5 @@
 import React from "react";
-import QuestTemplate from "../quest-data/QuestTemplate";
+import QuestTemplate from "../../quest-data/QuestTemplate";
 
 // need to fix how quests page looks and determine how i want to display my projects. it does not look good now
 // do i want cards with each project? do i want a slide? make it smaller? 
