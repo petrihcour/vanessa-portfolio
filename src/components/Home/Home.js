@@ -50,7 +50,7 @@ function Home() {
             & Dragons, unbearably spicy food, and my cats - Salmon, Sharky, and
             Fishy.
           </div>
-          <div className="d-flex justify-content-end">
+          <div className="d-flex justify-content-end mt-2">
             <a
               href="#sending"
               type="button"

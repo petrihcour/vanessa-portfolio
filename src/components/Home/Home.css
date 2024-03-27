@@ -12,26 +12,30 @@
 }
 
 .home-title {
-  /* font-family: "Antonio", sans-serif; */
-  /* font-optical-sizing: auto;
-  font-weight: 300; */
-  /* letter-spacing: -10px;
-  word-spacing: -3px; */
+  font-family: "Antonio", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 200;
+  letter-spacing: -10px;
+  word-spacing: -3px;
   color: #e9f2ff;
-  /* margin-top: -30px; */
+  margin-top: -30px;
 }
 
-/* .home-i-am {
-  margin-left: -5px;
-} */
+.home-i-am, .home-title-vanessa {
+  font-size: 8.5rem;
+}
 
-/* .home-title-vanessa {
-  margin-top: -30px;
-} */
+.home-i-am {
+  margin-left: -6.5px;
+}
+
+.home-title-vanessa {
+  margin-top: -34px;
+}
 
 .home-text {
   color: #e9f2ff;
-  font-size: 14px;
+  font-size: 1rem;
   font-family: "Almarai", sans-serif;
   font-weight: 400;
 }
@@ -69,23 +73,27 @@
 @media (min-width: 768px) {
   /* home fonts and sizing */
 
-  /* .home-title {
+  .home-title {
     letter-spacing: -25px;
     word-spacing: -15px;
     margin-top: -80px;
-  } */
+  }
 
-  /* .home-i-am {
-    margin-left: -15px;
+  .home-i-am, .home-title-vanessa {
+    font-size: 18rem;
+  }
+
+  .home-i-am {
+    margin-left: -17px;
   }
 
   .home-title-vanessa {
-    margin-top: -80px;
-  } */
+    margin-top: -88px;
+  }
 
   .home-text {
-    font-size: 28px;
+    font-size:  1.7rem;
     font-weight: 400;
-    width: 45%;
+    max-width: 45%;
   }
 }
