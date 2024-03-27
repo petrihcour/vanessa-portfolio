@@ -3,8 +3,8 @@ import Header from "./Header";
 import FeaturesAndTraits from "../components/FeaturesAndTraits/FeaturesAndTraits";
 import Home from "../components/Home/Home";
 import Quests from "../components/Quests/Quests";
-import { Sending } from "../components/Sending";
-import Skills from "../components/Skills";
+import { Sending } from "../components/Sending/Sending";
+import Skills from "../components/Skills/Skills";
 import "../styles/Layout.css";
 
 function Layout() {

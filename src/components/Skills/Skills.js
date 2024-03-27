@@ -1,7 +1,7 @@
 import React from "react";
 // import skillsData from "../skills-data/SkillsData";
-import SkillsTemplate from "../skills-data/SkillsTemplate";
-import "../styles/Skills.css";
+import SkillsTemplate from "../../skills-data/SkillsTemplate";
+import "./Skills.css";
 
 
 // add dice rolling for bonuses for fun after hitting button
