@@ -1,10 +1,10 @@
 import React from "react";
 import Header from "./Header";
-import FeaturesAndTraits from "../pages/FeaturesAndTraits";
-import Home from "../pages/Home";
-import Quests from "../pages/Quests";
-import { Sending } from "../pages/Sending";
-import Skills from "../pages/Skills";
+import FeaturesAndTraits from "../components/FeaturesAndTraits";
+import Home from "../components/Home";
+import Quests from "../components/Quests";
+import { Sending } from "../components/Sending";
+import Skills from "../components/Skills";
 import "../styles/Layout.css";
 
 function Layout() {
