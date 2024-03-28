@@ -23,7 +23,7 @@ function Home() {
 
   return (
     <div id="home" className="ms-sm-4 me-sm-4 home-container">
-      <div className="marquee-accent home-accent accent text-lowercase ms-3 me-3">
+      <div className="marquee-accent home-accent accent text-lowercase">
         <div className="marquee-accent-inner" aria-hidden="true">
           {repeatedWords.map((word, index) => (
             <div
@@ -36,20 +36,18 @@ function Home() {
         </div>
       </div>
       <div className="container-fluid">
-        <div className="row justify-content-lg-between justify-content-center align-items-end">
+        <div className="justify-content-lg-between row">
           <div className="home-title text-uppercase col-lg-6">
             <h1 className="home-i-am">I am</h1>
             <h1 className="home-title-vanessa">Vanessa</h1>
           </div>
-          <div className="home-text text-uppercase row align-content-center col-lg-6">
-            <div className="mt-2">
+          <div className="home-text text-uppercase col-lg-6 mt-4">
               <div className="text-end">I've found a home in technology,</div>
               where JavaScript, Node.js, React, HTML, CSS, and Bootstrap are my
               comfort. I love all things beautiful and functional. I love
               Dungeons & Dragons, unbearably spicy food, and my cats - Salmon,
               Sharky, and Fishy.
-            </div>
-            <div className="d-flex justify-content-end mt-2">
+            <div className="d-flex justify-content-end mt-4">
               <a
                 href="#sending"
                 type="button"
