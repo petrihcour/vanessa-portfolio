@@ -71,23 +71,17 @@
 @media (min-width: 768px) {
   /* home fonts and sizing */
 
-  /* .home-title {
-    letter-spacing: -25px;
-    word-spacing: -15px;
-    margin-top: -80px;
-  } */
-
-  /* .home-i-am, .home-title-vanessa {
+  .home-i-am, .home-title-vanessa {
     font-size: 18rem;
-  } */
+  }
 
-  /* .home-i-am {
-    margin-left: -17px;
-  } */
-
-  /* .home-title-vanessa {
-    margin-top: -88px;
-  } */
+  .home-i-am {
+    margin: -70px 0px -140px -2px;
+  }
+  
+  .home-title-vanessa {
+    margin-bottom: -93px;
+  }
 
   .home-text {
     font-size:  1.7rem;
