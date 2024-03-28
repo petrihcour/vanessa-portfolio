@@ -72,7 +72,7 @@
   /* home fonts and sizing */
 
   .home-i-am, .home-title-vanessa {
-    font-size: 18rem;
+    font-size: 25rem;
   }
 
   .home-i-am {
@@ -84,7 +84,7 @@
   }
 
   .home-text {
-    font-size:  1.7rem;
+    font-size:  2rem;
     font-weight: 400;
   }
 }
