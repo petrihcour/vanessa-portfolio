@@ -72,19 +72,19 @@
   /* home fonts and sizing */
 
   .home-i-am, .home-title-vanessa {
-    font-size: 25rem;
+    font-size: 21rem;
   }
 
   .home-i-am {
-    margin: -70px 0px -140px -2px;
+    margin: -80px 0px -170px -2px;
   }
   
   .home-title-vanessa {
-    margin-bottom: -93px;
+    margin-bottom: -108px;
   }
 
   .home-text {
-    font-size:  2rem;
+    font-size:  1.8rem;
     font-weight: 400;
   }
 }
