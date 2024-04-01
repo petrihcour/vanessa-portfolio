@@ -16,12 +16,12 @@ const skillsData = [
     skill: "Bootstrap",
     bonus: expertiseBonus + bonusData.Frontend,
   },
-  {
-    proficiency: "proficient",
-    type: "Personal",
-    skill: "Cross-Functional Collaborations",
-    bonus: proficiencyBonus + bonusData.Personal,
-  },
+  // {
+  //   proficiency: "proficient",
+  //   type: "Personal",
+  //   skill: "Cross-Functional Collaboration",
+  //   bonus: proficiencyBonus + bonusData.Personal,
+  // },
   {
     proficiency: "proficient",
     type: "Frontend",
@@ -31,13 +31,13 @@ const skillsData = [
   {
     proficiency: "proficient",
     type: "Backend",
-    skill: "Express Js",
+    skill: "Express",
     bonus: proficiencyBonus + bonusData.Backend,
   },
   {
     proficiency: "expertise",
     type: "Frontend",
-    skill: "HTML5",
+    skill: "HTML",
     bonus: expertiseBonus + bonusData.Frontend,
   },
   {
@@ -49,7 +49,7 @@ const skillsData = [
   {
     proficiency: "proficient",
     type: "Backend",
-    skill: "Node Js",
+    skill: "Node.js",
     bonus: proficiencyBonus + bonusData.Backend,
   },
   {
@@ -57,6 +57,12 @@ const skillsData = [
     type: "Backend",
     skill: "PostgreSQL",
     bonus: proficiencyBonus + bonusData.Backend,
+  },
+  {
+    proficiency: "proficient",
+    type: "Backend",
+    skill: "Process Optimization",
+    bonus: proficiencyBonus + bonusData.Personal,
   },
   {
     proficiency: "proficient",
@@ -71,10 +77,16 @@ const skillsData = [
     bonus: proficiencyBonus + bonusData.Frontend,
   },
   {
-    proficiency: "expertise",
-    type: "Personal",
-    skill: "Root Cause Problem Solving",
-    bonus: expertiseBonus + bonusData.Personal,
+    proficiency: "proficient",
+    type: "Frontend",
+    skill: "React Native",
+    bonus: proficiencyBonus + bonusData.Frontend,
+  },
+  {
+    proficiency: "proficient",
+    type: "Backend",
+    skill: "RESTful APIs",
+    bonus: proficiencyBonus + bonusData.Backend,
   },
 ];
 

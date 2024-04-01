@@ -4,7 +4,7 @@ function MarqueeButton({ label, onClick, hasMarquee }) {
   return (
     <button
       type="button"
-      className="btn btn-transparent border rounded-pill text-uppercase"
+      className="btn btn-transparent border rounded-pill text-uppercase m-1"
       onClick={onClick}
     >
       <span className="default-text">{label}</span>
