@@ -14,26 +14,27 @@
   margin-left: 8px;
 }
 
-.home-i-am, .home-title-vanessa {
+.home-i-am,
+.home-title-vanessa {
   font-family: "Anybody", sans-serif;
   font-optical-sizing: auto;
-  font-size: 12rem;
+  font-size: 14rem;
   font-weight: 300;
   font-stretch: 55%;
   color: #e9f2ff;
 }
 
 .home-i-am {
-  margin: -40px 0px -95px -2px;
+  margin: -45px 0px -110px -2px;
 }
 
 .home-title-vanessa {
-  margin-bottom: -50px;
+  margin-bottom: -60px;
 }
 
 .home-text {
   color: #e9f2ff;
-  font-size: .9rem;
+  font-size: 0.9rem;
   font-family: "Almarai", sans-serif;
   font-weight: 400;
 }
@@ -71,20 +72,26 @@
 @media (min-width: 768px) {
   /* home fonts and sizing */
 
-  .home-i-am, .home-title-vanessa {
+  .home-i-am,
+  .home-title-vanessa {
     font-size: 21rem;
   }
 
   .home-i-am {
     margin: -80px 0px -170px -2px;
   }
-  
+
   .home-title-vanessa {
     margin-bottom: -108px;
   }
 
   .home-text {
-    font-size:  1.8rem;
+    font-size: 1.8rem;
     font-weight: 400;
+  }
+
+  .marquee-accent {
+    width: 98%;
+    margin-left: 17px;
   }
 }

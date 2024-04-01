@@ -22,7 +22,7 @@ function Home() {
   ).flat();
 
   return (
-    <div id="home" className="ms-sm-4 me-sm-4 home-container">
+    <div id="home" className="home-container">
       <div className="marquee-accent home-accent accent text-lowercase">
         <div className="marquee-accent-inner" aria-hidden="true">
           {repeatedWords.map((word, index) => (
@@ -36,7 +36,7 @@ function Home() {
         </div>
       </div>
       <div className="container-fluid">
-        <div className="justify-content-lg-between row">
+        <div className="justify-content-xl-between row">
           <div className="home-title text-uppercase col-lg-6 align-content-end">
             <h1 className="home-i-am">I am</h1>
             <h1 className="home-title-vanessa">Vanessa</h1>
