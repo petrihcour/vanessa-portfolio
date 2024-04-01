@@ -68,6 +68,7 @@
   white-space: nowrap;
   pointer-events: none;
   opacity: 0;
+  color: #e9f2ff;
 }
 
 .marquee-btn-inner > span {
@@ -77,7 +78,7 @@
 /* animate the marquee */
 
 .btn:hover .marquee-btn-inner {
-  animation: marquee-btn-content 5s linear infinite;
+  animation: marquee-btn-content 7s linear infinite;
   opacity: 1;
 }
 

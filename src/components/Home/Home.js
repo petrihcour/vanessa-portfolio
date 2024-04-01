@@ -1,8 +1,6 @@
 import React from "react";
 import "./Home.css";
-// different animation styles for accent:
-// typewriter effect, transition is deleting the word and retyping the new word.
-// slide effect?
+// import MarqueeButton from "../../animations/MarqueeButton";
 
 function Home() {
   const words = [
@@ -41,7 +39,7 @@ function Home() {
             <h1 className="home-i-am">I am</h1>
             <h1 className="home-title-vanessa">Vanessa</h1>
           </div>
-          <div className="home-text text-uppercase col-xl-6 col-lg-6 mt-4 align-content-end">
+          <div className="home-text text-uppercase col-xl-5 col-lg-6 mt-4 align-content-end">
               <div className="text-end">I've found a home in technology,</div>
               where JavaScript, React, HTML, CSS, and Bootstrap are my
               comfort. I love Dungeons & Dragons, unbearably spicy food, and my cats - Salmon,
