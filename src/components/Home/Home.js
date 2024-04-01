@@ -44,8 +44,7 @@ function Home() {
           <div className="home-text text-uppercase col-lg-6 mt-4 align-content-end">
               <div className="text-end">I've found a home in technology,</div>
               where JavaScript, Node.js, React, HTML, CSS, and Bootstrap are my
-              comfort. I love all things beautiful and functional. I love
-              Dungeons & Dragons, unbearably spicy food, and my cats - Salmon,
+              comfort. I love Dungeons & Dragons, unbearably spicy food, and my cats - Salmon,
               Sharky, and Fishy.
             <div className="d-flex justify-content-end mt-4">
               <a
