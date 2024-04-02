@@ -10,7 +10,7 @@ function Skills() {
 
   return (
     <div id="skills" className="container">
-      <h2 className="skills-title">SKILLS</h2>
+      <h2 className="skills-title component-title">SKILLS</h2>
       <SkillsTemplate />
     </div>
   );

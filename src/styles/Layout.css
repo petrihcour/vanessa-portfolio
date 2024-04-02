@@ -32,6 +32,16 @@
   font-style: normal;
 }
 
+/* component title */
+.component-title {
+  font-family: "Anybody", sans-serif;
+  font-optical-sizing: auto;
+  font-size: 14rem;
+  font-weight: 300;
+  font-stretch: 55%;
+  color: #e9f2ff;
+}
+
 /* all buttons */
 
 .btn {

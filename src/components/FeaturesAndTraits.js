@@ -10,7 +10,7 @@ function FeaturesAndTraits() {
     >
       <div className="d-flex row md-w-75">
         <div className="d-flex row">
-        <h2 className="features-traits-title">FEATURES & TRAITS</h2>
+        <h2 className="features-traits-title component-title">FEATURES & TRAITS</h2>
         <p className="accent d-flex">greetings, travelers</p>
         </div>
         <div className="text-uppercase body-text col-md-6 w-50">

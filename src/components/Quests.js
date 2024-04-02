@@ -8,7 +8,7 @@ function Quests() {
 
     return (
         <div id="quests" className="container">
-            <h2 className="text-center p-3">QUESTS</h2>
+            <h2 className="component-title text-uppercase text-center p-3">QUESTS</h2>
             <p className="text-center pb-3 body-text text-uppercase">These quests are a large part of my adventures, showcasing my expertise through tangible examples of my work, each offering short narratives and links to code repositories and live demos. They serve as a testament to my ability to confront intricate challenges, adapt to different technologies, and efficiently guide these projects to completion.</p>
             <QuestTemplate />
         </div>
