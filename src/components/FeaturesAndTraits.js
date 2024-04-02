@@ -1,5 +1,5 @@
 import React from "react";
-import vanessa from "../images/vanessa.jpeg";
+// import vanessa from "../images/vanessa.jpeg";
 import "../styles/FeaturesAndTraits.css";
 
 function FeaturesAndTraits() {
@@ -13,7 +13,7 @@ function FeaturesAndTraits() {
         <h2 className="features-traits-title component-title">FEATURES & TRAITS</h2>
         <p className="accent d-flex">greetings, travelers</p>
         </div>
-        <div className="text-uppercase body-text col-md-6 w-50">
+        <div className="text-uppercase body-text col-md-6">
         <p>
         I create things that transcend the physical world, with
           equal focus on beauty and functionality. In my journey, there's a tale
@@ -37,13 +37,13 @@ function FeaturesAndTraits() {
           reverberate across the internet.
         </p>
         </div>
-        <div className="col-md-6 d-flex justify-content-center">
+        {/* <div className="col-md-6 d-flex justify-content-center">
           <img
             src={vanessa}
             alt="AI representation of Vanessa"
             className="vanessa-image border border-5 rounded-circle rounded-bottom-0 h-75"
           />
-        </div>
+        </div> */}
       </div>
     </div>
   );
