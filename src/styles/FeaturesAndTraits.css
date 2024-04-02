@@ -2,8 +2,6 @@
   margin-bottom: -6vh;
 }
 
-@media (min-width: 768px) {
-  .features-traits-title {
-    margin-bottom: -10vh;
-  }
+.vanessa-image {
+  height: 50%;
 }
