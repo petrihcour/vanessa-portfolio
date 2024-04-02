@@ -65,6 +65,14 @@
 @media (min-width: 768px) {
   /* home fonts and sizing */
 
+  .home-accent {
+    font-family: "Cormorant Unicase", serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 3rem;
+    color: #878da5;
+  }
+
   .home-i-am,
   .home-title-vanessa {
     font-size: 22rem;
