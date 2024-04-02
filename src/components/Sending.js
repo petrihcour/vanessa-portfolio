@@ -46,7 +46,7 @@ export const Sending = () => {
   };
 
   return (
-    <div id="sending" className="container">
+    <div id="sending" className="container-fluid">
       <h2 className="component-title text-uppercase">Sending</h2>
       <form ref={formRef} className="card" onSubmit={handleSubmit}>
         <div className="card-body">
