@@ -25,7 +25,7 @@ function FeaturesAndTraits() {
           create experiences that reverberate across the internet.
         </div>
         <div className="col-md-5 d-flex justify-content-end align-items-center">
-        <p className="text-light">add something here. maybe an image!</p>
+        <p className="text-light">add something here. maybe an image or something animated!</p>
           {/* <img
             src={vanessa}
             alt="AI representation of Vanessa"
