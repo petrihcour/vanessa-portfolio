@@ -88,6 +88,12 @@ const skillsData = [
     skill: "RESTful APIs",
     bonus: proficiencyBonus + bonusData.Backend,
   },
+  {
+    proficiency: "proficient",
+    type: "Frontend",
+    skill: "WordPress",
+    bonus: proficiencyBonus + bonusData.Frontend,
+  },
 ];
 
 export default skillsData;
