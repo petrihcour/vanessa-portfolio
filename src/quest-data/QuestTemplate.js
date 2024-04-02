@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { Button, Card } from "react-bootstrap";
 import QuestData from "./QuestData";
-import "../components/Quests/Quests.css";
+import "../styles/Quests.css";
 
 
 function QuestTemplate() {
