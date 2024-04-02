@@ -24,7 +24,7 @@ function FeaturesAndTraits() {
           delivering impactful results. We'll weave the magic of technology and
           create experiences that reverberate across the internet.
         </div>
-        <div className="col-md-5 d-flex justify-content-end align-items-center">
+        <div className="col-lg-5 d-flex justify-content-lg-end align-items-center">
         <p className="text-light">add something here. maybe an image or something animated!</p>
           {/* <img
             src={vanessa}
