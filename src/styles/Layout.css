@@ -111,13 +111,17 @@
   /* site layout */
 
   /* fonts */
+  .component-title {
+    font-size: 9rem;
+    font-stretch: 54%;
+  }
 
   .accent {
-    font-family: "Cormorant Unicase", serif;
-    font-weight: 700;
-    font-style: normal;
     font-size: 2rem;
-    color: #878da5;
+  }
+
+  .body-text {
+    font-size: 1.7rem;
   }
 
   /* all buttons */
