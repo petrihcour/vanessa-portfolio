@@ -14,7 +14,7 @@
   justify-content: center;
 }
 
-/* fonts */
+/* text stylings */
 
 .accent {
   font-family: "Cormorant Unicase", serif;
@@ -26,13 +26,13 @@
 
 .body-text {
   color: #e9f2ff;
+  font-size: .92rem;
   font-family: "Almarai", sans-serif;
   font-weight: 400;
-  font-size: 16px;
-  font-style: normal;
 }
 
 /* component title */
+
 .component-title {
   font-family: "Anybody", sans-serif;
   font-optical-sizing: auto;
@@ -56,7 +56,7 @@
 
 .default-text {
   display: inline-block;
-  transition: opacity .1s;
+  transition: opacity 0.1s;
 }
 
 .marquee-btn {
@@ -110,7 +110,6 @@
 @media (min-width: 768px) {
   /* site layout */
 
-
   /* fonts */
 
   .accent {
@@ -119,10 +118,6 @@
     font-style: normal;
     font-size: 50px;
     color: #878da5;
-  }
-
-  .body-text {
-    font-size: 25px;
   }
 
   /* all buttons */
