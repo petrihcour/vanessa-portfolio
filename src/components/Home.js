@@ -1,6 +1,6 @@
 import React from "react";
 import "../styles/Home.css";
-// import MarqueeButton from "../../animations/MarqueeButton";
+import MarqueeButton from "../animations/MarqueeButton";
 
 function Home() {
   const words = [
@@ -45,23 +45,7 @@ function Home() {
               comfort. I love Dungeons & Dragons, unbearably spicy food, and my cats - Salmon,
               Sharky, and Fishy.
             <div className="d-flex justify-content-end mt-4">
-              <a
-                href="#sending"
-                type="button"
-                className="btn btn-transparent border rounded-pill text-uppercase"
-              >
-                <span className="default-text">Cast Sending</span>
-                <div className="marquee-btn" aria-hidden="true">
-                  <div className="marquee-btn-inner">
-                    <span>Cast Sending</span>
-                    <span>Cast Sending</span>
-                    <span>Cast Sending</span>
-                    <span>Cast Sending</span>
-                    <span>Cast Sending</span>
-                    <span>Cast Sending</span>
-                  </div>
-                </div>
-              </a>
+              <MarqueeButton label="Cast Sending" hasMarquee />
             </div>
           </div>
         </div>

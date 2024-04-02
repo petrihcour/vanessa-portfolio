@@ -1,5 +1,7 @@
 import React from "react";
 
+// resuable animation component for buttons
+
 function MarqueeButton({ label, onClick, hasMarquee }) {
   return (
     <button
