@@ -28,16 +28,16 @@ function FeaturesAndTraits() {
             and create experiences that reverberate across the internet.
           </div>
         </div>
-        <div className="col-lg-5 d-flex flex-column justify-content-start align-items-start">
+        <div className="col-lg-5 d-flex flex-column justify-content-around">
           <img
             src={vanessa2}
             alt="AI representation of Vanessa"
-            className="vanessa-image img-fluid rounded mt-5 mt-md-4"
+            className="vanessa-image img-fluid rounded ps-lg-5 pt-4 mt-2"
           />
           <img
             src={vanessa}
             alt="AI representation of Vanessa"
-            className="vanessa-image img-fluid rounded mt-3 mt-md-4"
+            className="vanessa-image img-fluid rounded ps-lg-5 pt-3"
           />
         </div>
       </div>
