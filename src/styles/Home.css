@@ -11,6 +11,11 @@
  */
 
 .home-accent {
+  font-family: "Cormorant Unicase", serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 1.7rem;
+  color: #878da5;
   margin-left: 8px;
 }
 
@@ -66,11 +71,7 @@
   /* home fonts and sizing */
 
   .home-accent {
-    font-family: "Cormorant Unicase", serif;
-    font-weight: 700;
-    font-style: normal;
     font-size: 3rem;
-    color: #878da5;
   }
 
   .home-i-am,
