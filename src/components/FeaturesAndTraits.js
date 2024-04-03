@@ -10,13 +10,12 @@ function FeaturesAndTraits() {
         <div className="col-lg-7">
           <div className="d-flex flex-column align-items-md-start">
             <div className="d-flex flex-column align-items-end">
-            <h2 className="features-traits-title component-title">
-              FEATURES & TRAITS
-            </h2>
-            <p className="accent text-lowercase">Greetings Travelers,</p>
+              <h2 className="features-traits-title component-title">
+                FEATURES & TRAITS
+              </h2>
+              <p className="accent text-lowercase">Greetings Travelers,</p>
             </div>
           </div>
-
           <div className="text-uppercase body-text">
             <div className="text-end">Let's go on an adventure!</div>I create
             things with equal focus on beauty and functionality. I blend my
