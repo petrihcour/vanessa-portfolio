@@ -28,16 +28,22 @@ function FeaturesAndTraits() {
           </div>
         </div>
         <div className="col-lg-5 d-flex flex-column justify-content-around">
+          <div className="img-hover-zoom">
+            <div className="zoom-container">
           <img
             src={vanessa2}
             alt="AI representation of Vanessa"
-            className="vanessa-image img-fluid rounded ps-lg-5 pt-4 mt-2"
+            className="vanessa-image img-fluid ps-lg-5 pt-4 mt-2"
           />
+          </div>
+          <div className="zoom-container">
           <img
             src={vanessa}
             alt="AI representation of Vanessa"
-            className="vanessa-image img-fluid rounded ps-lg-5 pt-3"
+            className="vanessa-image img-fluid ps-lg-5 pt-3"
           />
+          </div>
+          </div>
         </div>
       </div>
     </div>
