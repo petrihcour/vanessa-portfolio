@@ -11,8 +11,9 @@
 }
 
 .img-hover-zoom .zoom-container:hover img {
-  transform: scale(0.9);
+  transform: scale(0.95);
 }
+
 @media (min-width: 768px) {
   .features-traits-title {
     margin-bottom: -55px;
