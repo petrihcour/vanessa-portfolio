@@ -1,0 +1,10 @@
+.skills-title {
+    margin-bottom: -40px;
+  }
+  
+  @media (min-width: 768px) {
+    .skills-title {
+      margin-bottom: -55px;
+    }
+  }
+  
