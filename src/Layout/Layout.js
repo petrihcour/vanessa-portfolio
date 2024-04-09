@@ -11,20 +11,20 @@ function Layout() {
   return (
     <div className="Layout">
       <Header />
-        <div className="bg-home min-vh-100 container-fluid">
-          <Home id="home" />
+        <div className="bg-home min-vh-100 container-fluid" id="home">
+          <Home  />
         </div>
-        <div className="bg-featuresAndTraits bg-dark min-vh-100 container-fluid">
-          <FeaturesAndTraits id="features-traits" />
+        <div className="bg-featuresAndTraits min-vh-100 container-fluid" id="features-traits">
+          <FeaturesAndTraits />
         </div>
-        <div className="bg-skills bg-dark min-vh-100 container-fluid">
-          <Skills id="skills" />
+        <div className="bg-skills min-vh-100 container-fluid" id="skills">
+          <Skills />
         </div>
-        <div className="bg-quests min-vh-100 container-fluid">
-          <Quests id="quests" />
+        <div className="bg-quests min-vh-100 container-fluid" id="quests">
+          <Quests />
         </div>
-        <div className="bg-sending min-vh-100 container-fluid">
-          <Sending id="sending" />
+        <div className="bg-sending min-vh-100 container-fluid" id="sending">
+          <Sending />
         </div>
     </div>
   );
