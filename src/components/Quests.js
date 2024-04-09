@@ -7,7 +7,14 @@ import QuestTemplate from "../quest-data/QuestTemplate";
 function Quests() {
   return (
     <div id="quests" className="container">
-      <h2 className="component-title text-uppercase p-3">QUESTS</h2>
+      <div className="row">
+        <div className="col">
+          <div className="d-flex flex-column align-items-end align-items-md-start">
+            <h2 className="skills-title component-title">QUESTS</h2>
+            <p className="accent text-lowercase">My projects, </p>
+          </div>
+        </div>
+      </div>
       <div className="body-text text-uppercase">
         <div className="text-end">Quests are how I level up!</div>
         They're a big part of my adventures, showcasing tangible examples of my
