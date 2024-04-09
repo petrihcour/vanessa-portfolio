@@ -10,7 +10,7 @@ function Quests() {
       <div className="row">
         <div className="col">
           <div className="d-flex flex-column align-items-end align-items-md-start">
-            <h2 className="skills-title component-title">QUESTS</h2>
+            <h2 className="quests-title component-title">QUESTS</h2>
             <p className="accent text-lowercase">My projects, </p>
           </div>
         </div>
