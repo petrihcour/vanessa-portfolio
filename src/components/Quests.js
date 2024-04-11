@@ -11,7 +11,7 @@ function Quests() {
         <div className="col">
           <div className="d-flex flex-column align-items-end align-items-md-start">
             <h2 className="quests-title component-title">QUESTS</h2>
-            <p className="accent text-lowercase">My projects, </p>
+            <p className="accent text-lowercase">Projects- I made these! </p>
           </div>
         </div>
       </div>
