@@ -53,7 +53,7 @@ function Layout() {
   }, []);
 
   // Dynamically determine the background color based on opacity
-  const bgHomeColor = `rgba(32, 38, 44, ${opacity})`;
+  const bgHomeColor = `rgba(25, 30, 36, ${opacity})`;
 
   return (
     <div className="Layout" style={{ backgroundColor: bgHomeColor }}>
