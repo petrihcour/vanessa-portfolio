@@ -61,7 +61,7 @@ function Layout() {
       <div className="bg-home min-vh-100 container-fluid" id="home">
         <Home />
       </div>
-      <div className="bg-featuresAndTraits min-vh-100 container-fluid" id="features-traits" style={{ opacity: opacity }}>
+      <div className="bg-featuresAndTraits min-vh-100 container-fluid" id="features-traits" style={{ opacity: 1 }}>
         <FeaturesAndTraits />
       </div>
       <div className="bg-skills min-vh-100 container-fluid" id="skills" style={{ opacity: 1 }}>
