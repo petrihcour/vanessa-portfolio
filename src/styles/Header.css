@@ -19,6 +19,10 @@
   color: #e9f2ff;
 }
 
+.nav-link:hover {
+  color: #878da5;
+}
+
 .header-border {
   color: #e9f2ff;
 }
