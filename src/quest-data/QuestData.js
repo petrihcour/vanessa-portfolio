@@ -9,7 +9,7 @@ const QuestData = [
         description: "An online study application that gives teachers the ability to create, read, update, edit, and delete decks and cards for their students to study.",
         imageUrl: flashcard,
         gitHubUrl: "https://github.com/petrihcour/flashcard-app.git",
-        webUrl: "",
+        webUrl: "https://flashcard-o-matic-9frr.onrender.com/",
     }, 
     {
         name: "ThinkfulBnB", 
