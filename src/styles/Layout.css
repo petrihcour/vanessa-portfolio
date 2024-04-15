@@ -42,6 +42,15 @@
   color: #e9f2ff;
 }
 
+.component-title-sm {
+  font-family: "Anybody", sans-serif;
+  font-optical-sizing: auto;
+  font-size: 5rem;
+  font-weight: 300;
+  font-stretch: 54%;
+  color: #e9f2ff;
+}
+
 /* all buttons */
 
 .btn {
@@ -113,7 +122,10 @@
   /* fonts */
   .component-title {
     font-size: 9rem;
-    font-stretch: 54%;
+  }
+
+  .component-title-sm {
+    font-size: 7rem;
   }
 
   .accent {
