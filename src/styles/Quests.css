@@ -1,35 +1,6 @@
 .quests-title {
   margin-bottom: -40px;
 }
-/* 
-.img-hover-zoom .zoom-container {
-  overflow: hidden;
-}
-
-.img-hover-zoom .zoom-container img {
-  transition: transform 0.5s ease;
-}
-
-.img-hover-zoom .zoom-container:hover img {
-  transform: scale(0.95);
-}
-
-.quest-card {
-  width: 200px; 
-  height: 300px;
-  cursor: pointer;
-  opacity: 0.7;
-  transition: opacity 0.3s ease-in-out, transform 0.3s ease-in-out;
-}
-
-.quest-card:hover {
-  opacity: 1;
-}
-
-.expanded {
-  transform: scale(1.1);
-  opacity: 1;
-} */
 
 @media (min-width: 768px) {
   .quests-title {
