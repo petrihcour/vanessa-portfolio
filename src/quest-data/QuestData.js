@@ -1,7 +1,7 @@
 import flashcard from "../images/quests/flashcard.jpeg";
 import thinkfulbnb from "../images/quests/thinkfulbnb.jpeg";
 import welovemovies from "../images/quests/welovemovies.jpeg";
-import restaurantReservation from "../images/quests/restaurant-reservation.png";
+import restaurantReservation from "../images/quests/restaurant-reservation.jpeg";
 
 const QuestData = [
     {
