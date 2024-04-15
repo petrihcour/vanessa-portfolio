@@ -2,12 +2,14 @@ import React from "react";
 
 // resuable animation component for buttons
 
-function MarqueeButton({ label, onClick, hasMarquee }) {
+function MarqueeButton({ label, href, hasMarquee }) {
   return (
-    <button
+    <a
       type="button"
       className="btn btn-transparent border rounded-pill text-uppercase m-1"
-      onClick={onClick}
+      href={href}
+      target="_blank"
+      rel="noreferrer"
     >
       <span className="default-text">{label}</span>
       {hasMarquee && (
@@ -22,7 +24,7 @@ function MarqueeButton({ label, onClick, hasMarquee }) {
           </div>
         </div>
       )}
-    </button>
+    </a>
   );
 }
 
