@@ -32,14 +32,14 @@ function FeaturesAndTraits() {
             <div className="zoom-container">
           <img
             src={vanessa2}
-            alt="AI representation of Vanessa"
+            alt="self smiling surrounded by greenery looking down"
             className="vanessa-image img-fluid ps-lg-5 pt-4 mt-2"
           />
           </div>
           <div className="zoom-container">
           <img
             src={vanessa}
-            alt="AI representation of Vanessa"
+            alt="self laughing surrounded by greenery"
             className="vanessa-image img-fluid ps-lg-5 pt-3"
           />
           </div>
