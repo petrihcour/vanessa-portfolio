@@ -27,7 +27,7 @@ function QuestTemplate() {
         <div className="zoom-container">
           <img
             src={quest.imageUrl}
-            className="w-50"
+            className="img-fluid"
             alt={`${quest.name} application project screenshot`}
           />
         </div>
