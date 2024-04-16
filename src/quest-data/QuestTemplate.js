@@ -35,7 +35,7 @@ function QuestTemplate() {
     }
 
     return (
-      <div key={index} className="container mt-5 m-lg-5">
+      <div key={index} className="container mt-5 m-lg-4">
         <div className={`row ${alignmentClass} align-items-center`}>
           <div className={`col-lg-4 quest-info ${infoColumnOrderClass}`}>
             <h4 className="component-title-sm text-uppercase">{quest.name}</h4>
