@@ -48,7 +48,7 @@ export const Sending = () => {
   return (
     <div id="sending" className="container-fluid">
       <h2 className="component-title text-uppercase">Sending</h2>
-      <form ref={formRef} className="card w-50" onSubmit={handleSubmit}>
+      <form ref={formRef} className="card" onSubmit={handleSubmit}>
         <div className="card-body">
           <div className="mb-3">
             <label htmlFor="formGroupExampleInput" className="form-label">
