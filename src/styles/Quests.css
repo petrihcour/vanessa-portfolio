@@ -7,6 +7,10 @@
   margin-bottom: 0px;
 }
 
+.quest-info {
+  margin-right: -20px;
+}
+
 @media (min-width: 768px) {
   .quests-title {
     margin-bottom: -55px;
