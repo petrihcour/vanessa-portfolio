@@ -1,6 +1,6 @@
-.quests-title {
+/* .quests-title {
   margin-bottom: -40px;
-}
+} */
 
 .quest-text {
   margin-top: -25px;
@@ -8,16 +8,16 @@
 }
 
 .quest-info {
-  margin-right: -20px;
+  margin-right: -5px;
 }
 
 @media (min-width: 768px) {
-  .quests-title {
+  /* .quests-title {
     margin-bottom: -55px;
-  }
+  } */
 
   .quest-text {
-    margin-top: -38px;
+    margin-top: -45px;
     margin-bottom: 2px;
   }
 }

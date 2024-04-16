@@ -25,10 +25,11 @@ function QuestTemplate() {
       <div key={index} className="container pt-3 m-lg-5">
         <div className={`row ${alignmentClass} align-items-center`}>
           <div className="col-lg-4 quest-info">
-            <h4 className="component-title-sm text-uppercase">{quest.name}</h4>
-            <p className="text-uppercase body-text quest-text fs-6">
+            <h4 className="component-title-sm text-uppercase text-end">{quest.name}</h4>
+            <p className="text-uppercase body-text quest-text fs-6 text-end">
               {quest.description}
             </p>
+            <div className="text-end">
             <MarqueeButton
               href={quest.webUrl}
               label="Live Demo"
@@ -41,6 +42,7 @@ function QuestTemplate() {
               hasMarquee
               className=""
             />
+            </div>
           </div>
           <div className="col-lg-4 mt-2 mt-md-0">
             <div className="img-hover-zoom">

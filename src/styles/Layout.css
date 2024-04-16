@@ -21,7 +21,7 @@
   font-weight: 700;
   font-style: normal;
   font-size: 1.7rem;
-  color: #878da5;
+  color: #A1A6B8;
 }
 
 .body-text {
@@ -39,7 +39,7 @@
   font-size: 7rem;
   font-weight: 300;
   font-stretch: 54%;
-  color: #e9f2ff;
+  color: #F2F2F5;
 }
 
 .component-title-sm {
@@ -48,7 +48,7 @@
   font-size: 4.5rem;
   font-weight: 300;
   font-stretch: 54%;
-  color: #e9f2ff;
+  color: #F2F2F5;
 }
 
 /* all buttons */
@@ -125,7 +125,7 @@
   }
 
   .component-title-sm {
-    font-size: 11rem;
+    font-size: 8.5rem;
   }
 
   .accent {
