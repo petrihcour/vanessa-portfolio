@@ -21,10 +21,23 @@ function QuestTemplate() {
         alignmentClass = "justify-content-lg-center";
     }
 
+    let infoColumnOrderClass = "";
+    let imageColumnOrderClass = "";
+
+
+    if (quest.reversePosition) {
+      infoColumnOrderClass = "order-lg-2";
+      imageColumnOrderClass = "order-lg-1";
+    } else {;
+      infoColumnOrderClass = "order-lg-1";
+      imageColumnOrderClass = "order-lg-2";
+    
+    }
+
     return (
       <div key={index} className="container pt-3 m-lg-5">
         <div className={`row ${alignmentClass} align-items-center`}>
-          <div className="col-lg-4 quest-info">
+          <div className={`col-lg-4 quest-info ${infoColumnOrderClass}`}>
             <h4 className="component-title-sm text-uppercase text-end">{quest.name}</h4>
             <p className="text-uppercase body-text quest-text fs-6 text-end">
               {quest.description}
@@ -44,7 +57,7 @@ function QuestTemplate() {
             />
             </div>
           </div>
-          <div className="col-lg-4 mt-2 mt-md-0">
+          <div className={`col-lg-4 mt-2 mt-md-0 ${imageColumnOrderClass}`}>
             <div className="img-hover-zoom">
               <div className="zoom-container">
                 <img

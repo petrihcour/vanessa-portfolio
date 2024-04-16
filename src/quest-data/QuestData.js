@@ -11,6 +11,7 @@ const QuestData = [
         gitHubUrl: "https://github.com/petrihcour/thinkfulbnb-project",
         webUrl: "https://petrihcour.github.io/thinkfulbnb-project/",
         position: "left",
+        reversePosition: false,
     },
     {
         name: "FlashCard-o-matic", 
@@ -19,6 +20,7 @@ const QuestData = [
         gitHubUrl: "https://github.com/petrihcour/flashcard-app.git",
         webUrl: "https://flashcard-o-matic-9frr.onrender.com/",
         position: "center",
+        reversePosition: true,
     }, 
     {
         name: "WeLoveMovies", 
@@ -27,6 +29,7 @@ const QuestData = [
         gitHubUrl: "https://github.com/petrihcour/WeLoveMovies-Backend",
         webUrl: "https://welovemovies-frontend-sjx0.onrender.com/",
         position: "right",
+        reversePosition: true,
     },
     {
         name: "Periodic Tables", 
@@ -35,6 +38,7 @@ const QuestData = [
         gitHubUrl: "https://github.com/petrihcour/restaurant-reservation",
         webUrl: "https://reservation-restaurant-jkbn.onrender.com/",
         position: "center",
+        reversePosition: false,
     },
 ]
 
