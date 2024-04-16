@@ -2,7 +2,7 @@ import React from "react";
 
 // resuable animation component for buttons
 
-function MarqueeButton({ label, href, hasMarquee }) {
+function MarqueeButton({ label, href, hasMarquee, style }) {
   return (
     <a
       type="button"
@@ -10,6 +10,7 @@ function MarqueeButton({ label, href, hasMarquee }) {
       href={href}
       target="_blank"
       rel="noreferrer"
+      style={style}
     >
       <span className="default-text">{label}</span>
       {hasMarquee && (
