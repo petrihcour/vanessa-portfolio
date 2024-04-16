@@ -14,19 +14,19 @@ function QuestTemplate() {
     // Alignment class based on position property of the quest
     switch (quest.position) {
       case "left":
-        alignmentClass = "justify-content-start";
+        alignmentClass = "justify-content-lg-start";
         break;
       case "right":
-        alignmentClass = "justify-content-end";
+        alignmentClass = "justify-content-lg-end";
         break;
       default: 
-        alignmentClass = "justify-content-center";
+        alignmentClass = "justify-content-lg-center";
     }
   
   return (
-    <div key={index} className="container pt-3 m-md-5">
+    <div key={index} className="container pt-3 m-lg-5">
       <div className={`row ${alignmentClass}`}>
-        <div className="col-md-4">
+        <div className="col-lg-4">
         <h4 className="component-title-sm text-uppercase">{quest.name}</h4>
       <p className="text-uppercase body-text quest-text fs-6">{quest.description}</p>
       <MarqueeButton
@@ -42,7 +42,7 @@ function QuestTemplate() {
         className=""
       />
       </div>
-      <div className="col-md-4 mt-2 mt-md-0">
+      <div className="col-lg-4 mt-2 mt-md-0">
       <div className="img-hover-zoom">
         <div className="zoom-container">
           <img
