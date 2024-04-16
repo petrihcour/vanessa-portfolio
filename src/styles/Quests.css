@@ -2,8 +2,18 @@
   margin-bottom: -40px;
 }
 
+.quest-text {
+  margin-top: -25px;
+  margin-bottom: 0px;
+}
+
 @media (min-width: 768px) {
   .quests-title {
     margin-bottom: -55px;
+  }
+
+  .quest-text {
+    margin-top: -38px;
+    margin-bottom: 2px;
   }
 }
