@@ -13,16 +13,16 @@ function QuestTemplate() {
     // Alignment class based on position property of the quest
     switch (quest.position) {
       case "left":
-        alignmentClass = "justify-content-lg-start";
-        textPosition = "text-end text-lg-end";
+        alignmentClass = "justify-content-xl-start";
+        textPosition = "text-end text-xl-end";
         break;
       case "right":
-        alignmentClass = "justify-content-lg-end";
-        textPosition = "text-end text-lg-start";
+        alignmentClass = "justify-content-xl-end";
+        textPosition = "text-end text-xl-start";
         break;
       default:
-        alignmentClass = "justify-content-lg-center";
-        textPosition = quest.reversePosition ? "text-end text-lg-start" : "text-end text-lg-end";
+        alignmentClass = "justify-content-xl-center";
+        textPosition = quest.reversePosition ? "text-end text-xl-start" : "text-end text-xl-end";
     }
 
     let infoColumnOrderClass = "";
@@ -30,18 +30,18 @@ function QuestTemplate() {
 
 
     if (quest.reversePosition) {
-      infoColumnOrderClass = "order-lg-2";
-      imageColumnOrderClass = "order-lg-1";
+      infoColumnOrderClass = "order-xl-2";
+      imageColumnOrderClass = "order-xl-1";
     } else {;
-      infoColumnOrderClass = "order-lg-1";
-      imageColumnOrderClass = "order-lg-2";
+      infoColumnOrderClass = "order-xl-1";
+      imageColumnOrderClass = "order-xl-2";
     
     }
 
     return (
-      <div key={index} className="container mt-5 m-lg-4">
+      <div key={index} className="container mt-5 m-xl-4">
         <div className={`row ${alignmentClass} ${textPosition} align-items-center`}>
-          <div className={`col-lg-4 quest-info ${infoColumnOrderClass}`}>
+          <div className={`col-xl-4 quest-info ${infoColumnOrderClass}`}>
             <h4 className="component-title-sm text-uppercase">{quest.name}</h4>
             <p className="text-uppercase body-text quest-text fs-6 d-none d-sm-block">
               {quest.description}
@@ -61,7 +61,7 @@ function QuestTemplate() {
             />
             </div>
           </div>
-          <div className={`col-lg-4 mt-2 mt-md-0 ${imageColumnOrderClass}`}>
+          <div className={`col-xl-4 mt-2 mt-md-0 ${imageColumnOrderClass}`}>
             <div className="img-hover-zoom">
               <div className="zoom-container">
                 <img
