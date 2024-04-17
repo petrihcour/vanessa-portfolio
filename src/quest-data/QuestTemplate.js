@@ -8,17 +8,20 @@ import "../styles/Quests.css";
 function QuestTemplate() {
   const quests = QuestData.map((quest, index) => {
     let alignmentClass = "";
+    let textPosition = "";
 
     // Alignment class based on position property of the quest
     switch (quest.position) {
       case "left":
         alignmentClass = "justify-content-lg-start";
+        textPosition = "text-end";
         break;
       case "right":
         alignmentClass = "justify-content-lg-end";
         break;
       default:
         alignmentClass = "justify-content-lg-center";
+        textPosition = quest.reversePosition ? "text-start" : "text-end";
     }
 
     let infoColumnOrderClass = "";
@@ -36,7 +39,7 @@ function QuestTemplate() {
 
     return (
       <div key={index} className="container mt-5 m-lg-4">
-        <div className={`row ${alignmentClass} align-items-center`}>
+        <div className={`row ${alignmentClass} ${textPosition} align-items-center`}>
           <div className={`col-lg-4 quest-info ${infoColumnOrderClass}`}>
             <h4 className="component-title-sm text-uppercase">{quest.name}</h4>
             <p className="text-uppercase body-text quest-text fs-6">
