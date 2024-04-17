@@ -18,7 +18,7 @@ function QuestTemplate() {
         break;
       case "right":
         alignmentClass = "justify-content-xl-end";
-        textPosition = "text-end text-xl-start";
+        textPosition = quest.reversePosition ? "text-end text-xl-start" : "text-end text-xl-end";
         break;
       default:
         alignmentClass = "justify-content-xl-center";

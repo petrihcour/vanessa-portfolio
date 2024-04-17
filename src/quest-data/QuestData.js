@@ -28,8 +28,8 @@ const QuestData = [
         imageUrl: welovemovies,
         gitHubUrl: "https://github.com/petrihcour/WeLoveMovies-Backend",
         webUrl: "https://welovemovies-frontend-sjx0.onrender.com/",
-        position: "right",
-        reversePosition: true,
+        position: "center",
+        reversePosition: false,
     },
     {
         name: "Periodic Tables", 
@@ -37,8 +37,8 @@ const QuestData = [
         imageUrl: restaurantReservation,
         gitHubUrl: "https://github.com/petrihcour/restaurant-reservation",
         webUrl: "https://reservation-restaurant-jkbn.onrender.com/",
-        position: "center",
-        reversePosition: false,
+        position: "right",
+        reversePosition: true,
     },
 ]
 
