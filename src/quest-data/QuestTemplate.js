@@ -14,7 +14,7 @@ function QuestTemplate() {
     switch (quest.position) {
       case "left":
         alignmentClass = "justify-content-xl-start";
-        textPosition = "text-end text-xl-end";
+        textPosition = quest.reversePosition ? "text-end text-xl-start" : "text-end text-xl-end";
         break;
       case "right":
         alignmentClass = "justify-content-xl-end";
