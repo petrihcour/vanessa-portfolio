@@ -14,14 +14,15 @@ function QuestTemplate() {
     switch (quest.position) {
       case "left":
         alignmentClass = "justify-content-lg-start";
-        textPosition = "text-end";
+        textPosition = "text-end text-lg-end";
         break;
       case "right":
         alignmentClass = "justify-content-lg-end";
+        textPosition = "text-end text-lg-start";
         break;
       default:
         alignmentClass = "justify-content-lg-center";
-        textPosition = quest.reversePosition ? "text-start" : "text-end";
+        textPosition = quest.reversePosition ? "text-end text-lg-start" : "text-end text-lg-end";
     }
 
     let infoColumnOrderClass = "";
@@ -42,7 +43,7 @@ function QuestTemplate() {
         <div className={`row ${alignmentClass} ${textPosition} align-items-center`}>
           <div className={`col-lg-4 quest-info ${infoColumnOrderClass}`}>
             <h4 className="component-title-sm text-uppercase">{quest.name}</h4>
-            <p className="text-uppercase body-text quest-text fs-6">
+            <p className="text-uppercase body-text quest-text fs-6 d-none d-sm-block">
               {quest.description}
             </p>
             <div className="">
