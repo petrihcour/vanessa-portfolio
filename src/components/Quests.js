@@ -23,7 +23,7 @@ function Quests() {
         </div>
       </div>
       <div className="row justify-content-end">
-        <div className="body-text text-uppercase col-md-7">
+        <div className="body-text text-uppercase col-xl-7">
           <div className="d-flex flex-column">
             <div className="text-end">Quests are how I level up!</div>
             They're a big part of my adventures, showcasing examples of
