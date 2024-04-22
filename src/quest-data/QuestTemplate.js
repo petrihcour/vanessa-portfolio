@@ -3,8 +3,6 @@ import QuestData from "./QuestData";
 import MarqueeButton from "../animations/MarqueeButton";
 import "../styles/Quests.css";
 
-// need to adjust button to be small for quests
-
 function QuestTemplate() {
   const quests = QuestData.map((quest, index) => {
     let alignmentClass = "";
