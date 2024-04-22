@@ -11,17 +11,27 @@ function Quests() {
       <div className="row">
         <div className="col">
           <div className="d-flex flex-column align-items-end align-items-md-start">
-            <p className="accent text-lowercase"> <img src={star} alt="13 pointed star" className="star-img me-3" /> Projects I have created,</p>
+            <p className="accent text-lowercase">
+              {" "}
+              <img
+                src={star}
+                alt="13 pointed star"
+                className="star-img me-3"
+              />{" "}
+              Projects I have created,
+            </p>
           </div>
         </div>
       </div>
-      
-      <div className="body-text text-uppercase">
-        <div className="text-end">Quests are how I level up!</div>
-        They're a big part of my adventures, showcasing tangible examples of my
-        work and serving as a testament to my ability to confront intricate
-        challenges, adapt to different technologies, and efficiently work these
-        projects to completion.
+      <div className="row justify-content-end">
+        <div className="body-text text-uppercase col-md-7">
+          <div className="d-flex flex-column">
+            <div className="text-end">Quests are how I level up!</div>
+            They're a big part of my adventures, showcasing examples of
+            my work and my ability to confront challenges, adapt to different
+            technologies, and efficiently complete projects.
+          </div>
+        </div>
       </div>
       <QuestTemplate />
     </div>
