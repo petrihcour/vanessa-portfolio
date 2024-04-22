@@ -54,11 +54,15 @@
 
 /* all buttons */
 
+:root {
+  --marquee-text-color: #F2F2F5;
+}
+
 .btn {
   font-family: "Almarai", sans-serif;
   font-size: 1.4rem;
   padding: 2px 8px 2px 8px;
-  color: #e9f2ff;
+  color: var(--marquee-text-color);
   transform: translate(0px, 0%);
 }
 
@@ -88,7 +92,7 @@
   white-space: nowrap;
   pointer-events: none;
   opacity: 0;
-  color: #e9f2ff;
+  color: var(--marquee-text-color);
 }
 
 .marquee-btn-inner > span {

@@ -2,7 +2,7 @@ import React from "react";
 
 // resuable animation component for buttons
 
-function MarqueeButton({ label, href, hasMarquee, style }) {
+function MarqueeButton({ label, href, hasMarquee, style, textColor }) {
   return (
     <a
       type="button"
@@ -15,7 +15,7 @@ function MarqueeButton({ label, href, hasMarquee, style }) {
       <span className="default-text">{label}</span>
       {hasMarquee && (
         <div className="marquee-btn" aria-hidden="true">
-          <div className="marquee-btn-inner">
+          <div className="marquee-btn-inner" style={{color: textColor}}>
             <span>{label}</span>
             <span>{label}</span>
             <span>{label}</span>
