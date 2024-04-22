@@ -43,7 +43,7 @@ function QuestTemplate() {
         <div className={`row ${alignmentClass} ${textPosition} align-items-center`}>
           <div className={`col-xl-4 quest-info ${infoColumnOrderClass}`}>
             <h4 className="component-title-sm text-uppercase">{quest.name}</h4>
-            <p className="text-uppercase body-text quest-text fs-6 d-none d-sm-block">
+            <p className="text-uppercase body-text quest-text d-none d-sm-block" style={{ fontSize: "0.9rem" }}>
               {quest.description}
             </p>
             <div className="">
