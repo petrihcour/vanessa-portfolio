@@ -2,8 +2,7 @@ import React from "react";
 import QuestTemplate from "../quest-data/QuestTemplate";
 import star from "../images/accents/star.png";
 
-// need to fix how quests page looks and determine how i want to display my projects. it does not look good now
-// do i want cards with each project? do i want a slide? make it smaller?
+// adjust quest intro be be flish with the star and accent text on same line
 
 function Quests() {
   return (
