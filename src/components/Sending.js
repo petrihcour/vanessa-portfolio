@@ -48,10 +48,10 @@ export const Sending = () => {
   return (
     <div id="sending" className="container-fluid">
       <h2 className="component-title home-title text-uppercase">Sending</h2>
-      <form ref={formRef} className="card" onSubmit={handleSubmit}>
+      <form ref={formRef} className="card" onSubmit={handleSubmit} style={{backgroundColor: "#191e24"}}>
         <div className="card-body">
           <div className="mb-3">
-            <label htmlFor="formGroupExampleInput" className="form-label body-text text-uppercase text-dark">
+            <label htmlFor="formGroupExampleInput" className="form-label body-text text-uppercase">
               your name
             </label>
             <input
@@ -65,21 +65,21 @@ export const Sending = () => {
             />
           </div>
           <div className="mb-3">
-            <label htmlFor="exampleFormControlInput1" className="form-label body-text text-uppercase text-dark">
+            <label htmlFor="exampleFormControlInput1" className="form-label body-text text-uppercase">
               your email
             </label>
             <input
               type="email"
               name="email"
               value={form.email}
-              placeholder="what's your email?"
+              placeholder="email@myemail.com"
               className="form-control body-text text-uppercase"
               id="email"
               onChange={handleChange}
             />
           </div>
           <div className="mb-3">
-            <label htmlFor="exampleFormControlTextarea1" className="form-label body-text text-uppercase text-dark">
+            <label htmlFor="exampleFormControlTextarea1" className="form-label body-text text-uppercase">
               your message
             </label>
             <textarea
