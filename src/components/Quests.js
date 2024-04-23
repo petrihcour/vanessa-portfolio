@@ -22,7 +22,7 @@ function Quests() {
       <div className="col-lg-6 d-flex flex-column justify-content-center">
         <div className="text-end body-text text-uppercase">Quests are how I level up!</div>
       </div>
-      <div className="body-text text-uppercase">
+      <div className="body-text body-text-quest-p text-uppercase">
           They're a big part of my adventures, showcasing tangible examples
           of my work and serving as a testament to my ability to confront
           intricate challenges, adapt to different technologies, and

@@ -62,6 +62,7 @@ function QuestTemplate() {
                   fontSize: "1.1rem",
                   backgroundColor: "#F2F2F5",
                   color: "#191e24",
+                  fontWeight: "600"
                 }}
                 textColor="#191e24"
               />
@@ -69,7 +70,7 @@ function QuestTemplate() {
                 href={quest.gitHubUrl}
                 label="GitHub"
                 hasMarquee
-                style={{ fontSize: "1.1rem" }}
+                style={{ fontSize: "1.1rem", fontWeight: "600" }}
               />
             </div>
           </div>
