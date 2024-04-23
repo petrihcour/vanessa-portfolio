@@ -73,7 +73,7 @@ export const Sending = () => {
               name="email"
               value={form.email}
               placeholder="what's your email?"
-              className="form-control"
+              className="form-control body-text text-uppercase"
               id="email"
               onChange={handleChange}
             />
@@ -87,12 +87,12 @@ export const Sending = () => {
               name="message"
               value={form.message}
               placeholder="what's your message?"
-              className="form-control"
+              className="form-control body-text text-uppercase"
               id="message"
               onChange={handleChange}
             ></textarea>
           </div>
-          <button type="submit" className="btn btn-primary">
+          <button type="submit" className="btn btn-primary body-text text-uppercase">
           {loading ? "sending" : "send"}
           </button>
         </div>
