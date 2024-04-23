@@ -2,6 +2,8 @@ import React, { useRef, useState } from "react";
 import MarqueeButton from "../animations/MarqueeButton";
 import emailjs from "@emailjs/browser";
 
+// need to find out how to remove bootstrap button properties so only marquee button shows
+
 export const Sending = () => {
   const formRef = useRef();
   const [form, setForm] = useState({ name: "", email: "", message: "" });
