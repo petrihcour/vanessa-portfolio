@@ -2,10 +2,10 @@ import React from "react";
 
 // resuable animation component for buttons
 
-function MarqueeButton({ label, href, hasMarquee, style, textColor }) {
+function MarqueeButton({ type, label, href, hasMarquee, style, textColor }) {
   return (
     <a
-      type="button"
+      type={type}
       className="btn btn-transparent border rounded-pill text-uppercase m-1"
       href={href}
       target="_blank"

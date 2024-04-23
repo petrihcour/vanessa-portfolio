@@ -56,6 +56,7 @@ function QuestTemplate() {
             <div className="">
               <MarqueeButton
                 href={quest.webUrl}
+                type="button"
                 label="Live Demo"
                 hasMarquee
                 style={{
@@ -68,6 +69,7 @@ function QuestTemplate() {
               />
               <MarqueeButton
                 href={quest.gitHubUrl}
+                type="button"
                 label="GitHub"
                 hasMarquee
                 style={{ fontSize: "1.1rem", fontWeight: "600" }}

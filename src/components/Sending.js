@@ -1,4 +1,5 @@
 import React, { useRef, useState } from "react";
+import MarqueeButton from "../animations/MarqueeButton";
 import emailjs from "@emailjs/browser";
 
 export const Sending = () => {
@@ -92,9 +93,10 @@ export const Sending = () => {
               onChange={handleChange}
             ></textarea>
           </div>
-          <button type="submit" className="btn btn-primary body-text text-uppercase">
+          <MarqueeButton type="submit" label={loading ? "sending" : "send"} />
+          {/* <button type="submit" className="btn btn-primary body-text text-uppercase">
           {loading ? "sending" : "send"}
-          </button>
+          </button> */}
         </div>
       </form>
     </div>

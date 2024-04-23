@@ -45,7 +45,7 @@ function Home() {
               comfort. I love Dungeons & Dragons, unbearably spicy food, and my cats - Salmon,
               Sharky, and Fishy.
             <div className="d-flex justify-content-end mt-4">
-              <MarqueeButton label="Cast Sending" hasMarquee />
+              <MarqueeButton type="button" label="Cast Sending" hasMarquee />
             </div>
           </div>
         </div>
