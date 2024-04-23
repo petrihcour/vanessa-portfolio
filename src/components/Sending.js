@@ -49,10 +49,18 @@ export const Sending = () => {
   return (
     <div id="sending" className="container-fluid">
       <h2 className="component-title home-title text-uppercase">Sending</h2>
-      <form ref={formRef} className="card" onSubmit={handleSubmit} style={{backgroundColor: "#191e24"}}>
+      <form
+        ref={formRef}
+        className="card"
+        onSubmit={handleSubmit}
+        style={{ backgroundColor: "#191e24" }}
+      >
         <div className="card-body">
           <div className="mb-3">
-            <label htmlFor="formGroupExampleInput" className="form-label body-text text-uppercase">
+            <label
+              htmlFor="formGroupExampleInput"
+              className="form-label body-text text-uppercase"
+            >
               your name
             </label>
             <input
@@ -66,7 +74,10 @@ export const Sending = () => {
             />
           </div>
           <div className="mb-3">
-            <label htmlFor="exampleFormControlInput1" className="form-label body-text text-uppercase">
+            <label
+              htmlFor="exampleFormControlInput1"
+              className="form-label body-text text-uppercase"
+            >
               your email
             </label>
             <input
@@ -80,7 +91,10 @@ export const Sending = () => {
             />
           </div>
           <div className="mb-3">
-            <label htmlFor="exampleFormControlTextarea1" className="form-label body-text text-uppercase">
+            <label
+              htmlFor="exampleFormControlTextarea1"
+              className="form-label body-text text-uppercase"
+            >
               your message
             </label>
             <textarea
@@ -93,10 +107,32 @@ export const Sending = () => {
               onChange={handleChange}
             ></textarea>
           </div>
-          <MarqueeButton type="submit" label={loading ? "sending" : "send"} />
+          {/* <MarqueeButton
+            type="submit"
+            label={loading ? "sending" : "send"}
+            hasMarquee
+            style={{
+              backgroundColor: "#F2F2F5",
+              color: "#191e24",
+              fontWeight: "600",
+            }}
+            textColor="#191e24"
+          /> */}
           {/* <button type="submit" className="btn btn-primary body-text text-uppercase">
           {loading ? "sending" : "send"}
           </button> */}
+          <button type="submit" className="btn btn-outline">
+            <MarqueeButton
+              label={loading ? "sending" : "send"}
+              hasMarquee
+              style={{
+                backgroundColor: "#F2F2F5",
+                color: "#191e24",
+                fontWeight: "600",
+              }}
+              textColor="#191e24"
+            />
+          </button>
         </div>
       </form>
     </div>

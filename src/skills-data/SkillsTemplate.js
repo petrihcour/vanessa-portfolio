@@ -6,7 +6,7 @@ function SkillsTemplate() {
   return (
     <div>
       {skillsData.map((skill, index) => (
-        <MarqueeButton index={index} type="button" label={skill.skill} hasMarquee />
+        <MarqueeButton key={index} type="button" label={skill.skill} hasMarquee />
       ))}
     </div>
   );
