@@ -35,7 +35,7 @@ function Home() {
       </div>
       <div className="container-fluid">
         <div className="justify-content-xl-between row">
-          <div className="home-title text-uppercase col-lg-6 align-content-end">
+          <div className="text-uppercase col-lg-6 align-content-end">
             <h1 className="home-i-am">I am</h1>
             <h1 className="home-title-vanessa">Vanessa</h1>
           </div>
