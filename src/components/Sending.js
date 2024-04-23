@@ -51,21 +51,21 @@ export const Sending = () => {
       <form ref={formRef} className="card" onSubmit={handleSubmit}>
         <div className="card-body">
           <div className="mb-3">
-            <label htmlFor="formGroupExampleInput" className="form-label">
+            <label htmlFor="formGroupExampleInput" className="form-label body-text text-uppercase text-dark">
               your name
             </label>
             <input
               type="text"
               name="name"
               value={form.name}
-              placeholder="what's your name?"
-              className="form-control"
+              placeholder="What's your name?"
+              className="form-control body-text text-uppercase"
               id="name"
               onChange={handleChange}
             />
           </div>
           <div className="mb-3">
-            <label htmlFor="exampleFormControlInput1" className="form-label">
+            <label htmlFor="exampleFormControlInput1" className="form-label body-text text-uppercase text-dark">
               your email
             </label>
             <input
@@ -79,7 +79,7 @@ export const Sending = () => {
             />
           </div>
           <div className="mb-3">
-            <label htmlFor="exampleFormControlTextarea1" className="form-label">
+            <label htmlFor="exampleFormControlTextarea1" className="form-label body-text text-uppercase text-dark">
               your message
             </label>
             <textarea
