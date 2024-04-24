@@ -4,6 +4,9 @@ import "../styles/Sending.css";
 import star from "../images/accents/star.png";
 import emailjs from "@emailjs/browser";
 
+// consider removing form and applying buttons to contact me instead. 
+// underneath sending, let's connect, add footer still in sending with linkedin, github, etc...
+
 export const Sending = () => {
   const formRef = useRef();
   const [form, setForm] = useState({ name: "", email: "", message: "" });
