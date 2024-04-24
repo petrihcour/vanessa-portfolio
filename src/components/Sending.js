@@ -112,21 +112,11 @@ export const Sending = () => {
               onChange={handleChange}
             ></textarea>
           </div>
-          {/* <MarqueeButton
+          <button
             type="submit"
-            label={loading ? "sending" : "send"}
-            hasMarquee
-            style={{
-              backgroundColor: "#F2F2F5",
-              color: "#191e24",
-              fontWeight: "600",
-            }}
-            textColor="#191e24"
-          /> */}
-          {/* <button type="submit" className="btn btn-primary body-text text-uppercase">
-          {loading ? "sending" : "send"}
-          </button> */}
-          <button type="submit" className="btn btn-outline" style={{border: "none", padding: "0"}}>
+            className="btn btn-outline"
+            style={{ border: "none", padding: "0" }}
+          >
             <MarqueeButton
               label={loading ? "sending" : "send"}
               hasMarquee
