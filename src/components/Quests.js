@@ -9,7 +9,7 @@ function Quests() {
     <div id="quests" className="container">
       <div className="row">
         <div className="col-lg-6 d-flex align-items-end">
-          <p className="accent quest-accent text-lowercase">
+          <h4 className="accent quest-accent text-lowercase">
             {" "}
             <img
               src={star}
@@ -17,7 +17,7 @@ function Quests() {
               className="star-img me-3"
             />{" "}
             Projects I have created,
-          </p>
+          </h4>
         </div>
         <div className="col-lg-6 d-flex flex-column justify-content-end">
           <div className="text-end body-text text-uppercase">

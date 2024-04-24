@@ -13,7 +13,7 @@ function FeaturesAndTraits() {
               <h2 className="features-traits-title component-title">
                 FEATURES & TRAITS
               </h2>
-              <p className="accent text-lowercase">Greetings Travelers,</p>
+              <h4 className="accent text-lowercase">Greetings Travelers,</h4>
             </div>
           </div>
           <div className="text-uppercase body-text">

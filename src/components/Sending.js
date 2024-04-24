@@ -62,7 +62,8 @@ export const Sending = () => {
             style={{ backgroundColor: "transparent" }}
           >
             <div className="card-body">
-              <div className="mb-3">
+              <p></p>
+              <div className="mb-2">
                 <label
                   htmlFor="formGroupExampleInput"
                   className="form-label body-text text-uppercase"
@@ -81,7 +82,7 @@ export const Sending = () => {
                   onChange={handleChange}
                 />
               </div>
-              <div className="mb-3">
+              <div className="mb-2">
                 <label
                   htmlFor="exampleFormControlInput1"
                   className="form-label body-text text-uppercase"
@@ -100,7 +101,7 @@ export const Sending = () => {
                   onChange={handleChange}
                 />
               </div>
-              <div className="mb-3">
+              <div className="mb-2">
                 <label
                   htmlFor="exampleFormControlTextarea1"
                   className="form-label body-text text-uppercase"
@@ -119,7 +120,7 @@ export const Sending = () => {
                   onChange={handleChange}
                 ></textarea>
               </div>
-              <div className="d-flex justify-content-end mt-4">
+              <div className="d-flex justify-content-end mt-2">
                 <button
                   type="submit"
                   className="btn btn-outline"

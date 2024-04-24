@@ -11,7 +11,7 @@ function Skills() {
         <div className="col">
           <div className="d-flex flex-column align-items-end align-items-md-start">
             <h2 className="skills-title component-title">SKILLS</h2>
-            <p className="accent text-lowercase">Things I'm good at,</p>
+            <h4 className="accent text-lowercase">Things I'm good at,</h4>
           </div>
         </div>
       </div>
