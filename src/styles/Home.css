@@ -1,14 +1,10 @@
 /* home page layout */
 
 .home-container {
-  /* position: relative; */
   overflow: hidden;
 }
 
 /* home fonts and sizing */
-
-/* consider using Inter Tight font or Urbanist font for Titles
- */
 
 .home-accent {
   font-family: "Cormorant Unicase", serif;
