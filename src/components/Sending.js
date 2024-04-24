@@ -48,7 +48,7 @@ export const Sending = () => {
   };
 
   return (
-    <div id="sending" className="container-fluid">
+    <div id="sending" className="container-fluid mt-5 pt-5">
       <div className="justify-content-xl-between row">
         <div className="text-uppercase col-lg-6 align-content-end">
           <h1 className="home-i-am">Let's</h1>
