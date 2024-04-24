@@ -1,6 +1,7 @@
 import React, { useRef, useState } from "react";
 import MarqueeButton from "../animations/MarqueeButton";
 import "../styles/Sending.css";
+import star from "../images/accents/star.png";
 import emailjs from "@emailjs/browser";
 
 export const Sending = () => {
@@ -49,22 +50,28 @@ export const Sending = () => {
 
   return (
     <div id="sending" className="container-fluid mt-5 pt-5">
-      <div className="justify-content-xl-between row">
+      <div className="justify-content-lg-between row">
         <div className="text-uppercase col-lg-6 align-content-end">
           <h1 className="home-i-am">Let's</h1>
           <h1 className="home-title-vanessa sending-title-connect mb-0">
             Connect
           </h1>
         </div>
-        <div className="col-xl-5 col-lg-6 align-content-center">
+        <div className="col-xl-4 col-lg-5 align-content-center">
           <form
             ref={formRef}
-            className="card"
+            className="card border-light"
             onSubmit={handleSubmit}
             style={{ backgroundColor: "transparent" }}
           >
             <div className="card-body">
-              <h4 className="accent text-lowercase">Cast Sending</h4>
+              <h4 className="accent text-lowercase">
+              <img
+              src={star}
+              alt="13 pointed star"
+              className="star-img me-3"
+            />
+            Cast Sending</h4>
               <div className="mb-2">
                 <label
                   htmlFor="name"
@@ -78,7 +85,7 @@ export const Sending = () => {
                   name="name"
                   value={form.name}
                   placeholder="What's your name?"
-                  className="form-control form-control-sm body-text"
+                  className="form-control form-control-sm body-text bg-transparent border-light rounded-3"
                   style={{ color: "#404455", fontSize: "1.2rem" }}
                   id="name"
                   onChange={handleChange}
@@ -98,7 +105,7 @@ export const Sending = () => {
                   name="email"
                   value={form.email}
                   placeholder="example@gmail.com"
-                  className="form-control form-control-sm body-text"
+                  className="form-control form-control-sm body-text bg-transparent border-light rounded-3"
                   style={{ color: "#404455", fontSize: "1.2rem" }}
                   id="email"
                   onChange={handleChange}
@@ -118,8 +125,8 @@ export const Sending = () => {
                   name="message"
                   value={form.message}
                   placeholder="I want to hire you!"
-                  className="form-control form-control-sm body-text"
-                  style={{ color: "#404455", fontSize: "1.2rem" }}
+                  className="form-control form-control-sm body-text bg-transparent border-light rounded-3"
+                  style={{ color: "#E9F2FF", fontSize: "1.2rem" }}
                   id="message"
                   onChange={handleChange}
                   required
