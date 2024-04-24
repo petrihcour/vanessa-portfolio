@@ -67,7 +67,7 @@ export const Sending = () => {
               <h4 className="accent text-lowercase">Cast Sending</h4>
               <div className="mb-2">
                 <label
-                  htmlFor="formGroupExampleInput"
+                  htmlFor="name"
                   className="form-label body-text text-uppercase"
                   style={{ fontSize: "1.1rem" }}
                 >
@@ -82,11 +82,12 @@ export const Sending = () => {
                   style={{ color: "#404455", fontSize: "1.2rem" }}
                   id="name"
                   onChange={handleChange}
+                  required
                 />
               </div>
               <div className="mb-2">
                 <label
-                  htmlFor="exampleFormControlInput1"
+                  htmlFor="email"
                   className="form-label body-text text-uppercase"
                   style={{ fontSize: "1.1rem" }}
                 >
@@ -101,11 +102,12 @@ export const Sending = () => {
                   style={{ color: "#404455", fontSize: "1.2rem" }}
                   id="email"
                   onChange={handleChange}
+                  required
                 />
               </div>
               <div className="mb-2">
                 <label
-                  htmlFor="exampleFormControlTextarea1"
+                  htmlFor="message"
                   className="form-label body-text text-uppercase"
                   style={{ fontSize: "1.1rem" }}
                 >
@@ -120,6 +122,7 @@ export const Sending = () => {
                   style={{ color: "#404455", fontSize: "1.2rem" }}
                   id="message"
                   onChange={handleChange}
+                  required
                 ></textarea>
               </div>
               <div className="d-flex justify-content-end mt-2">
