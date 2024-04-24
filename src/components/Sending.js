@@ -48,13 +48,15 @@ export const Sending = () => {
   };
 
   return (
-    <div id="sending" className="container-fluid mt-5 pt-5">
+    <div id="sending" className="container-fluid">
       <div className="justify-content-xl-between row">
         <div className="text-uppercase col-lg-6 align-content-end">
-          <h1 className="home-i-am sending-lets">Let's</h1>
-          <h1 className="home-title-vanessa sending-title-connect">Connect</h1>
+          <h1 className="home-i-am">Let's</h1>
+          <h1 className="home-title-vanessa sending-title-connect mb-0">
+            Connect
+          </h1>
         </div>
-        <div className="col-xl-5 col-lg-6 mt-4 align-content-end">
+        <div className="col-xl-5 col-lg-6 align-content-center">
           <form
             ref={formRef}
             className="card"
@@ -67,7 +69,7 @@ export const Sending = () => {
                 <label
                   htmlFor="formGroupExampleInput"
                   className="form-label body-text text-uppercase"
-                  style={{fontSize: "1.1rem"}}
+                  style={{ fontSize: "1.1rem" }}
                 >
                   Name
                 </label>
@@ -86,7 +88,7 @@ export const Sending = () => {
                 <label
                   htmlFor="exampleFormControlInput1"
                   className="form-label body-text text-uppercase"
-                  style={{fontSize: "1.1rem"}}
+                  style={{ fontSize: "1.1rem" }}
                 >
                   email
                 </label>
@@ -105,7 +107,7 @@ export const Sending = () => {
                 <label
                   htmlFor="exampleFormControlTextarea1"
                   className="form-label body-text text-uppercase"
-                  style={{fontSize: "1.1rem"}}
+                  style={{ fontSize: "1.1rem" }}
                 >
                   Message
                 </label>
@@ -133,11 +135,11 @@ export const Sending = () => {
                       backgroundColor: "#F2F2F5",
                       color: "#15171C",
                       fontWeight: "600",
-                      fontSize: "1.2rem"
+                      fontSize: "1.2rem",
                     }}
                     textColor="#15171C"
                   />
-                </button>{" "}
+                </button>
               </div>
             </div>
           </form>
