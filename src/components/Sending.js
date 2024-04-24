@@ -71,7 +71,7 @@ export const Sending = () => {
               value={form.name}
               placeholder="What's your name?"
               className="form-control body-text text-uppercase"
-              style={{color: "#404455"}}
+              style={{ color: "#404455" }}
               id="name"
               onChange={handleChange}
             />
@@ -89,7 +89,7 @@ export const Sending = () => {
               value={form.email}
               placeholder="email@myemail.com"
               className="form-control body-text text-uppercase"
-              style={{color: "#404455"}}
+              style={{ color: "#404455" }}
               id="email"
               onChange={handleChange}
             />
@@ -107,7 +107,7 @@ export const Sending = () => {
               value={form.message}
               placeholder="I want to hire you!"
               className="form-control body-text text-uppercase"
-              style={{color: "#404455"}}
+              style={{ color: "#404455" }}
               id="message"
               onChange={handleChange}
             ></textarea>
@@ -126,16 +126,16 @@ export const Sending = () => {
           {/* <button type="submit" className="btn btn-primary body-text text-uppercase">
           {loading ? "sending" : "send"}
           </button> */}
-          <button type="submit" className="btn btn-outline">
+          <button type="submit" className="btn btn-outline" style={{border: "none", padding: "0"}}>
             <MarqueeButton
               label={loading ? "sending" : "send"}
               hasMarquee
               style={{
                 backgroundColor: "#F2F2F5",
-                color: "#191e24",
+                color: "#15171C",
                 fontWeight: "600",
               }}
-              textColor="#191e24"
+              textColor="#15171C"
             />
           </button>
         </div>
