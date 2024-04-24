@@ -59,23 +59,24 @@ export const Sending = () => {
             ref={formRef}
             className="card"
             onSubmit={handleSubmit}
-            style={{ backgroundColor: "#15171C" }}
+            style={{ backgroundColor: "transparent" }}
           >
             <div className="card-body">
               <div className="mb-3">
                 <label
                   htmlFor="formGroupExampleInput"
                   className="form-label body-text text-uppercase"
+                  style={{fontSize: "1.1rem"}}
                 >
-                  Your Name
+                  Name
                 </label>
                 <input
                   type="text"
                   name="name"
                   value={form.name}
                   placeholder="What's your name?"
-                  className="form-control body-text text-uppercase"
-                  style={{ color: "#404455" }}
+                  className="form-control form-control-sm body-text"
+                  style={{ color: "#404455", fontSize: "1.2rem" }}
                   id="name"
                   onChange={handleChange}
                 />
@@ -84,16 +85,17 @@ export const Sending = () => {
                 <label
                   htmlFor="exampleFormControlInput1"
                   className="form-label body-text text-uppercase"
+                  style={{fontSize: "1.1rem"}}
                 >
-                  your email
+                  email
                 </label>
                 <input
                   type="email"
                   name="email"
                   value={form.email}
-                  placeholder="email@myemail.com"
-                  className="form-control body-text text-uppercase"
-                  style={{ color: "#404455" }}
+                  placeholder="example@gmail.com"
+                  className="form-control form-control-sm body-text"
+                  style={{ color: "#404455", fontSize: "1.2rem" }}
                   id="email"
                   onChange={handleChange}
                 />
@@ -102,16 +104,17 @@ export const Sending = () => {
                 <label
                   htmlFor="exampleFormControlTextarea1"
                   className="form-label body-text text-uppercase"
+                  style={{fontSize: "1.1rem"}}
                 >
-                  your message
+                  Message
                 </label>
                 <textarea
                   rows="3"
                   name="message"
                   value={form.message}
                   placeholder="I want to hire you!"
-                  className="form-control body-text text-uppercase"
-                  style={{ color: "#404455" }}
+                  className="form-control form-control-sm body-text"
+                  style={{ color: "#404455", fontSize: "1.2rem" }}
                   id="message"
                   onChange={handleChange}
                 ></textarea>
@@ -129,6 +132,7 @@ export const Sending = () => {
                       backgroundColor: "#F2F2F5",
                       color: "#15171C",
                       fontWeight: "600",
+                      fontSize: "1.2rem"
                     }}
                     textColor="#15171C"
                   />
