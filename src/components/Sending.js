@@ -55,7 +55,7 @@ export const Sending = () => {
         ref={formRef}
         className="card"
         onSubmit={handleSubmit}
-        style={{ backgroundColor: "#191e24" }}
+        style={{ backgroundColor: "#15171C" }}
       >
         <div className="card-body">
           <div className="mb-3">
@@ -63,7 +63,7 @@ export const Sending = () => {
               htmlFor="formGroupExampleInput"
               className="form-label body-text text-uppercase"
             >
-              your name
+              Your Name
             </label>
             <input
               type="text"
@@ -71,6 +71,7 @@ export const Sending = () => {
               value={form.name}
               placeholder="What's your name?"
               className="form-control body-text text-uppercase"
+              style={{color: "#404455"}}
               id="name"
               onChange={handleChange}
             />
@@ -88,6 +89,7 @@ export const Sending = () => {
               value={form.email}
               placeholder="email@myemail.com"
               className="form-control body-text text-uppercase"
+              style={{color: "#404455"}}
               id="email"
               onChange={handleChange}
             />
@@ -103,8 +105,9 @@ export const Sending = () => {
               rows="3"
               name="message"
               value={form.message}
-              placeholder="what's your message?"
+              placeholder="I want to hire you!"
               className="form-control body-text text-uppercase"
+              style={{color: "#404455"}}
               id="message"
               onChange={handleChange}
             ></textarea>
