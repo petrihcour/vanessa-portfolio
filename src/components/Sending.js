@@ -1,5 +1,6 @@
 import React, { useRef, useState } from "react";
 import MarqueeButton from "../animations/MarqueeButton";
+import "../styles/Sending.css";
 import emailjs from "@emailjs/browser";
 
 export const Sending = () => {
@@ -47,11 +48,11 @@ export const Sending = () => {
   };
 
   return (
-    <div id="sending" className="container-fluid mt-md-5 pt-md-5">
+    <div id="sending" className="container-fluid mt-5 pt-5">
       <div className="justify-content-xl-between row">
         <div className="text-uppercase col-lg-6 align-content-end">
-          <h1 className="home-i-am">Let's</h1>
-          <h1 className="home-title-vanessa">Connect</h1>
+          <h1 className="home-i-am sending-lets">Let's</h1>
+          <h1 className="home-title-vanessa sending-title-connect">Connect</h1>
         </div>
         <div className="col-xl-5 col-lg-6 mt-4 align-content-end">
           <form
