@@ -62,7 +62,7 @@ export const Sending = () => {
             style={{ backgroundColor: "transparent" }}
           >
             <div className="card-body">
-              <p></p>
+              <h4 className="accent text-lowercase">Cast Sending</h4>
               <div className="mb-2">
                 <label
                   htmlFor="formGroupExampleInput"

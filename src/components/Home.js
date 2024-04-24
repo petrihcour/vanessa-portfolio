@@ -20,7 +20,7 @@ function Home() {
   ).flat();
 
   return (
-    <div id="home" className="home-container mt-md-5 pt-md-5">
+    <div id="home" className="home-container mt-md-5 pt-md-5 mb-4 pb-5 mb-lg-5">
       <div className="marquee-accent home-accent text-lowercase">
         <div className="marquee-accent-inner" aria-hidden="true">
           {repeatedWords.map((word, index) => (

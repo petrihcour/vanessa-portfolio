@@ -9,13 +9,13 @@ color palette from light to dark
 
 /* site layout */
 
-.bg-home {
+.bg-home,
+.bg-sending {
   display: flex;
-  align-items: center;
+  align-items: end;
 }
 
 .bg-quests,
-.bg-sending,
 .bg-featuresAndTraits,
 .bg-skills {
   display: flex;
