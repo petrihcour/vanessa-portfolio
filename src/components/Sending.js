@@ -69,6 +69,19 @@ export const Sending = () => {
               </div>
             </div>
           </div>
+          <nav className="footer body-text d-flex text-uppercase mt-2 justify-content-center justify-content-xl-end" style={{borderTop: "0.5px solid #e9f2ff"}}>
+            <ul className="nav">
+              <li className="nav-item">
+                <a className="nav-link" href="https://www.linkedin.com/in/vanesssagarcia/" target="_blank" rel="noreferrer">LinkedIn</a>
+              </li>
+              <li className="nav-item">
+                <a className="nav-link" href="https://github.com/petrihcour" target="_blank" rel="noreferrer">GitHub</a>
+              </li>
+              <li className="nav-item">
+                <a className="nav-link" href="to be filled out" target="_blank" rel="noreferrer">Resume</a>
+              </li>
+            </ul>
+          </nav>
         </div>
         {/* <div class="d-flex">
           <div class="p-2 w-75 body-text text-uppercase">Flex item</div>
