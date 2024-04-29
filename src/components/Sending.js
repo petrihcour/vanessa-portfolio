@@ -69,7 +69,7 @@ export const Sending = () => {
               </div>
             </div>
           </div>
-          <nav className="footer body-text d-flex text-uppercase mt-2 justify-content-center justify-content-xl-end" style={{borderTop: "0.5px solid #e9f2ff"}}>
+          <nav className="footer body-text d-flex text-uppercase mt-2 ms-5 justify-content-center justify-content-xl-end mx-auto" style={{borderTop: "0.5px solid #e9f2ff"}}>
             <ul className="nav">
               <li className="nav-item">
                 <a className="nav-link" href="https://www.linkedin.com/in/vanesssagarcia/" target="_blank" rel="noreferrer">LinkedIn</a>
