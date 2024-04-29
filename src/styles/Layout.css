@@ -12,7 +12,7 @@ color palette from light to dark
 .bg-home,
 .bg-sending {
   display: flex;
-  align-items: end;
+  align-items: flex-end;
 }
 
 .bg-quests,
