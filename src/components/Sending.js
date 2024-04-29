@@ -33,11 +33,11 @@ export const Sending = () => {
           </h1>
         </div>
         <div className="col-xl-9 col-lg-9 align-content-start">
-          <h4 className="accent text-lowercase mt-2 mt-xl-0">
-            <img src={star} alt="13 pointed star" className="star-img me-4" />
+          <h4 className="accent text-lowercase mt-4 mt-xl-0">
+            <img src={star} alt="13 pointed star" className="star-img me-3" />
             Cast sending and let's talk about
           </h4>
-          <div className="d-flex flex-wrap">
+          <div className="d-flex flex-wrap mb-xl-4">
             {contactData.map((contact, index) => (
               <MarqueeButton
                 key={index}
@@ -49,8 +49,8 @@ export const Sending = () => {
             ))}
           </div>
 
-          <div className="d-flex col-xl-6 me-0 mx-auto justify-content-end">
-            <div className="mt-4 mt-xl-5 row body-text text-uppercase">
+          <div className="d-flex col-xl-6 me-0 mt-3 mt-xl-5 pt-4 mx-auto justify-content-end">
+            <div className="row mt-xl-1 body-text text-uppercase">
               <div className="text-end">This is just the beginning! </div>
               Reach out to me. Let's become friends, play D&D together, or do a
               project together.
