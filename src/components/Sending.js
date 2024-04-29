@@ -2,10 +2,8 @@ import React from "react";
 import MarqueeButton from "../animations/MarqueeButton";
 import "../styles/Sending.css";
 import star from "../images/accents/star.png";
-// import emailjs from "@emailjs/browser";
 
-// consider removing form and applying buttons to contact me instead.
-// underneath sending, let's connect, add footer still in sending with linkedin, github, etc...
+// footer need to adjust size of border and to align to right
 
 export const Sending = () => {
   const contactData = [
