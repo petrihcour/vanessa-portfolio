@@ -24,7 +24,7 @@ export const Sending = () => {
   return (
     <div id="sending" className="container-fluid mt-5 pt-5">
       <div className="justify-content-lg-between row">
-        <div className="text-uppercase col-lg-3 align-content-end mt-xl-4">
+        <div className="sending-title text-uppercase col-lg-3 align-content-end mt-xl-4">
           <h1 className="home-i-am">Let's</h1>
           <h1 className="home-title-vanessa sending-title-connect">
             Connect
@@ -59,7 +59,7 @@ export const Sending = () => {
                   style={{
                     backgroundColor: "#F2F2F5",
                     color: "#191e24",
-                    fontWeight: "600"
+                    fontWeight: "600",
                   }}
                   textColor="#191e24"
                   hasMarquee
@@ -67,7 +67,7 @@ export const Sending = () => {
               </div>
             </div>
           </div>
-          <nav className="footer body-text d-flex text-uppercase mt-2 ms-5 justify-content-center justify-content-xl-end mx-auto" style={{borderTop: "0.5px solid #e9f2ff"}}>
+          <nav className="footer body-text d-flex text-uppercase mt-2 justify-content-center justify-content-xl-end ">
             <ul className="nav">
               <li className="nav-item">
                 <a className="nav-link" href="https://www.linkedin.com/in/vanesssagarcia/" target="_blank" rel="noreferrer">LinkedIn</a>

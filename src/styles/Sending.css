@@ -1,3 +1,18 @@
 .sending-title-connect {
-    margin-left: -2px;
+  margin-left: -2px;
+}
+
+.footer {
+  bottom: 0;
+  width: 100%;
+  height: 0.5px;
+  background-color: #e9f2ff;
+}
+
+@media (min-width: 768px) {
+  .footer {
+    bottom: 0;
+    width: 85%;
+    margin-left: auto;
+  }
 }
