@@ -3,6 +3,9 @@ import MarqueeButton from "../animations/MarqueeButton";
 import "../styles/Sending.css";
 import star from "../images/accents/star.png";
 
+//adjust the credit for myself on footer. 
+//  next work on transitions when scrolling and loading page
+
 function Sending() {
   const contactData = [
     {
@@ -62,7 +65,7 @@ function Sending() {
               </div>
             </div>
           </div>
-          <nav className="footer body-text d-flex text-uppercase mt-2 justify-content-center justify-content-xl-end ">
+          <nav className="footer body-text d-flex text-uppercase mt-2 justify-content-center justify-content-xl-end">
             <ul className="nav">
               <li className="nav-item">
                 <a
@@ -94,10 +97,16 @@ function Sending() {
                   Resume
                 </a>
               </li>
+              <li className="nav-item">
+          <footer className="nav-link">made from scratch by me</footer>
+              </li>
             </ul>
+            
           </nav>
         </div>
+        
       </div>
+      
     </div>
   );
 };
