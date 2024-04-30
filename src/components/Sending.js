@@ -3,8 +3,6 @@ import MarqueeButton from "../animations/MarqueeButton";
 import "../styles/Sending.css";
 import star from "../images/accents/star.png";
 
-// footer need to adjust size of border and to align to right
-
 export const Sending = () => {
   const contactData = [
     {
@@ -26,9 +24,7 @@ export const Sending = () => {
       <div className="justify-content-lg-between row">
         <div className="text-uppercase col-lg-3 align-content-end mt-3">
           <h1 className="home-i-am">Let's</h1>
-          <h1 className="home-title-vanessa sending-title-connect">
-            Connect
-          </h1>
+          <h1 className="home-title-vanessa sending-title-connect">Connect</h1>
         </div>
         <div className="col-xl-9 col-lg-9">
           <h4 className="accent text-lowercase mt-3 mt-lg-0">
@@ -69,23 +65,38 @@ export const Sending = () => {
           <nav className="footer body-text d-flex text-uppercase mt-2 justify-content-center justify-content-xl-end ">
             <ul className="nav">
               <li className="nav-item">
-                <a className="nav-link" href="https://www.linkedin.com/in/vanesssagarcia/" target="_blank" rel="noreferrer">LinkedIn</a>
+                <a
+                  className="nav-link"
+                  href="https://www.linkedin.com/in/vanesssagarcia/"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  LinkedIn
+                </a>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="https://github.com/petrihcour" target="_blank" rel="noreferrer">GitHub</a>
+                <a
+                  className="nav-link"
+                  href="https://github.com/petrihcour"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  GitHub
+                </a>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="to be filled out" target="_blank" rel="noreferrer">Resume</a>
+                <a
+                  className="nav-link"
+                  href="to be filled out"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  Resume
+                </a>
               </li>
             </ul>
           </nav>
         </div>
-        {/* <div class="d-flex">
-          <div class="p-2 w-75 body-text text-uppercase">Flex item</div>
-          <div class="p-2 flex-shrink-1 body-text text-uppercase">
-            Flex item
-          </div>
-        </div> */}
       </div>
     </div>
   );
