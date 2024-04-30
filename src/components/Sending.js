@@ -3,7 +3,7 @@ import MarqueeButton from "../animations/MarqueeButton";
 import "../styles/Sending.css";
 import star from "../images/accents/star.png";
 
-export const Sending = () => {
+function Sending() {
   const contactData = [
     {
       name: "Frontend Development",
@@ -101,3 +101,5 @@ export const Sending = () => {
     </div>
   );
 };
+
+export default Sending;

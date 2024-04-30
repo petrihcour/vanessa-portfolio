@@ -3,7 +3,7 @@ import Header from "./Header";
 import FeaturesAndTraits from "../components/FeaturesAndTraits";
 import Home from "../components/Home";
 import Quests from "../components/Quests";
-import { Sending } from "../components/Sending";
+import Sending from "../components/Sending";
 import Skills from "../components/Skills";
 import "../styles/Layout.css";
 
