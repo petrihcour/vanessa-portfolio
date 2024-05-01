@@ -60,6 +60,7 @@ function Layout() {
   return (
     <div className="Layout" style={{ backgroundColor: bgHomeColor }}>
       <Header />
+      <main>
       <div className="bg-home min-vh-100 container-fluid" id="home">
         <Home />
       </div>
@@ -75,6 +76,7 @@ function Layout() {
       <div className="bg-sending min-vh-100 container-fluid" id="sending">
         <Sending />
       </div>
+      </main>
       <footer
         className="mt-4 mt-xl-5 pt-3 pt-xl-4 body-text text-center text-lowercase py-3"
         style={{ color: "#A1A6B8", fontSize: "0.8rem" }}
