@@ -73,8 +73,8 @@ function Sending() {
         </div>
       </div>
       <div
-        className="mt-5 pt-4 footer-credits body-text fs-6 text-center text-lowercase py-3"
-        style={{ color: "#A1A6B8" }}
+        className="mt-5 pt-4 footer-credits body-text text-center text-lowercase py-3"
+        style={{ color: "#A1A6B8", fontSize: "0.8rem" }}
       >
         Made from scratch with React, Bootstrap, and CSS
       </div>
