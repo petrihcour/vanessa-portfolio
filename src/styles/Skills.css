@@ -1,6 +1,11 @@
 .skills-title {
     margin-bottom: -40px;
   }
+
+  .skills-list {
+    list-style-type: none;
+    padding: 0;
+  }
   
   @media (min-width: 768px) {
     .skills-title {

@@ -14,9 +14,8 @@ function Nav() {
     <div className="d-flex">
       <ul className="nav">
         {navItems.map((item, index) => (
-          <li className="nav-item">
+          <li className="nav-item" key={index}>
             <Link
-              key={index}
               to={item.to}
               smooth
               duration={500}

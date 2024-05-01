@@ -4,11 +4,13 @@ import skillsData from "./SkillsData";
 
 function SkillsTemplate() {
   return (
-    <div>
+    <ul className="skills-list d-flex flex-wrap">
       {skillsData.map((skill, index) => (
-        <MarqueeButton key={index} type="button" label={skill.skill} hasMarquee />
+        <li key={index}>
+        <MarqueeButton type="button" label={skill.skill} hasMarquee />
+        </li>
       ))}
-    </div>
+    </ul>
   );
 }
 
