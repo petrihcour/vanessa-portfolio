@@ -7,6 +7,8 @@ import Sending from "../components/Sending";
 import Skills from "../components/Skills";
 import "../styles/Layout.css";
 
+// https://github.com/animate-css/animate.css use this site for animation
+
 function Layout() {
   const [opacity, setOpacity] = useState(0); // Initially set opacity to 0 for transparency
 
