@@ -24,7 +24,7 @@ function Sending() {
   ];
 
   return (
-    <div className="container-fluid mt-5 pt-5 mt-lg-0 pt-lg-0 sending-component">
+    <div className="container-fluid mt-5 pt-5 mb-5 mt-lg-0 pt-lg-0 sending-component">
       <div className="d-flex justify-content-xl-between row">
         <div className="text-uppercase col-lg-6 col-xl-3 align-content-end mt-3 mt-md-0">
           <h1 className="home-i-am">Let's</h1>
