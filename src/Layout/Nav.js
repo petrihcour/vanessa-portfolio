@@ -12,17 +12,22 @@ function Nav() {
 
   return (
     <div className="d-flex">
-      {navItems.map((item, index) => (
-        <Link
-          key={index}
-          to={item.to}
-          smooth
-          duration={500}
-          className="nav-link link-underline link-underline-opacity-0 ps-1"
-        >
-          {item.label}
-        </Link>
-      ))}
+      <ul className="nav">
+        {navItems.map((item, index) => (
+          <li className="nav-item">
+            <Link
+              key={index}
+              to={item.to}
+              smooth
+              duration={500}
+              className="nav-link link-underline link-underline-opacity-0 ps-2 pe-0"
+              aria-current="page"
+            >
+              {item.label}
+            </Link>
+          </li>
+        ))}
+      </ul>
     </div>
   );
 }

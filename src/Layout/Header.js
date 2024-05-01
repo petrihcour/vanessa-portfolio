@@ -39,11 +39,10 @@ function Header() {
           >
             vanessa garcia
           </Link>
-          <span className="ps-3 d-none d-sm-block header-title">
+          <span className="header-title ps-3 d-none d-sm-block">
             SOFTWARE ENGINEER
           </span>
         </div>
-
         <div className="header">
           <Nav />
         </div>
