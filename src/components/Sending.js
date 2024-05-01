@@ -39,7 +39,9 @@ function Sending() {
             Cast sending and let's talk about
           </h4>
           <div className="d-flex flex-wrap mt-3 mt-md-0">
+            <ul className="contact-list d-flex flex-wrap">
             {contactData.map((contact, index) => (
+              <li key={index}>
               <MarqueeButton
                 key={index}
                 label={contact.name}
@@ -47,7 +49,9 @@ function Sending() {
                 type="button"
                 hasMarquee
               />
+              </li>
             ))}
+            </ul>
           </div>
           <div className="d-flex col-xl-6 me-0 mt-3 mt-lg-2 pt-lg-0 mx-auto justify-content-end">
             <div className="row body-text text-uppercase pt-1 ms-0 mt-xl-4">
