@@ -6,7 +6,7 @@ import "../styles/Skills.css";
 
 function Skills() {
   return (
-    <div id="skills" className="container">
+    <div className="container">
       <div className="row">
         <div className="col">
           <div className="d-flex flex-column align-items-end align-items-md-start">

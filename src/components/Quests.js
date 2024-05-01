@@ -6,7 +6,7 @@ import star from "../images/accents/star.png";
 
 function Quests() {
   return (
-    <div id="quests" className="container mt-5 pt-5">
+    <div className="container mt-5 pt-5">
       <div className="row">
         <div className="col-lg-6 d-flex align-items-end">
           <h4 className="accent quest-accent text-lowercase">
