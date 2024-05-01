@@ -45,7 +45,7 @@ function Sending() {
               />
             ))}
           </div>
-          <div className="d-flex col-xl-6 me-0 mt-3 mt-lg-2 pt-lg-1 mx-auto justify-content-end">
+          <div className="d-flex col-xl-6 me-0 mt-3 mt-lg-2 pt-lg-0 mx-auto justify-content-end">
             <div className="row body-text text-uppercase pt-1 ms-0 mt-xl-4">
               <div className="text-end">This is just the beginning! </div>
               Reach out to me. Let's become friends, play D&D together, or do a
@@ -65,7 +65,7 @@ function Sending() {
               </div>
             </div>
           </div>
-          <nav className="footer body-text d-flex text-uppercase mt-2 justify-content-center justify-content-xl-end">
+          <nav className="footer mt-2 body-text d-flex text-uppercase justify-content-center justify-content-xl-end">
             <ul className="nav">
               <li className="nav-item">
                 <a
