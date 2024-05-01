@@ -25,13 +25,13 @@ function Sending() {
 
   return (
     <div className="container-fluid mt-5 pt-5 mb-5 mt-lg-0 pt-lg-0 sending-component">
-      <div className="d-flex justify-content-xl-between row">
+      <div className="d-flex justify-content-xl-between align-items-center row">
         <div className="text-uppercase col-lg-6 col-xl-3 align-content-end mt-3 mt-md-0">
           <h1 className="home-i-am">Let's</h1>
           <h1 className="home-title-vanessa sending-title-connect">Connect</h1>
         </div>
         <div className="col-lg-6 col-xl-9">
-          <h4 className="accent text-lowercase mt-3 mt-md-0">
+          <h4 className="accent text-lowercase mt-3 mt-xl-0 mt-lg-5 pt-lg-5 pt-xl-0">
             <img src={star} alt="13 pointed star" className="star-img me-3" />
             Cast sending and let's talk about
           </h4>

@@ -5,7 +5,7 @@ import "../styles/FeaturesAndTraits.css";
 
 function FeaturesAndTraits() {
   return (
-    <div className="container">
+    <div className="container mt-5 pt-5">
       <div className="row">
         <div className="col-lg-7">
           <div className="d-flex flex-column align-items-md-start">
