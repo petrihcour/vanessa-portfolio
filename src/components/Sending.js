@@ -23,18 +23,18 @@ function Sending() {
   ];
 
   return (
-    <div id="sending" className="container-fluid mt-5 pt-5 sending-component">
-      <div className="justify-content-xl-between row">
-        <div className="text-uppercase col-lg-6 col-xl-3 align-content-end mt-3">
+    <div id="sending" className="container-fluid mt-5 pt-5 mt-lg-0 pt-lg-0 sending-component">
+      <div className="d-flex justify-content-xl-between row">
+        <div className="text-uppercase col-lg-6 col-xl-3 align-content-end mt-3 mt-md-0">
           <h1 className="home-i-am">Let's</h1>
           <h1 className="home-title-vanessa sending-title-connect">Connect</h1>
         </div>
-        <div className="col-xl-9 col-lg-6">
-          <h4 className="accent text-lowercase mt-3 mt-lg-0">
+        <div className="col-lg-6 col-xl-9">
+          <h4 className="accent text-lowercase mt-3 mt-md-0">
             <img src={star} alt="13 pointed star" className="star-img me-3" />
             Cast sending and let's talk about
           </h4>
-          <div className="d-flex flex-wrap mt-3 mt-lg-0">
+          <div className="d-flex flex-wrap mt-3 mt-md-0">
             {contactData.map((contact, index) => (
               <MarqueeButton
                 key={index}
@@ -46,11 +46,11 @@ function Sending() {
             ))}
           </div>
           <div className="d-flex col-xl-6 me-0 mt-3 mt-lg-2 pt-lg-1 mx-auto justify-content-end">
-            <div className="row body-text text-uppercase p-1 ms-0 mt-lg-4">
+            <div className="row body-text text-uppercase pt-1 ms-0 mt-xl-4">
               <div className="text-end">This is just the beginning! </div>
               Reach out to me. Let's become friends, play D&D together, or do a
               project together.
-              <div className="d-flex justify-content-end mt-2 mt-lg-3">
+              <div className="d-flex justify-content-end mt-2 mt-lg-2">
                 <MarqueeButton
                   label="Contact Me"
                   href="mailto:letitbe24@yahoo.com?subject=I want to work with you!"

@@ -9,10 +9,10 @@
   background-color: #e9f2ff;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 913px) {
   .footer {
     bottom: 0;
-    width: 85%;
+    width: 82%;
     margin-left: auto;
   }
 }
