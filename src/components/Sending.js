@@ -24,12 +24,12 @@ function Sending() {
 
   return (
     <div id="sending" className="container-fluid mt-5 pt-5 sending-component">
-      <div className="justify-content-lg-between row">
-        <div className="text-uppercase col-lg-3 align-content-end mt-3">
+      <div className="justify-content-xl-between row">
+        <div className="text-uppercase col-lg-6 col-xl-3 align-content-end mt-3">
           <h1 className="home-i-am">Let's</h1>
           <h1 className="home-title-vanessa sending-title-connect">Connect</h1>
         </div>
-        <div className="col-xl-9 col-lg-9">
+        <div className="col-xl-9 col-lg-6">
           <h4 className="accent text-lowercase mt-3 mt-lg-0">
             <img src={star} alt="13 pointed star" className="star-img me-3" />
             Cast sending and let's talk about
@@ -97,9 +97,9 @@ function Sending() {
                   Resume
                 </a>
               </li>
-              <li className="nav-item">
+              {/* <li className="nav-item">
           <footer className="nav-link">made from scratch by me</footer>
-              </li>
+              </li> */}
             </ul>
             
           </nav>
