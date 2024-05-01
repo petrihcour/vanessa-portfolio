@@ -10,12 +10,7 @@ function Quests() {
       <div className="row">
         <div className="col-lg-6 d-flex align-items-end">
           <h4 className="accent quest-accent text-lowercase">
-            {" "}
-            <img
-              src={star}
-              alt="13 pointed star"
-              className="star-img me-3"
-            />{" "}
+            <img src={star} alt="13 pointed star" className="star-img me-3" />
             Projects I have created,
           </h4>
         </div>
