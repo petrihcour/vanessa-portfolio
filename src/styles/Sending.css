@@ -2,17 +2,4 @@
   margin-left: -2px;
 }
 
-.footer {
-  bottom: 0;
-  width: 100%;
-  height: 0.5px;
-  background-color: #e9f2ff;
-}
 
-@media (min-width: 913px) {
-  .footer {
-    bottom: 0;
-    width: 82%;
-    margin-left: auto;
-  }
-}

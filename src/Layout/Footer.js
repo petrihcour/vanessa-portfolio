@@ -1,8 +1,9 @@
 import React from "react";
+import "../styles/Footer.css";
 
 function Footer() {
   return (
-    <nav className="footer mt-2 body-text d-flex text-uppercase justify-content-center justify-content-xl-end">
+    <nav className="sending-footer mt-2 body-text d-flex text-uppercase justify-content-center justify-content-xl-end">
       <ul className="nav">
         <li className="nav-item">
           <a
