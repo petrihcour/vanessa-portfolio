@@ -73,6 +73,12 @@ function Layout() {
       <div className="bg-sending min-vh-100 container-fluid" id="sending">
         <Sending />
       </div>
+      <footer
+        className="mt-5 pt-4 body-text text-center text-lowercase py-3"
+        style={{ color: "#A1A6B8", fontSize: "0.8rem" }}
+      >
+        Made from scratch with React, Bootstrap, and CSS
+      </footer>
     </div>
   );
 }
