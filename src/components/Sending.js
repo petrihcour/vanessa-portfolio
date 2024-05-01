@@ -1,9 +1,10 @@
 import React from "react";
+import Footer from "../Layout/Footer";
 import MarqueeButton from "../animations/MarqueeButton";
 import "../styles/Sending.css";
 import star from "../images/accents/star.png";
 
-//adjust the credit for myself on footer. 
+//adjust the credit for myself on footer.
 //  next work on transitions when scrolling and loading page
 
 function Sending() {
@@ -23,7 +24,10 @@ function Sending() {
   ];
 
   return (
-    <div id="sending" className="container-fluid mt-5 pt-5 mt-lg-0 pt-lg-0 sending-component">
+    <div
+      id="sending"
+      className="container-fluid mt-5 pt-5 mt-lg-0 pt-lg-0 sending-component"
+    >
       <div className="d-flex justify-content-xl-between row">
         <div className="text-uppercase col-lg-6 col-xl-3 align-content-end mt-3 mt-md-0">
           <h1 className="home-i-am">Let's</h1>
@@ -65,50 +69,11 @@ function Sending() {
               </div>
             </div>
           </div>
-          <nav className="footer mt-2 body-text d-flex text-uppercase justify-content-center justify-content-xl-end">
-            <ul className="nav">
-              <li className="nav-item">
-                <a
-                  className="nav-link"
-                  href="https://www.linkedin.com/in/vanesssagarcia/"
-                  target="_blank"
-                  rel="noreferrer"
-                >
-                  LinkedIn
-                </a>
-              </li>
-              <li className="nav-item">
-                <a
-                  className="nav-link"
-                  href="https://github.com/petrihcour"
-                  target="_blank"
-                  rel="noreferrer"
-                >
-                  GitHub
-                </a>
-              </li>
-              <li className="nav-item">
-                <a
-                  className="nav-link"
-                  href="to be filled out"
-                  target="_blank"
-                  rel="noreferrer"
-                >
-                  Resume
-                </a>
-              </li>
-              {/* <li className="nav-item">
-          <footer className="nav-link">made from scratch by me</footer>
-              </li> */}
-            </ul>
-            
-          </nav>
+          <Footer />
         </div>
-        
       </div>
-      
     </div>
   );
-};
+}
 
 export default Sending;
