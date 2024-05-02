@@ -10,7 +10,7 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   background-image: url("../src/images/background/background.jpg");
-  background-size: auto;
+  background-size: cover;
   background-attachment: fixed;
   background-position: left;
   background-repeat: no-repeat;
