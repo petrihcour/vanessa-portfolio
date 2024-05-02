@@ -78,7 +78,7 @@ function Layout() {
       </div>
       </main>
       <footer
-        className="mt-4 mt-xl-5 pt-3 pt-xl-4 body-text text-center text-lowercase py-3"
+        className="body-text text-center text-lowercase"
         style={{ color: "#A1A6B8", fontSize: "0.8rem" }}
       >
         Made from scratch with React, Bootstrap, and CSS
