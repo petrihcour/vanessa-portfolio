@@ -35,6 +35,8 @@ function Header() {
         <div className="d-flex flex-sm-row align-items-baseline">
           <Link
             to="home"
+            smooth
+            duration={500}
             className="header-name link-underline link-underline-opacity-0"
           >
             vanessa garcia
