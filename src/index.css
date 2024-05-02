@@ -10,15 +10,9 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   background-image: url("../src/images/background/background.jpg");
-  background-size: cover;
+  background-size: auto;
   background-attachment: fixed;
   background-position: left;
   width: 100vw;
   height: 100vh;
-}
-
-@media (max-width: 768px) {
-  body {
-    background-size: auto;
-  }
 }
