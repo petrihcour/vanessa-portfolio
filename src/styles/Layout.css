@@ -8,6 +8,12 @@ color palette from light to dark
 #191E24 - dark background
 */
 
+/* animations */
+
+:root {
+  --animate-duration: 1.1s;
+}
+
 /* site layout */
 
 .bg-home,
