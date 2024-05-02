@@ -11,6 +11,12 @@
   color: #e9f2ff;
 }
 
+.header-title {
+  font-size: 0.8rem;
+  color: #e9f2ff;
+  font-weight: 400;
+}
+
 .nav-link {
   font-family: "Almarai", sans-serif;
   font-weight: 400;
@@ -50,7 +56,6 @@
   .nav-link {
     font-size: 1.1rem;
     font-weight: 400;
-    color: #e9f2ff;
   }
 
   .progress {

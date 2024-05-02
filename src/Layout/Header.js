@@ -38,7 +38,7 @@ function Header() {
           >
             vanessa garcia
           </a>
-          <span className="header-title ps-3 d-none d-sm-block">
+          <span className="header-title ps-3 d-none d-lg-block">
             SOFTWARE ENGINEER
           </span>
         </div>
