@@ -16,3 +16,9 @@ body {
   width: 100vw;
   height: 100vh;
 }
+
+@media (max-width: 768px) {
+  body {
+    background-size: auto;
+  }
+}
