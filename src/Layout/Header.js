@@ -33,7 +33,7 @@ function Header() {
       <div className="container-fluid mt-2 mb-2 ps-sm-5 pe-sm-5">
         <div className="d-flex flex-sm-row align-items-baseline">
           <a
-            href="#to add later"
+            href="https://main--vanessagarcia.netlify.app/"
             className="header-name link-underline link-underline-opacity-0"
           >
             vanessa garcia
