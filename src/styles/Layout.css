@@ -1,3 +1,5 @@
+@import "~animate.css/animate.css";
+
 /* 
 color palette from light to dark 
 #F2F2F5 - titles, 
@@ -29,12 +31,12 @@ color palette from light to dark
   font-weight: 700;
   font-style: normal;
   font-size: 1.6rem;
-  color: #A1A6B8;
+  color: #a1a6b8;
 }
 
 .body-text {
   color: #e9f2ff;
-  font-size: .92rem;
+  font-size: 0.92rem;
   font-family: "Almarai", sans-serif;
   font-weight: 400;
 }
@@ -47,7 +49,7 @@ color palette from light to dark
   font-size: 7rem;
   font-weight: 300;
   font-stretch: 54%;
-  color: #F2F2F5;
+  color: #f2f2f5;
 }
 
 .component-title-sm {
@@ -56,14 +58,14 @@ color palette from light to dark
   font-size: 4.5rem;
   font-weight: 300;
   font-stretch: 54%;
-  color: #F2F2F5;
+  color: #f2f2f5;
   margin-bottom: -18px;
 }
 
 /* all buttons */
 
 :root {
-  --marquee-text-color: #F2F2F5;
+  --marquee-text-color: #f2f2f5;
 }
 
 .btn {
