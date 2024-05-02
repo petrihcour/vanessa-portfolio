@@ -27,7 +27,7 @@ function Header() {
 
   return (
     <nav
-      className={`navbar sticky-top bg-transparent ${
+      className={`navbar sticky-top bg-transparent animate__animated animate__fadeInDown ${
         scrolling ? "blur-on-scroll" : ""
       }`}
     >
