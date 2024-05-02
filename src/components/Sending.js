@@ -25,7 +25,7 @@ function Sending() {
 
   return (
     <div className="container-fluid mt-5 pt-5 mb-5 mt-lg-0 pt-lg-0 sending-component">
-      <div className="d-flex justify-content-xl-between align-items-center row">
+      <div className="d-flex justify-content-xl-between align-items-end row">
         <div className="text-uppercase col-lg-6 col-xl-3 align-content-end mt-3 mt-md-0">
           <h1 className="home-i-am">Let's</h1>
           <h1 className="home-title-vanessa sending-title-connect">Connect</h1>
@@ -53,7 +53,7 @@ function Sending() {
           <div className="d-flex col-xl-6 me-0 mt-3 mt-lg-2 pt-lg-0 mx-auto justify-content-end">
             <div className="row body-text text-uppercase pt-1 ms-0 mt-xl-4">
               <div className="text-end">This is just the beginning! </div>
-              Reach out to me. Let's become friends, play D&D together, or do a
+              Let's become friends, play D&D, or do a
               project together.
               <div className="d-flex justify-content-end mt-2 mt-lg-2">
                 <MarqueeButton
