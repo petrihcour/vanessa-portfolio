@@ -1,5 +1,4 @@
 import React, { useEffect, useState } from "react";
-import { Link } from "react-scroll";
 import Nav from "./Nav";
 import "../styles/Header.css";
 
@@ -33,14 +32,12 @@ function Header() {
     >
       <div className="container-fluid mt-2 mb-2 ps-sm-5 pe-sm-5">
         <div className="d-flex flex-sm-row align-items-baseline">
-          <Link
-            to="home"
-            smooth
-            duration={500}
+          <a
+            href="#to add later"
             className="header-name link-underline link-underline-opacity-0"
           >
             vanessa garcia
-          </Link>
+          </a>
           <span className="header-title ps-3 d-none d-sm-block">
             SOFTWARE ENGINEER
           </span>
