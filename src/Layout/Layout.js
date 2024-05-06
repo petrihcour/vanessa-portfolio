@@ -60,23 +60,34 @@ function Layout() {
   return (
     <div className="Layout" style={{ backgroundColor: bgHomeColor }}>
       <Header />
-      <main>
-      <div className="bg-home min-vh-100 container-fluid" id="home">
-        <Home />
+      <div className="background-wrapper">
+        <div className="bg-image" />
+        <main>
+          <div className="bg-home min-vh-100 container-fluid" id="home">
+            <Home />
+          </div>
+          <div
+            className="bg-featuresAndTraits min-vh-100 container-fluid"
+            id="features-traits"
+            style={{ opacity: 1 }}
+          >
+            <FeaturesAndTraits />
+          </div>
+          <div
+            className="bg-skills min-vh-100 container-fluid"
+            id="skills"
+            style={{ opacity: 1 }}
+          >
+            <Skills />
+          </div>
+          <div className="bg-quests min-vh-100 container-fluid" id="quests">
+            <Quests />
+          </div>
+          <div className="bg-sending min-vh-100 container-fluid" id="sending">
+            <Sending />
+          </div>
+        </main>
       </div>
-      <div className="bg-featuresAndTraits min-vh-100 container-fluid" id="features-traits" style={{ opacity: 1 }}>
-        <FeaturesAndTraits />
-      </div>
-      <div className="bg-skills min-vh-100 container-fluid" id="skills" style={{ opacity: 1 }}>
-        <Skills />
-      </div>
-      <div className="bg-quests min-vh-100 container-fluid" id="quests">
-        <Quests />
-      </div>
-      <div className="bg-sending min-vh-100 container-fluid" id="sending">
-        <Sending />
-      </div>
-      </main>
       <footer
         className="body-text text-center text-lowercase"
         style={{ color: "#A1A6B8", fontSize: "0.8rem" }}

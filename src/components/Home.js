@@ -60,7 +60,7 @@ function Home() {
         </div>
       </div>
       <div className="container-fluid">
-        <div className="justify-content-xl-between row">
+        <div className="justify-content-xl-between align-items-end row">
           <div className="text-uppercase col-lg-6 align-content-end animate__animated animate__fadeInLeft">
             <h1 className="home-i-am">I am</h1>
             <h1 className="home-title-vanessa">Vanessa</h1>
