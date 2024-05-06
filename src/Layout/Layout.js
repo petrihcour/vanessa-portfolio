@@ -31,7 +31,7 @@ function Layout() {
 
       let newOpacity = 0;
 
-      // Determine the opacity based on the scroll position
+      // opacity based on the scroll position
       if (scrollTop >= homeTop && scrollTop < featuresTraitsTop) {
         newOpacity = (scrollTop - homeTop) / (featuresTraitsTop - homeTop);
       } else if (scrollTop >= featuresTraitsTop && scrollTop < skillsTop) {
@@ -54,7 +54,7 @@ function Layout() {
     };
   }, []);
 
-  // Dynamically determine the background color based on opacity
+  // the background color based on opacity
   const bgHomeColor = `rgba(21, 23, 28, ${opacity})`;
 
   return (
