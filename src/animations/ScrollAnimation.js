@@ -3,6 +3,7 @@ import React, { useEffect, useState } from "react";
 const ScrollAnimation = ({ children, animation }) => {
   const [isVisible, setIsVisible] = useState(false);
 
+  // detects when the component becomes visible on the screen
   useEffect(() => {
     const handleScroll = () => {
       const element = document.getElementById("scroll-animation");
@@ -10,7 +11,7 @@ const ScrollAnimation = ({ children, animation }) => {
       const windowHeight = window.innerHeight;
 
       // Trigger animation when element is 2% visible
-      if (rect.top < windowHeight * 0.98 && rect.bottom >= 0) {
+      if (rect.top < windowHeight * 0.75 && rect.bottom >= 0) {
         setIsVisible(true);
       } else {
         setIsVisible(false);

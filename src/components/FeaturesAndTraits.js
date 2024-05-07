@@ -4,21 +4,20 @@ import "../styles/FeaturesAndTraits.css";
 import vanessa from "../images/self/vanessa.jpeg";
 import vanessa2 from "../images/self/vanessa-2.JPG";
 
-
 function FeaturesAndTraits() {
   return (
     <div className="container mt-5 pt-5">
       <div className="row">
         <div className="col-lg-7">
           <div className="d-flex flex-column align-items-md-start">
-            <div className="d-flex flex-column align-items-end">
-              <ScrollAnimation animation="animate__animated animate__fadeInLeft">
-              <h2 className="features-traits-title component-title">
-                FEATURES & TRAITS
-              </h2>
-              </ScrollAnimation>
-              <h4 className="accent text-lowercase">Greetings Travelers,</h4>
-            </div>
+            <ScrollAnimation animation="animate__animated animate__fadeInLeft">
+              <div className="d-flex flex-column align-items-end">
+                <h2 className="features-traits-title component-title">
+                  FEATURES & TRAITS
+                </h2>
+                <h4 className="accent text-lowercase">Greetings Travelers,</h4>
+              </div>
+            </ScrollAnimation>
           </div>
           <div className="text-uppercase body-text">
             <div className="text-end">Let's go on an adventure!</div>I create
