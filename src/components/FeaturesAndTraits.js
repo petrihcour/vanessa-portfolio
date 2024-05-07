@@ -1,7 +1,9 @@
 import React from "react";
+import ScrollAnimation from "../animations/ScrollAnimation";
+import "../styles/FeaturesAndTraits.css";
 import vanessa from "../images/self/vanessa.jpeg";
 import vanessa2 from "../images/self/vanessa-2.JPG";
-import "../styles/FeaturesAndTraits.css";
+
 
 function FeaturesAndTraits() {
   return (
@@ -10,9 +12,11 @@ function FeaturesAndTraits() {
         <div className="col-lg-7">
           <div className="d-flex flex-column align-items-md-start">
             <div className="d-flex flex-column align-items-end">
+              <ScrollAnimation animation="animate__animated animate__fadeInLeft">
               <h2 className="features-traits-title component-title">
                 FEATURES & TRAITS
               </h2>
+              </ScrollAnimation>
               <h4 className="accent text-lowercase">Greetings Travelers,</h4>
             </div>
           </div>
@@ -30,19 +34,19 @@ function FeaturesAndTraits() {
         <div className="col-lg-5 d-flex flex-column justify-content-around">
           <div className="img-hover-zoom">
             <div className="zoom-container">
-          <img
-            src={vanessa2}
-            alt="self smiling surrounded by greenery looking down"
-            className="img-fluid ps-lg-5 pt-4 mt-2"
-          />
-          </div>
-          <div className="zoom-container">
-          <img
-            src={vanessa}
-            alt="self laughing surrounded by greenery"
-            className="img-fluid ps-lg-5 pt-3"
-          />
-          </div>
+              <img
+                src={vanessa2}
+                alt="self smiling surrounded by greenery looking down"
+                className="img-fluid ps-lg-5 pt-4 mt-2"
+              />
+            </div>
+            <div className="zoom-container">
+              <img
+                src={vanessa}
+                alt="self laughing surrounded by greenery"
+                className="img-fluid ps-lg-5 pt-3"
+              />
+            </div>
           </div>
         </div>
       </div>
