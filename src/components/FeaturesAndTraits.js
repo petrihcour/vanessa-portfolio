@@ -22,12 +22,11 @@ function FeaturesAndTraits() {
           <div className="text-uppercase body-text">
             <div className="text-end">Let's go on an adventure!</div>I create
             things with equal focus on beauty and functionality. I blend my
-            background in leadership, project management, and intricate problem
-            solving with software development, resulting in a unique mixture of
+            background in leadership, project management, and problem
+            solving with software development, bringing a unique mixture of
             skills and perspective. I've got an admiration for technology, an
-            excitement for building meaningful connections, and a history of
-            delivering impactful results. We'll weave the magic of technology
-            and create experiences that reverberate across the internet.
+            excitement for building meaningful connections, and a desire to deliver impactful results. Reach out to me and let's weave the magic of technology to
+            create experiences that reverberate across the internet.
           </div>
         </div>
         <div className="col-lg-5 d-flex flex-column justify-content-around">
