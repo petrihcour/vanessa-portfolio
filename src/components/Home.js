@@ -1,6 +1,13 @@
 import React from "react";
-import "../styles/Home.css";
+import { motion } from "framer-motion";
+import {
+  fadeVariant,
+  fadeInFromBottom,
+  fadeInFromLeft,
+  fadeInFromRight,
+} from "../animations/animations";
 import MarqueeButton from "../animations/MarqueeButton";
+import "../styles/Home.css";
 
 function Home() {
   const words = [
@@ -46,7 +53,12 @@ function Home() {
   };
 
   return (
-    <div className="home-container mt-md-5 pt-md-5 mb-4 pb-5 mb-lg-5">
+    <motion.div
+      variants={fadeVariant}
+      initial="hidden"
+      animate="visible"
+      className="home-container mt-md-5 pt-md-5 mb-4 pb-5 mb-lg-5"
+    >
       <div className="marquee-accent home-accent text-lowercase">
         <div className="marquee-accent-inner" aria-hidden="true">
           {repeatedWords.map((word, index) => (
@@ -61,31 +73,37 @@ function Home() {
       </div>
       <div className="container-fluid">
         <div className="justify-content-xl-between align-items-end row">
-          <div className="text-uppercase col-lg-6 align-content-end animate__animated animate__fadeInLeft">
+          <motion.div
+            variants={fadeInFromLeft}
+            className="text-uppercase col-lg-6 align-content-end"
+          >
             <h1 className="home-i-am">I am</h1>
             <h1 className="home-title-vanessa">Vanessa</h1>
-          </div>
+          </motion.div>
           <div className="body-text text-uppercase col-xl-5 col-lg-6 mt-4">
-            <div className="text-end animate__animated animate__fadeInUp">
+            <motion.div variants={fadeInFromRight} className="text-end">
               I've found a home in technology,
-            </div>
-            <p className="animate__animated animate__fadeInUp">
+            </motion.div>
+            <motion.p variants={fadeInFromRight}>
               where JavaScript, React, HTML, CSS, and Bootstrap are my comfort.
               I love Dungeons & Dragons, unbearably spicy food, and my cats -
               Salmon, Sharky, and Fishy.
-            </p>
-            <div className="d-flex justify-content-end mt-4">
+            </motion.p>
+            <motion.div
+              variants={fadeInFromBottom}
+              className="d-flex justify-content-end mt-4"
+            >
               <MarqueeButton
                 type="button"
                 label="Cast Sending"
                 onClick={handleScrollToSending}
                 hasMarquee
               />
-            </div>
+            </motion.div>
           </div>
         </div>
       </div>
-    </div>
+    </motion.div>
   );
 }
 
