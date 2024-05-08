@@ -20,30 +20,40 @@ function FeaturesAndTraits() {
             </ScrollAnimation>
           </div>
           <div className="text-uppercase body-text">
-            <div className="text-end">Let's go on an adventure!</div>I create
-            things with equal focus on beauty and functionality. I blend my
-            background in leadership, project management, and problem
-            solving with software development, bringing a unique mixture of
-            skills and perspective. I've got an admiration for technology, an
-            excitement for building meaningful connections, and a desire to deliver impactful results. Reach out to me and let's weave the magic of technology to
-            create experiences that reverberate across the internet.
+            <ScrollAnimation animation="animate__animated animate__fadeInUp">
+              <div className="text-end">Let's go on an adventure!</div>
+            </ScrollAnimation>
+            <ScrollAnimation animation="animate__animated animate__fadeInUp">
+              I create things with equal focus on beauty and functionality. I
+              blend my background in leadership, project management, and problem
+              solving with software development, bringing a unique mixture of
+              skills and perspective. I've got an admiration for technology, an
+              excitement for building meaningful connections, and a desire to
+              deliver impactful results. Reach out to me and let's weave the
+              magic of technology to create experiences that reverberate across
+              the internet.
+            </ScrollAnimation>
           </div>
         </div>
         <div className="col-lg-5 d-flex flex-column justify-content-around">
           <div className="img-hover-zoom">
             <div className="zoom-container">
-              <img
-                src={vanessa2}
-                alt="self smiling surrounded by greenery looking down"
-                className="img-fluid ps-lg-5 pt-4 mt-2"
-              />
+              <ScrollAnimation animation="animate__animated animate__slideInDown">
+                <img
+                  src={vanessa2}
+                  alt="self smiling surrounded by greenery looking down"
+                  className="img-fluid ps-lg-5 pt-4 mt-2"
+                />
+              </ScrollAnimation>
             </div>
             <div className="zoom-container">
-              <img
-                src={vanessa}
-                alt="self laughing surrounded by greenery"
-                className="img-fluid ps-lg-5 pt-3"
-              />
+              <ScrollAnimation animation="animate__animated animate__slideInUp">
+                <img
+                  src={vanessa}
+                  alt="self laughing surrounded by greenery"
+                  className="img-fluid ps-lg-5 pt-3"
+                />{" "}
+              </ScrollAnimation>
             </div>
           </div>
         </div>

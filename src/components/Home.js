@@ -26,18 +26,18 @@ function Home() {
     const startPosition = window.pageYOffset;
     const distance = targetPosition - startPosition;
     let startTime = null;
-  
+
     const animation = (currentTime) => {
       if (startTime === null) startTime = currentTime;
       const timeElapsed = currentTime - startTime;
-      const ease = (timeElapsed / duration) ** 2; 
+      const ease = (timeElapsed / duration) ** 2;
       window.scrollTo(0, startPosition + distance * ease);
       if (timeElapsed < duration) requestAnimationFrame(animation);
     };
-  
+
     requestAnimationFrame(animation);
   };
-  
+
   const handleScrollToSending = () => {
     const sendingElement = document.getElementById("sending");
     if (sendingElement) {
@@ -70,7 +70,6 @@ function Home() {
               I've found a home in technology,
             </div>
             <p className="animate__animated animate__fadeInUp">
-              {" "}
               where JavaScript, React, HTML, CSS, and Bootstrap are my comfort.
               I love Dungeons & Dragons, unbearably spicy food, and my cats -
               Salmon, Sharky, and Fishy.
