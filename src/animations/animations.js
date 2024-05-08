@@ -50,7 +50,7 @@ export const fadeVariant = {
 export const fadeInFromBottom = {
     hidden: {
       opacity: 0,
-      y: 50, // Move from bottom
+      y: 10, // Move from bottom
     },
     visible: {
       opacity: 1,
