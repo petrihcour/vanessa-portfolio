@@ -19,7 +19,7 @@ function Sending() {
     },
     {
       name: "Dungeons & Dragons",
-      link: "mailto:letitbe24@yahoo.com?subject=Wanna play D&D?",
+      link: "mailto:letitbe24@yahoo.com?subject=Wanna play Dungeons and Dragons?",
     },
   ];
 
