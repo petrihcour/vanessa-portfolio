@@ -3,7 +3,7 @@ import {
   fadeVariant,
   fadeInFromLeft,
   fadeInFromBottom,
-  slideVariant,
+  slideInFromRightVariant,
 } from "../animations/animations";
 import AnimatedComponent from "../animations/AnimatedComponent";
 import "../styles/FeaturesAndTraits.css";
@@ -45,7 +45,7 @@ function FeaturesAndTraits() {
           <div className="col-lg-5 d-flex flex-column justify-content-around">
             <div className="img-hover-zoom">
               <div className="zoom-container">
-                <AnimatedComponent variants={slideVariant}>
+                <AnimatedComponent variants={slideInFromRightVariant}>
                   <img
                     src={vanessa2}
                     alt="self smiling surrounded by greenery looking down"
@@ -54,7 +54,7 @@ function FeaturesAndTraits() {
                 </AnimatedComponent>
               </div>
               <div className="zoom-container">
-                <AnimatedComponent variants={slideVariant}>
+                <AnimatedComponent variants={slideInFromRightVariant}>
                   <img
                     src={vanessa}
                     alt="self laughing surrounded by greenery"

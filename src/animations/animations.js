@@ -17,7 +17,7 @@ export const exitVariant = {
 };
 
 // sliding animations
-export const slideVariant = {
+export const slideInFromRightVariant = {
   hidden: {
     opacity: 0,
     x: "100%",
