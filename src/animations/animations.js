@@ -1,5 +1,3 @@
-
-
 // exit animation
 export const exitVariant = {
   hidden: {
@@ -22,16 +20,14 @@ export const exitVariant = {
 export const slideVariant = {
   hidden: {
     opacity: 0,
-    x: "-100%",
+    x: "100%",
   },
   visible: {
     opacity: 1,
     x: 0,
     transition: {
-      type: "spring",
-      damping: 15,
-      stiffness: 100,
-      duration: 0.5,
+      type: "tween",
+      duration: 1,
     },
   },
 };
@@ -42,25 +38,25 @@ export const fadeVariant = {
   visible: {
     opacity: 1,
     transition: {
-      duration: 1.1,
+      duration: 1,
     },
   },
 };
 
 export const fadeInFromBottom = {
-    hidden: {
-      opacity: 0,
-      y: 10, // Move from bottom
+  hidden: {
+    opacity: 0,
+    y: 10, // Move from bottom
+  },
+  visible: {
+    opacity: 1,
+    y: 0,
+    transition: {
+      duration: 1.5,
+      type: "tween",
     },
-    visible: {
-      opacity: 1,
-      y: 0,
-      transition: {
-        duration: 1.1,
-        type: "tween",
-      },
-    },
-  };
+  },
+};
 
 export const fadeInFromLeft = {
   hidden: {
@@ -71,7 +67,7 @@ export const fadeInFromLeft = {
     opacity: 1,
     x: 0,
     transition: {
-      duration: 1.1,
+      duration: 1,
       type: "tween",
     },
   },
