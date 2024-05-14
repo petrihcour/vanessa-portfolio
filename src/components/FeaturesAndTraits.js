@@ -1,6 +1,5 @@
 import React from "react";
 import {
-  fadeVariant,
   fadeInFromLeft,
   fadeInFromBottom,
   slideInFromRightVariant,
@@ -12,7 +11,6 @@ import vanessa2 from "../images/self/vanessa-2.JPG";
 
 function FeaturesAndTraits() {
   return (
-    <AnimatedComponent variants={fadeVariant}>
       <div className="container mt-5 pt-5">
         <div className="row">
           <div className="col-lg-7">
@@ -68,7 +66,6 @@ function FeaturesAndTraits() {
           </div>
         </div>
       </div>
-    </AnimatedComponent>
   );
 }
 

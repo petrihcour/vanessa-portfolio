@@ -1,6 +1,5 @@
 import React from "react";
 import {
-  fadeVariant,
   fadeInFromLeft,
   fadeInFromBottom,
 } from "../animations/animations";
@@ -10,7 +9,6 @@ import "../styles/Skills.css";
 
 function Skills() {
   return (
-    <AnimatedComponent variants={fadeVariant}>
       <div className="container">
         <div className="row">
           <div className="col">
@@ -27,7 +25,6 @@ function Skills() {
 
         <SkillsTemplate />
       </div>
-    </AnimatedComponent>
   );
 }
 
