@@ -16,12 +16,6 @@ const skillsData = [
     skill: "Bootstrap",
     bonus: expertiseBonus + bonusData.Frontend,
   },
-  // {
-  //   proficiency: "proficient",
-  //   type: "Personal",
-  //   skill: "Cross-Functional Collaboration",
-  //   bonus: proficiencyBonus + bonusData.Personal,
-  // },
   {
     proficiency: "proficient",
     type: "Frontend",
@@ -87,6 +81,12 @@ const skillsData = [
     type: "Backend",
     skill: "RESTful APIs",
     bonus: proficiencyBonus + bonusData.Backend,
+  },
+  {
+    proficiency: "proficient",
+    type: "Frontend",
+    skill: "Tailwind CSS",
+    bonus: proficiencyBonus,
   },
   // {
   //   proficiency: "proficient",

@@ -22,10 +22,12 @@ function FeaturesAndTraits() {
                   <h2 className="features-traits-title component-title">
                     FEATURES & TRAITS
                   </h2>
+                  </AnimatedComponent>
+                  <AnimatedComponent variants={fadeInFromBottom}>
                   <h4 className="accent text-lowercase">
                     Greetings Travelers,
                   </h4>
-                </AnimatedComponent>
+                  </AnimatedComponent>
               </div>
             </div>
             <AnimatedComponent variants={fadeInFromBottom}>
