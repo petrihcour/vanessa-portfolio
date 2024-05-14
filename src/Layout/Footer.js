@@ -18,7 +18,7 @@ function Footer() {
     },
     {
       label: "Resume",
-      url: "to be filled out",
+      url: "https://drive.google.com/file/d/1kAF1Wq4_GZ8jley4rhnFIRLl8NmwEia_/view?usp=sharing",
     },
   ];
 

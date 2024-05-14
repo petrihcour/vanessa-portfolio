@@ -14,9 +14,6 @@ import MarqueeButton from "../animations/MarqueeButton";
 import "../styles/Sending.css";
 import star from "../images/accents/star.png";
 
-//adjust the credit for myself on footer.
-//  next work on transitions when scrolling and loading page
-
 function Sending() {
   const { ref, inView } = useInView({ triggerOnce: false });
 
