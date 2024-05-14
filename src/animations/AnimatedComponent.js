@@ -3,7 +3,7 @@ import { motion } from "framer-motion";
 import { useInView } from "react-intersection-observer";
 
 const AnimatedComponent = ({ children, variants }) => {
-  const [ref, inView] = useInView();
+  const [ref, inView] = useInView({ triggerOnce: true });
 
   return (
     <motion.div
