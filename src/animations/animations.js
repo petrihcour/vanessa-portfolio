@@ -27,7 +27,7 @@ export const slideInFromRightVariant = {
     x: 0,
     transition: {
       type: "tween",
-      duration: 1,
+      duration: 1.1,
     },
   },
 };
