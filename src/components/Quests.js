@@ -3,7 +3,6 @@ import {
   fadeInFromLeft,
   fadeInFromRight,
   fadeInFromBottom,
-  slideInFromRightVariant,
 } from "../animations/animations";
 import AnimatedComponent from "../animations/AnimatedComponent";
 import QuestTemplate from "../quest-data/QuestTemplate";
@@ -37,7 +36,6 @@ function Quests() {
           </div>
         </AnimatedComponent>
       </div>
-
       <QuestTemplate />
     </div>
   );

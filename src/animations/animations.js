@@ -32,6 +32,21 @@ export const slideInFromRightVariant = {
   },
 };
 
+export const slideInFromBottomVariant = {
+  hidden: {
+    opacity: 0,
+    y: "100%",
+  },
+  visible: {
+    opacity: 1,
+    y: 0,
+    transition: {
+      type: "tween",
+      duration: 1.1,
+    },
+  },
+};
+
 // fading animations
 export const fadeVariant = {
   hidden: { opacity: 0 },
@@ -52,7 +67,7 @@ export const fadeInFromBottom = {
     opacity: 1,
     y: 0,
     transition: {
-      duration: 1.5,
+      duration: 1.1,
       type: "tween",
     },
   },
