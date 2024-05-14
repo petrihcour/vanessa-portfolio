@@ -1,5 +1,7 @@
 import React, { useEffect, useState } from "react";
 import Nav from "./Nav";
+import { motion } from "framer-motion";
+import { fadeInFromTop } from "../animations/animations";
 import "../styles/Header.css";
 
 function Header() {
@@ -25,8 +27,11 @@ function Header() {
   }, []);
 
   return (
-    <nav
-      className={`navbar sticky-top bg-transparent animate__animated animate__fadeInDown ${
+    <motion.nav
+      variants={fadeInFromTop}
+      initial="hidden"
+      animate="visible"
+      className={`navbar sticky-top bg-transparent ${
         scrolling ? "blur-on-scroll" : ""
       }`}
     >
@@ -52,7 +57,7 @@ function Header() {
           style={{ width: `${scrollProgress}%` }}
         ></div>
       </div>
-    </nav>
+    </motion.nav>
   );
 }
 
