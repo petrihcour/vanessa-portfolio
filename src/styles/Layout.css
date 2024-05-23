@@ -8,6 +8,11 @@ color palette from light to dark
 
 /* background */
 
+body, .Layout {
+  background-color: #191E24; /* dark background */
+  color: #E9F2FF; /* default text color */
+}
+
 .background-wrapper {
   position: relative;
   overflow: hidden;
@@ -133,7 +138,7 @@ color palette from light to dark
 /* animate the marquee */
 
 .btn:hover .marquee-btn-inner {
-  animation: marquee-btn-content 5s linear infinite;
+  animation: marquee-btn-content 7s linear infinite;
   opacity: 1;
 }
 

@@ -7,7 +7,7 @@ import {
 import AnimatedComponent from "../animations/AnimatedComponent";
 import "../styles/FeaturesAndTraits.css";
 import vanessa from "../images/self/vanessa.jpeg";
-import vanessa2 from "../images/self/vanessa-2.JPG";
+import vanessa2 from "../images/self/vanessa-2.jpeg";
 
 function FeaturesAndTraits() {
   return (

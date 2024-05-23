@@ -13,6 +13,7 @@ function MarqueeButton({ type, label, href, onClick, hasMarquee, style, textColo
     <a
       type={type}
       className="btn btn-transparent border rounded-pill text-uppercase m-1"
+      role="button"
       href={href}
       onClick={handleClick}
       target="_blank"

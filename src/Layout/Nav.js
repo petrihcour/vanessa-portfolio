@@ -17,6 +17,7 @@ function Nav() {
           <li className="nav-item" key={index}>
             <Link
               to={item.to}
+              role="button"
               smooth
               duration={500}
               className="nav-link link-underline link-underline-opacity-0 ps-2 pe-0"
