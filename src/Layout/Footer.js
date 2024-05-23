@@ -14,7 +14,7 @@ function Footer() {
     },
     {
       label: "GitHub",
-      url: "https://github.com/petrihcour",
+      url: "https://github.com/petrihcour/vanessa-portfolio",
     },
     {
       label: "Resume",
@@ -23,27 +23,32 @@ function Footer() {
   ];
 
   return (
-    <nav aria-label="Footer Navigation" className="sending-footer body-text d-flex text-uppercase justify-content-center justify-content-xl-end mt-2">
-      <motion.ul
-        className="nav"
-        ref={ref}
-        variants={staggerContainer}
-        initial="hidden"
-        animate={inView ? "visible" : "hidden"}
+    <footer>
+      <nav
+        aria-label="Footer Navigation"
+        className="sending-footer body-text d-flex text-uppercase justify-content-center justify-content-xl-end mt-2"
       >
-        {links.map((link, index) => (
-          <motion.li key={index} variants={staggerItem}>
-            <a
-              className="nav-link"
-              href={link.url}
-              aria-label={`Navigate to ${link.label} website`}
-            >
-              {link.label}
-            </a>
-          </motion.li>
-        ))}
-      </motion.ul>
-    </nav>
+        <motion.ul
+          className="nav"
+          ref={ref}
+          variants={staggerContainer}
+          initial="hidden"
+          animate={inView ? "visible" : "hidden"}
+        >
+          {links.map((link, index) => (
+            <motion.li key={index} variants={staggerItem}>
+              <a
+                className="nav-link"
+                href={link.url}
+                aria-label={`Navigate to ${link.label} website`}
+              >
+                {link.label}
+              </a>
+            </motion.li>
+          ))}
+        </motion.ul>
+      </nav>
+    </footer>
   );
 }
 

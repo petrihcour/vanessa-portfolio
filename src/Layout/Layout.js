@@ -88,12 +88,6 @@ function Layout() {
           </div>
         </main>
       </div>
-      <footer
-        className="body-text text-center text-lowercase"
-        style={{ color: "#A1A6B8", fontSize: "0.8rem" }}
-      >
-        Made from scratch with React, Bootstrap, and CSS
-      </footer>
     </div>
   );
 }
