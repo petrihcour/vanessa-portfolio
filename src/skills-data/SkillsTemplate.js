@@ -15,10 +15,16 @@ function SkillsTemplate() {
       variants={staggerContainer}
       initial="hidden"
       animate={inView ? "visible" : "hidden"}
+      aria-label="List of Skills"
     >
       {skillsData.map((skill, index) => (
         <motion.li key={index} variants={staggerItem}>
-          <MarqueeButton type="button" label={skill.skill} hasMarquee />
+          <MarqueeButton
+            type="button"
+            label={skill.skill}
+            hasMarquee
+            ariaLabel={`Skill: ${skill.skill}`}
+          />
         </motion.li>
       ))}
     </motion.ul>

@@ -57,6 +57,7 @@ function Sending() {
               variants={staggerContainer}
               initial="hidden"
               animate={inView ? "visible" : "hidden"}
+              aria-label="List of buttons that direct you to email me"
             >
               {contactData.map((contact, index) => (
                 <motion.li key={index} variants={staggerItem}>
@@ -66,6 +67,7 @@ function Sending() {
                     href={contact.link}
                     type="button"
                     hasMarquee
+                    aria-label={`Redirect to email me about ${contact.name}`}
                   />
                 </motion.li>
               ))}

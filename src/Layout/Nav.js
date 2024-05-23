@@ -4,14 +4,14 @@ import "../styles/Header.css";
 
 function Nav() {
   const navItems = [
-    { to: "features-traits", label: "features & traits," },
-    { to: "skills", label: "skills," },
-    { to: "quests", label: "quests," },
-    { to: "sending", label: "sending" },
+    { to: "features-traits", label: "Features & Traits," },
+    { to: "skills", label: "Skills," },
+    { to: "quests", label: "Quests," },
+    { to: "sending", label: "Sending" },
   ];
 
   return (
-    <div className="d-flex">
+    <nav aria-label="Main Navigation" className="d-flex">
       <ul className="nav">
         {navItems.map((item, index) => (
           <li className="nav-item" key={index}>
@@ -20,15 +20,15 @@ function Nav() {
               role="button"
               smooth
               duration={500}
-              className="nav-link link-underline link-underline-opacity-0 ps-2 pe-0"
-              aria-current="page"
+              className="nav-link link-underline link-underline-opacity-0 text-lowercase ps-2 pe-0"
+              aria-label={`Navigate to ${item.label} section`}
             >
               {item.label}
             </Link>
           </li>
         ))}
       </ul>
-    </div>
+    </nav>
   );
 }
 

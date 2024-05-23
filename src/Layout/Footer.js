@@ -23,7 +23,7 @@ function Footer() {
   ];
 
   return (
-    <nav className="sending-footer body-text d-flex text-uppercase justify-content-center justify-content-xl-end mt-2">
+    <nav aria-label="Footer Navigation" className="sending-footer body-text d-flex text-uppercase justify-content-center justify-content-xl-end mt-2">
       <motion.ul
         className="nav"
         ref={ref}
@@ -36,8 +36,7 @@ function Footer() {
             <a
               className="nav-link"
               href={link.url}
-              target="_blank"
-              rel="noreferrer"
+              aria-label={`Navigate to ${link.label} website`}
             >
               {link.label}
             </a>

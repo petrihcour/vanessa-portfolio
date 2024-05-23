@@ -19,6 +19,7 @@ function MarqueeButton({ type, label, href, onClick, hasMarquee, style, textColo
       target="_blank"
       rel="noreferrer"
       style={style}
+      aria-label={label}
     >
       <span className="default-text">{label}</span>
       {hasMarquee && (

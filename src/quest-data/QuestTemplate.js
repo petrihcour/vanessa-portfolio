@@ -69,6 +69,7 @@ function QuestTemplate() {
               href={quest.webUrl}
               type="button"
               label="Live Demo"
+              aria-hidden="true"
               hasMarquee
               style={{
                 fontSize: "1.1rem",
@@ -82,6 +83,7 @@ function QuestTemplate() {
               href={quest.gitHubUrl}
               type="button"
               label="GitHub"
+              aria-hidden="true"
               hasMarquee
               style={{ fontSize: "1.1rem", fontWeight: "600" }}
             />
