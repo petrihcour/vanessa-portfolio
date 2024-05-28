@@ -86,8 +86,8 @@ function Home() {
             </motion.div>
             <motion.p variants={fadeInFromRight}>
               where JavaScript, React, HTML, CSS, and Bootstrap are my comfort.
-              I love Dungeons & Dragons, unbearably spicy food, and my cats -
-              Salmon, Sharky, and Fishy.
+              I'm based out of Central Texas and I love Dungeons & Dragons,
+              unbearably spicy food, and my cats - Salmon, Sharky, and Fishy.
             </motion.p>
             <motion.div
               variants={fadeInFromBottom}
