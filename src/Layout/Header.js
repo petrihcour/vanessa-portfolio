@@ -40,7 +40,7 @@ function Header() {
         <div className="d-flex flex-sm-row align-items-baseline">
           {window.innerWidth <= 360 ? ( // conditionally render logo for screens 360px or less
             <a
-              href="https://main--vanessagarcia.netlify.app/"
+              href="/"
               className="header-logo"
             >
               <img
@@ -52,7 +52,7 @@ function Header() {
             </a>
           ) : (
             <a
-              href="https://main--vanessagarcia.netlify.app/"
+              href="/"
               className="header-name link-underline link-underline-opacity-0"
             >
               vanessa garcia
