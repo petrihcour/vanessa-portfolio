@@ -2,19 +2,19 @@ import flashcard from "../images/quests/flashcard.jpeg";
 import thinkfulbnb from "../images/quests/thinkfulbnb.jpeg";
 import welovemovies from "../images/quests/welovemovies.jpeg";
 import restaurantReservation from "../images/quests/restaurant-reservation.jpeg";
-// import techGarden from "../images/quests/techgarden.jpeg";
+import techGarden from "../images/quests/techgarden.jpeg";
 
 const QuestData = [
-  // {
-  //   name: "TechGarden",
-  //   description:
-  //     "Enhance technical, soft skills, and career growth with assessments and resources. Built with React and Tailwind CSS",
-  //   imageUrl: techGarden,
-  //   gitHubUrl: "https://github.com/cherryontech/TechGarden",
-  //   webUrl: "https://techgarden.netlify.app/",
-  //   position: "left",
-  //   reversePosition: true,
-  // },
+  {
+    name: "TechGarden",
+    description:
+      "Enhance technical, soft skills, and career growth with assessments and resources. Built with React and Tailwind CSS",
+    imageUrl: techGarden,
+    gitHubUrl: "https://github.com/cherryontech/TechGarden",
+    webUrl: "https://techgarden.netlify.app/",
+    position: "left",
+    reversePosition: true,
+  },
   {
     name: "Periodic Tables",
     description:
