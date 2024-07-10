@@ -85,7 +85,7 @@ function Home() {
               I've found a home in technology,
             </motion.div>
             <motion.p variants={fadeInFromRight}>
-              where JavaScript, React, HTML, CSS, and Bootstrap are my comfort.
+              where JavaScript, HTML, CSS, and frontend frameworks are my comfort.
               I'm based out of Central Texas and I love Dungeons & Dragons,
               unbearably spicy food, and my cats - Salmon, Sharky, and Fishy.
             </motion.p>

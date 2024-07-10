@@ -12,6 +12,10 @@ const skillsData = [
     skill: "Express",
   },
   {
+    type: "Design",
+    skill: "Figma",
+  },
+  {
     type: "Frontend",
     skill: "HTML",
   },
