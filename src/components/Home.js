@@ -48,7 +48,7 @@ function Home() {
   const handleScrollToSending = () => {
     const sendingElement = document.getElementById("sending");
     if (sendingElement) {
-      smoothScrollTo(sendingElement, 500); // Adjust duration here
+      smoothScrollTo(sendingElement, 500);
     }
   };
 
@@ -86,7 +86,7 @@ function Home() {
             </motion.div>
             <motion.p variants={fadeInFromRight}>
               where JavaScript, HTML, CSS, and frontend frameworks are my comfort.
-              I'm based out of Central Texas and I love Dungeons & Dragons,
+              I'm based out of Central Texas, love Dungeons & Dragons,
               unbearably spicy food, and my cats - Salmon, Sharky, and Fishy.
             </motion.p>
             <motion.div

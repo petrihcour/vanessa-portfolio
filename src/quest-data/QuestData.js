@@ -1,7 +1,7 @@
 import flashcard from "../images/quests/flashcard.jpeg";
 import thinkfulbnb from "../images/quests/thinkfulbnb.jpeg";
 import welovemovies from "../images/quests/welovemovies.jpeg";
-import restaurantReservation from "../images/quests/restaurant-reservation.jpeg";
+import tableFlow from "../images/quests/tableflow.jpeg";
 import techGarden from "../images/quests/techgarden.jpeg";
 
 const QuestData = [
@@ -16,10 +16,10 @@ const QuestData = [
     reversePosition: true,
   },
   {
-    name: "Periodic Tables",
+    name: "TableFlow",
     description:
-      "Manage reservations and tables for a restaurant. Built with React, Bootstrap, CSS, Node.js, Express, Postgres, REST APIs",
-    imageUrl: restaurantReservation,
+      "Manage reservations and tables for restaurants. Built and redesigned with React, Bootstrap, CSS, Node.js, Express, Postgres, and REST APIs",
+    imageUrl: tableFlow,
     gitHubUrl: "https://github.com/petrihcour/restaurant-reservation",
     webUrl: "https://reservation-restaurant-jkbn.onrender.com/",
     position: "left",
