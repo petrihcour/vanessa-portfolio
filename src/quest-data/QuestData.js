@@ -20,7 +20,7 @@ const QuestData = [
     description:
       "Manage reservations and tables for restaurants. Built and redesigned with React, Bootstrap, CSS, Node.js, Express, Postgres, and REST APIs",
     imageUrl: tableFlow,
-    gitHubUrl: "https://github.com/petrihcour/restaurant-reservation",
+    gitHubUrl: "https://github.com/petrihcour/TableFlow",
     webUrl: "https://reservation-restaurant-jkbn.onrender.com/",
     position: "left",
     reversePosition: false,
