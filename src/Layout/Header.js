@@ -55,11 +55,11 @@ function Header() {
               href="/"
               className="header-name link-underline link-underline-opacity-0"
             >
-              vanessa garcia
+              vanessa fischbach
             </a>
           )}
           <span className="header-title ps-3 d-none d-lg-block">
-            SOFTWARE ENGINEER
+            WEB DEVELOPER
           </span>
         </div>
         <div className="header">
