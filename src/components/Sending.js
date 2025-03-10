@@ -27,8 +27,8 @@ function Sending() {
       link: "mailto:letitbe24@yahoo.com?subject=I'm looking for a Full-Stack Developer. Let's talk!",
     },
     {
-      name: "Dungeons & Dragons",
-      link: "mailto:letitbe24@yahoo.com?subject=Wanna play Dungeons and Dragons?",
+      name: "Website Redesign",
+      link: "mailto:letitbe24@yahoo.com?subject=I'm interested in a website redesign. Let's talk!",
     },
   ];
 
