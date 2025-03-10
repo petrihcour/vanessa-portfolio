@@ -65,7 +65,36 @@ function QuestTemplate() {
                 {quest.description}
               </p>
             </AnimatedComponent>
+
+            {quest.name === "CyberEye" ?  (
+              <>
+              <MarqueeButton
+              href={quest.webUrl}
+              type="button"
+              label="Live Website"
+              aria-hidden="true"
+              hasMarquee
+              style={{
+                fontSize: "1.1rem",
+                backgroundColor: "#F2F2F5",
+                color: "#191e24",
+                fontWeight: "600",
+              }}
+              textColor="#191e24"
+            />
+
             <MarqueeButton
+              href={quest.figmaUrl}
+              type="button"
+              label="Figma"
+              aria-hidden="true"
+              hasMarquee
+              style={{ fontSize: "1.1rem", fontWeight: "600" }}
+            />
+              </>
+            ) : (
+              <>
+                <MarqueeButton
               href={quest.webUrl}
               type="button"
               label="Live Demo"
@@ -79,6 +108,7 @@ function QuestTemplate() {
               }}
               textColor="#191e24"
             />
+
             <MarqueeButton
               href={quest.gitHubUrl}
               type="button"
@@ -87,6 +117,9 @@ function QuestTemplate() {
               hasMarquee
               style={{ fontSize: "1.1rem", fontWeight: "600" }}
             />
+              </>
+            )}
+          
           </div>
           <div className={`col-xl-4 mt-2 mt-md-0 ${imageColumnOrderClass}`}>
             <div className="img-hover-zoom">

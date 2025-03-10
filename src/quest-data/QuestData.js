@@ -1,10 +1,20 @@
 import flashcard from "../images/quests/flashcard.jpeg";
-import thinkfulbnb from "../images/quests/thinkfulbnb.jpeg";
 import welovemovies from "../images/quests/welovemovies.jpeg";
 import tableFlow from "../images/quests/tableflow.jpeg";
 import techGarden from "../images/quests/techgarden.jpeg";
+import cybereye from "../images/quests/cybereye.jpeg";
 
 const QuestData = [
+  {
+    name: "CyberEye",
+    description:
+      "A professional cybersecurity website built with WordPress, featuring a custom design optimized for accessibility, performance, and UX. Developed using custom CSS, and UX/UI best practices.",
+    imageUrl: cybereye,
+    figmaUrl: "https://www.figma.com/proto/6k9yhEVUXmIMJL2xjZxfG9/CyberEye?node-id=33-1680&p=f&t=Bv8ZdRMnt1W4NE6w-1&scaling=scale-down&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=33%3A1680&show-proto-sidebar=1",
+    webUrl: "https://www.cybereyesolutions.com",
+    position: "left",
+    reversePosition: false,
+  },
   {
     name: "TechGarden",
     description:
@@ -44,16 +54,6 @@ const QuestData = [
     webUrl: "https://flashcard-o-matic-9frr.onrender.com/",
     position: "center",
     reversePosition: false,
-  },
-  {
-    name: "ThinkfulBnB",
-    description:
-      "Static AirBnB look-a-like, utilizing HTML and CSS Flexbox, focusing on a mobile-first responsive approach",
-    imageUrl: thinkfulbnb,
-    gitHubUrl: "https://github.com/petrihcour/thinkfulbnb-project",
-    webUrl: "https://petrihcour.github.io/thinkfulbnb-project/",
-    position: "right",
-    reversePosition: true,
   },
 ];
 
