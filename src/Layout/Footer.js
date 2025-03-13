@@ -10,7 +10,7 @@ function Footer() {
   const links = [
     {
       label: "LinkedIn",
-      url: "https://www.linkedin.com/in/vanesssagarcia/",
+      url: "https://www.linkedin.com/in/vanessafischbach/",
     },
     {
       label: "GitHub",
@@ -18,7 +18,7 @@ function Footer() {
     },
     {
       label: "Resume",
-      url: "https://drive.google.com/file/d/1kAF1Wq4_GZ8jley4rhnFIRLl8NmwEia_/view?usp=sharing",
+      url: "https://drive.google.com/file/d/1SlmftLzp4QKGzFnOiljDROaS7stMvSsK/view?usp=sharing",
     },
   ];
 
@@ -40,6 +40,8 @@ function Footer() {
               <a
                 className="nav-link"
                 href={link.url}
+                target="_blank"
+                rel="noreferrer"
                 aria-label={`Navigate to ${link.label} website`}
               >
                 {link.label}

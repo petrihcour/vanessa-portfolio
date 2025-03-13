@@ -23,8 +23,8 @@ function Sending() {
       link: "mailto:letitbe24@yahoo.com?subject=I'm looking for a Frontend Developer. Let's talk!",
     },
     {
-      name: "Full-Stack Development",
-      link: "mailto:letitbe24@yahoo.com?subject=I'm looking for a Full-Stack Developer. Let's talk!",
+      name: "Wordpress Development",
+      link: "mailto:letitbe24@yahoo.com?subject=I'm looking for a Wordpress Developer. Let's talk!",
     },
     {
       name: "Website Redesign",
